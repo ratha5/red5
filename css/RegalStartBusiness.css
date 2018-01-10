@@ -1,0 +1,375 @@
+.menuLinks.corporate {margin-bottom: auto;}
+.contentDiv {background: white;text-align: center;}
+h1, h3, h2 {color: #113e5b;}
+.cooking-img {margin-top:30px;}
+h1 { margin: 30px auto;font-family: "Playfair Display";}
+.cooking-quote {width: 70%;font-family: "Playfair Display";}
+.cooking-name {width: 70%;font-family: "Playfair Display"; text-align: right;color: gray; margin-bottom:30px;}
+h2 {font-size: 24px; margin: 30px auto;width: 85%; }
+h3 {font-size: 16px;}
+h3 {font-family: "Playfair Display";font-style: italic;font-weight: bold; margin: 50px 0 0 0;}
+.contentDiv #dnn_ContentPane .cooking-intro {font-size: 16px;color: #6d6d6d;margin: 0px auto 50px auto;}
+#dnn_ContentPane, #dnn_HeaderPane {position: relative;}
+#dnn_ContentPane .DnnModule  {position: relative;}
+.middleContainer {position: relative;}
+#dnn_ContentPlacement3 {height: 285px; background: #fff;position: relative;}
+.book-a-dinner-div .book-a-dinner-title {color: #fff;font-family: "Playfair Display"; font-weight: bold; font-style;}
+.book-a-dinner-div h1 {color: white; padding: 20px 0;text-align:left;font-family: "Playfair Display";margin: 0;}
+.book-a-dinner-div p {color: #bdbdbc;font-size: 16px;width: 80%;}
+.book-a-dinner-div a:link,.book-a-dinner-div a:visited, .book-a-dinner-div a:active {color: #071e31; background: #faa860;padding: 5px 40px;font-family: "Playfair Display";margin-top: 10px;font-style: italic;}
+.cooking-checklist h4 {font-family: "Playfair Display";color: #071e31;font-weight: bold;font-size: 14px;font-style: italic;}
+.cooking-checklist h1 {font-family: "Playfair Display";color: #071e31;}
+.cooking-checklist ul {margin: 0 auto; width: 510px; height: 150px;}
+.cooking-checklist ul li {float: left;width: 170px;text-align: left;height: 60px;position:relative;color: #123e5b;font-weight: bold;}
+.cooking-checklist ul li .square {width: 20px; height: 20px; border: 1px solid black; margin-right: 10px; margin-bottom: 30px;float: left;}
+.cooking-checklist ul li .square-text {position: relative; z-index: 1;}
+.cooking-checklist ul li .number {z-index:0; position: absolute;right: 30px;color: #c6c6c5;font-family: "Playfair Display";font-size: 55px;top: 0px;opacity:0.6;}
+.cooking-checklist ul li .number-text {position: relative; z-index: 1;}
+.bottom-bar-gray a {background: #123e5b;color: white;padding: 15px 45px;font-family: "Playfair Display";}
+.menu-overlay {position: absolute;width: 100%;height: 40px;font-family: "Playfair Display";}
+.menu-overlay ul {margin: 0 auto;margin-top: 10px;}
+.menu-overlay ul li a:link, .menu-overlay ul li a:visited, .menu-overlay ul li a:active {font-style: italic;font-size:16px;}
+.cooking-checklist {padding: 40px 0;}
+#dnn_ContentPlacement1 {background:#071e31; color: white;padding:0;}
+.flex-div {background:#f4f4f4;color: #123e5b;padding: 80px 0;width: 100%;}
+.flexslider { margin: 0 auto;position: relative;}
+.flexslider .flex-item {font-family: "Playfair Display";font-size: 24px;line-height: 28px;text-align: justify;}
+.flexslider .flex-item div {text-align: right;color: #123e5b;font-size: 16px;text-transform: uppercase;font-weight: bold;margin-top: 30px;}
+.flexslider .count-numbers {font-family: 'Playfair Display', serif; font-weight: bold;position: absolute;}
+.flexslider .count-numbers .span-last {opacity: 0.6;}
+.flex-direction-nav {position: absolute; z-index: 40;}
+.flex-direction-nav .flex-next, .flex-direction-nav .flex-prev {display: block; width: 17px; height: 30px;}
+.flex-direction-nav .flex-prev {background: url('../images/arrow-prev-blue.jpg') no-repeat;width: 17px; height: 30px;text-indent:-9999px;padding-bottom: 10px;border-bottom: 1px solid #123e5b;}
+.flex-direction-nav .flex-next {background: url('../images/arrow-next-blue.jpg') no-repeat;width: 17px; height: 30px;text-indent:-9999px;margin-top: 10px;}
+.leadership {position: relative; background: #071e31 url('../images/ourproducts-pan.jpg') no-repeat;color: white;padding: 60px 0;height: 800px;background-size: 70%;background-position: 100% 100%;}
+.leadership h1 { margin: 30px auto;font-family: "Playfair Display";color: white;}
+.leadership h3 {font-family: "Playfair Display";font-style: italic;font-weight: bold; margin: 50px 0 0 0;font-size: 16px;color: #faa860;}
+.leadership-bios {width: 60%; margin: 40px auto 0 auto;}
+.leadership-bios li {background: grey;width: 23%; height: 250px;float: left;margin-right: 10px;margin-bottom: 10px;}
+.bullet-info2, .bullet-info3 {display: none;}
+.bullet1 {background: url('../images/bulleye-off.png');width: 98px; height: 98px;position: absolute;top: 40%;left: 30%;cursor: pointer;}
+.bullet1.on, .bullet2.on, .bullet3.on {background: url('../images/bulleye-on.png') !important;}
+.bullet2 {background: url('../images/bulleye-off.png');width: 98px; height: 98px;position: absolute;top: 50%;left: 60%;cursor: pointer;}
+.bullet3 {background: url('../images/bulleye-off.png');width: 98px; height: 98px;position: absolute;top: 45%;left: 80%;cursor: pointer;}
+.bullet-info1 {width: 300px;height: 300px;position: absolute;text-align: left;top: 42%;left: 10%;}
+.bullet-info2 {width: 300px;height: 300px;position: absolute;text-align: left;top: 50%;left: 40%;}
+.bullet-info3 {width: 300px;height: 300px;position: absolute;text-align: left;top: 58%;left: 70%;}
+.bullet-info1 .bullet-title, .bullet-info2 .bullet-title, .bullet-info3 .bullet-title {font-size: 24px;font-family: "Playfair Display";line-height: 26px;}
+.read-more:link, .read-more:visited {font-family: "Playfair Display";font-style: italic;color:white; display:block;padding:10px 20px;margin-top:30px;border: 1px solid white;width:100px;text-align: center;}
+.our-product-pans {position: relative;height:660px;}
+.our-product-pans .left-pan {width: 100%;background: url('/portals/1/Images/ourproducts-pot.jpg');height: 600px;background-size: cover;}
+.our-product-pans .right-pan {width: 100%;background: url('/portals/1/Images/ourproducts-pots.jpg');height: 600px;background-size: cover;}
+.our-product-pans .left-pan, .our-product-pans .right-pan {float: left;width:50%;position: relative;}
+.our-product-pans .left-pan .pan-content {position: absolute;top: 50%;left: 40%;font-size: 24px;}
+.our-product-pans .right-pan .pan-content {position: absolute;top: 50%;left: 50%;font-size: 24px;}
+.center-piece {position: relative;z-index: 10;width: 400px;height: 400px;margin: 0 auto;top:-500px;background: url('/Portals/1/Images/circle.png') no-repeat;pointer-events:none;padding: 20px 20px 20px 20px;font-size: 34px;background-position: 50% 50%;}
+.center-text {width: 70%;line-height: 40px;text-align: center;margin: 120px auto 0 auto;font-size: 40px;color: #123e5b;}
+.customer {background: #20383d;padding:30px 30px 60px 30px;}
+.customer-text {color: white;margin-bottom: 40px;}
+.customer h1 { margin: 30px auto;font-family: "Playfair Display"; color:white;}
+.customer h3 {font-family: "Playfair Display";font-style: italic;font-weight: bold; margin: 50px 0 0 0;color: #ffde60;}
+.products-faqs {background: url('../images/faq-bg.png') repeat;padding-bottom:40px;}
+.products-faqs h3 {margin: 0;padding-top:50px;}
+.faqs {background: #f8f8f8;margin: 0 auto;padding: 20px;margin-bottom:20px;}
+.faqs .q {position:relative; cursor:pointer; text-align: left;color: #123e5b;font-family: "Playfair Display";font-size:24px;}
+.faqs .a {padding: 20px 20px 20px 80px;text-align: left;color: #6d6d6c;}
+.faqs .faqs-arrow {background:url('../images/faqs-arrow-down.png'); width: 31px; height: 17px;position: absolute;top: 0;}
+.faqs .faqs-arrow.up {background:url('../images/faqs-arrow-up.png'); width: 31px; height: 17px;position: absolute;right: 0;top: 0;}
+.float-left {padding: 20px;text-align:left;}
+.op-main-content {margin: 0 auto;position:relative;z-index:5;}
+.op-main {}
+.op-main img {max-width: 100%;position: relative;top: 0;left: 0;z-index: 0;}
+.op-main h3 {font-family: "Playfair Display";font-style: italic;font-weight: bold; margin: 0;margin-top: 150px;font-size: 20px;}
+.op-main h1 {margin: 20px 0; width: 100%;}
+.culture-class {margin-top: 50px;position: relative;}
+.culture-slider {height: 260px;background:#ccd1d2 url('../images/start-bg.jpg') no-repeat;margin:0 2px;background-size:cover;padding:180px 20px 20px 20px;text-align:left;}
+.culture-slider.slick-current {background: #123e5b url('../images/start-bg-on.jpg') no-repeat;color: white;background-size:contain;background-position: 50%;}
+.culture-slider .title {color: #6d6d6c;font-family: "Playfair Display";font-style:italic;font-weight: bold;margin-left: 20px;}
+.culture-slider.slick-current .title {color: #faa860;}
+.culture-slider .content {color: #6d6d6c;font-family: "Playfair Display";font-size: 24px;line-height:28px;margin-left: 20px;}
+.culture-slider.slick-current .content {color: #fff;}
+.slick-prev {background: url('../images/flexslider-arrow1.png') no-repeat;width: 17px; height: 40px; position: absolute;top: 100px;z-index: 100;text-indent: -9999px;left: 62%;border-bottom: 1px solid white;border-top:none;border-left: none;border-right:none;padding-bottom: 20px;cursor: pointer;outline: none;}
+.slick-next {background: url('../images/flexslider-arrow2.png') no-repeat;width: 17px; height: 40px; position: absolute;top: 150px;z-index: 100;text-indent: -9999px;left: 62%;border:none;cursor: pointer;outline: none;}
+.training {position: relative;background-size: cover;}
+.training h3 {font-family: "Playfair Display";font-style: italic;font-weight: bold; margin: 0;padding-top: 50px;}
+.training h1 { margin: 30px auto;font-family: "Playfair Display";}
+.number-01 {text-align: left;z-index: 5;left: 17%;top: 45%; font-family: "Playfair Display"; opacity: 0.1;font-size:150px;}
+.number-02 {text-align: left;z-index: 5;left: 50%;top: 45%; font-family: "Playfair Display"; opacity: 0.1;font-size:150px;}
+.in {background:#071e31;}
+.in h3 {font-family: "Playfair Display";font-style: italic;font-weight: bold; margin: 0;padding-top: 50px;color:#faa860;}
+.in h1 { margin: 30px auto;font-family: "Playfair Display"; color:white;}
+.in p {margin:0 auto;color:#c6c6c5;}
+.in .icons p {width: 60%;margin:0 auto;color:#c6c6c5;font-family: "Playfair Display";}
+.cooking {position: relative;}
+.cooking .content {width: 100%;}
+.cooking .content p {width: 280px;margin: 0 auto;text-align: left;}
+.cooking .content a:link, .cooking .content a:visited {color: #faa860;border: 1px solid #faa860; width: 240px;padding: 10px 20px;display: block;}
+.news-row {margin: 0 auto;clear:both;height: 100px;border-bottom: 1px solid #e2e2e2;padding-top: 40px;}
+.news-date {float: left;width:20%;position: relative;}
+.news-date .day {position: absolute;width: 100%;color: #e2e2e2 !important;font-family: "Playfair Display" !important;z-index:0;}
+.news-date .day.selected {color: #ffde60 !important;}
+.news-date .month {position: relative;z-index: 1;color:#071e31 !important;border-bottom: 1px solid;width: 50px;margin: 5px auto 0 auto;}
+.news-date .year {position:relative;z-index:1;color:#071e31 !important;}
+.news-content {float:left;text-align: left;}
+.arrow-link {background: url('../images/arrow-blue.jpg'); width:17px;height: 31px;float: right;margin-top:10px;}
+.news-content .title {color: #c6c6c5;text-transform: uppercase;margin-bottom: 10px;}
+.news-content .subtitle {color: #123e5b;font-size: 18px;font-family: "Playfair Display";}
+#EDN_Ozone .news-content .title {color: #000 !important;text-transform: uppercase;margin-bottom: 10px;}
+#EDN_Ozone .news-content .title a {color: #000 !important; font-size: 14px !important;}
+#EDN_Ozone .news-date .day {margin-top: -70px;}
+#EDN_Ozone .news-date {font-size: 14px !important;}
+#EDN_Ozone .news-content .subtitle {color: #123e5b !important;font-size: 18px!important;font-family: "Playfair Display" !important;}
+#EDN_Ozone .news-row {height: 120px !important;padding-top: 40px;}
+#dnn_ContentRightPane h3 {margin-top: 0px;}
+.flex-div > img {margin-bottom: 30px;}
+.flexslider .count-numbers {display: none;}
+.flex-direction-nav .flex-prev {position: relative;top: 80px;padding-bottom: 0;border-bottom: none;}
+.flex-direction-nav {bottom: 0px;}
+.flex-direction-nav .flex-next {padding-bottom: 5px; border-bottom: 1px solid #123e5b;}
+
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+    .book-a-dinner-div {position: relative;left: initial%;width: 100%;text-align: center;top: initial;}
+  .bottom-bar-gray p {width: 100%;position: relative;left: initial;top: initial;}
+  .bottom-bar-gray a {position: relative;right: 0;top:40px;}
+  h1 {width: 90%;}
+  .cooking-intro {width: 90%; margin: 0 auto;}
+  .menu-overlay ul {width: 100%;}
+  .menu-overlay ul li {float: none;width: 100%;}
+  .float-left {float: none;width: 85%;}
+  .training .t-content {position:absolute;height: auto;}
+  .faqs {width: 90%;}
+  .faqs .q {width: 100%;line-height:24px;}
+  .cooking .content {position: relative;}
+  .cooking .content h1 {color: gray;}
+  .flexslider {width: 95%; margin: 0 auto;position: relative;}
+  .news-row {width: 100%;}
+  .news-date .day {font-size: 50px;}
+  .news-content {width:75%;}
+  .op-main-content {width: 100%;}
+  .training img {display: block;height:100%;}
+  .content-01 {position: relative;width: 90%;text-align: left;z-index: 10;left: inherit;padding: 10px;}
+  .content-02 {position: relative;width: 90%;text-align: left;z-index: 10;right: inherit;top: inherit;padding: 10px;}
+  .training {height: 700px;background: url('../images/state-cook.jpg') 90%;}
+  .training .t-content {color: white;width: 100%;}
+  .training h3 {color:white;}
+  .training h1 { color:white;}
+  .number-01 {position: relative;}
+  .number-02 {position: relative;}
+  .in .icons .icon-1 {float:none;width:100%;height:auto;text-align: center;font-style: italic;}
+  .in .icons .icon-2 {float:none;width:100%;height:auto;text-align: center;font-style: italic;}
+  .in .icons .icon-3 {float:none;width:100%;height:auto;text-align: center;font-style: italic;}
+  .in .icons {margin: 40px auto 60px auto;width: 100%;height: auto;}
+  .in p {width: 100%;}
+  .op-main-div {position:relative;}
+  .number-01, .number-02 {display: none;}
+  .flexslider .count-numbers {display: block; right: 0px; top: 70px;}
+  .flex-direction-nav {top: 0px;right: 0px;display: none;}
+  .menu-overlay ul li a:link, .menu-overlay ul li a:visited, .menu-overlay ul li a:active {color: black;}
+  .menu-overlay ul {height: auto;}
+  .menu-overlay {bottom: -50px;}
+  .in .icons img {margin-bottom: 0px;}
+  .cooking .content {top: 0px;color: black;}
+  .flex-direction-nav {bottom: 0px;}
+  .faqs .faqs-arrow {right: -20px;}
+  .cooking .content a:link, .cooking .content a:visited {margin: 30px auto 30px auto;}
+  .flexslider .count-numbers {display: none;}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+    .book-a-dinner-div {position: relative;left: initial%;width: 100%;text-align: center;top: initial;}
+  .bottom-bar-gray p {width: 100%;position: relative;left: initial;top:initial;}
+  .bottom-bar-gray a {position: relative;right: 0;top:40px;}
+  h1 {width: 90%;}
+  .cooking-intro {width: 90%; margin: 0 auto;}
+  .menu-overlay ul {width: 100%;}
+  .menu-overlay ul li {float: none;width: 100%;}
+  .float-left {float: none;width: 85%;}
+  .training .t-content {position:absolute;height: auto;}
+  .faqs {width: 90%;}
+  .faqs .q {width: 100%;line-height:24px;}
+  .cooking .content {position: relative;}
+  .cooking .content h1 {color: gray;}
+  .flexslider {width: 95%; margin: 0 auto;position: relative;}
+  .news-row {width: 100%;}
+  .news-date .day {font-size: 50px !important;}
+  .news-content {width:75%;}
+  .op-main-content {width: 100%;}
+  .training img {display: block;height:100%;}
+  .content-01 {position: relative;width: 90%;text-align: left;z-index: 10;left: 20%;padding: 10px;}
+  .content-02 {position: relative;width: 90%;text-align: left;z-index: 10;right: 20%;top: 50%;padding: 10px;}
+  .training {height: 700px;background: url('../images/state-cook.jpg') 90%;}
+  .training .t-content {color: white;width: 100%;}
+  .training h3 {color:white;}
+  .training h1 { color:white;}
+  .number-01 {position: relative;}
+  .number-02 {position: relative;}
+  .in .icons .icon-1 {float:none;width:100%;height:auto;text-align: center;font-style: italic;}
+  .in .icons .icon-2 {float:none;width:100%;height:auto;text-align: center;font-style: italic;}
+  .in .icons .icon-3 {float:none;width:100%;height:auto;text-align: center;font-style: italic;}
+  .in .icons {margin: 40px auto 60px auto;width: 100%;height: auto;}
+  .in p {width: 100%;}
+  .op-main-div {position:relative;}
+  .number-01, .number-02 {display: none;}
+  .flexslider .count-numbers {display: block; right: 0px; top: 70px;}
+  .flex-direction-nav {top: 0px;right: 0px;display: none;}
+  .menu-overlay ul li a:link, .menu-overlay ul li a:visited, .menu-overlay ul li a:active {color: black;}
+  .menu-overlay ul {height: auto;}
+  .menu-overlay {bottom: -50px;}
+  .in .icons img {margin-bottom: 40px;}
+  .cooking .content {top: 0px;color: black;}
+  .flex-direction-nav {bottom: 0px;}
+  .faqs .faqs-arrow {right: -20px;}
+  .cooking .content a:link, .cooking .content a:visited {margin: 30px auto 30px auto;}
+  .flexslider .count-numbers {display: none;}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+   .book-a-dinner-div {position: absolute;left: 10%;width: 90%;text-align: left;top: 70px;}
+  .bottom-bar-gray p {width: 40%;position: absolute;left: 20%;top: 50px;}
+  .bottom-bar-gray a {position: absolute;right: 300px;top:110px;}
+  h1 {width: 90%;}
+  .cooking-intro {width: 90%; margin: 0 auto;}
+  .menu-overlay ul {width: 900px;}
+  .menu-overlay ul li {float: left;width: 150px;}
+  .float-left {float: left;width: 45%;}
+  .training .t-content {position:absolute;height: 500px;}
+  .faqs {width: 60%;}
+  .faqs .q {width: 100%;}
+  .cooking .content {position: absolute;}
+  .cooking .content h1 {color: white;}
+  .flexslider {width: 40%; margin: 0 auto;position: relative;}
+  .news-row {width: 60%;}
+  .news-date .day {font-size: 100px !important;}
+  .news-content {width:60%;}
+  .op-main-content {width: 60%;}
+  .training img {display: block;height:inherit;}
+  .content-01 {position: absolute;width: 300px;text-align: left;z-index: 10;left: 20%;padding:0;}
+  .content-02 {position: absolute;width: 300px;text-align: left;z-index: 10;right: 20%;top: 50%;padding:0;}
+  .training {height: 600px;background: url('../images/state-cook.jpg') 100%;}
+  .training .t-content {color: white;width: 100%;}
+  .training h3 {color:white;}
+  .training h1 { color:white;}
+  .number-01 {position: absolute;}
+  .number-02 {position: absolute;}
+  .in .icons .icon-1 {float:left;width:333px;height:240px;text-align: center;font-style: italic;}
+  .in .icons .icon-2 {float:left;width:333px;height:240px;text-align: center;font-style: italic;}
+  .in .icons .icon-3 {float:left;width:334px;height:240px;text-align: center;font-style: italic;}
+  .in .icons {margin: 40px auto 60px auto;width: 1000px;height: 240px;}
+  .in p {width: 825px;}
+  .op-main-div {position:absolute;}
+  .number-01, .number-02 {display: block;}
+  .flexslider .count-numbers {display: block; right: -80px; top: 70px;}
+  .flex-direction-nav {top: 40px;right: -120px;display: block;}
+  .menu-overlay ul li a:link, .menu-overlay ul li a:visited, .menu-overlay ul li a:active {color: white;}
+  .menu-overlay ul {height: 40px;}
+  .menu-overlay {bottom: 0;}
+  .in .icons img {margin-bottom: 40px;}
+  .cooking .content {top: 110px;color: white;}
+  .flex-direction-nav {bottom: inherit;}
+  .faqs .faqs-arrow {right: 0;}
+  .cooking .content a:link, .cooking .content a:visited {margin: 60px auto 0 auto;}
+  .flexslider .count-numbers {display: block;}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+  .contentDiv {max-width: initial;}
+    .book-a-dinner-div {position: absolute;left: 10%;width: 50%;text-align: left;top: 70px;}
+  .bottom-bar-gray p {width: 40%;position: absolute;left: 20%;top: 90px;}
+  .bottom-bar-gray a {position: absolute;right: 300px;top:110px;}
+  h1 {width: 60%;}
+  .cooking-intro {width: 70%; margin: 0 auto;}
+  .menu-overlay ul {width: 1100px;}
+  .menu-overlay ul li {float: left;width: 183px;}
+  .float-left {float: left;width: 45%;}
+  .training .t-content {position:absolute;height: 500px;}
+  .faqs {width: 60%;}
+  .faqs .q {width: 100%;}
+  .cooking .content {position: absolute;}
+  .cooking .content h1 {color: white;}
+  .flexslider {width: 40%; margin: 0 auto;position: relative;}
+  .news-row {width: 60%;}
+  .news-date .day {font-size: 100px !important;}
+  .news-content {width:60%;}
+  .op-main-content {width: 60%;}
+  .training img {display: block;height:inherit;}
+  .content-01 {position: absolute;width: 300px;text-align: left;z-index: 10;left: 20%;padding: 0;}
+  .content-02 {position: absolute;width: 300px;text-align: left;z-index: 10;right: 20%;top: 50%;padding: 0;}
+  .training {height: 600px;background: url('../images/state-cook.jpg') 100%;}
+  .training .t-content {color: white;width: 100%;}
+  .training h3 {color:white;}
+  .training h1 { color:white;}
+  .number-01 {position: absolute;}
+  .number-02 {position: absolute;}
+  .in .icons .icon-1 {float:left;width:333px;height:240px;text-align: center;font-style: italic;}
+  .in .icons .icon-2 {float:left;width:333px;height:240px;text-align: center;font-style: italic;}
+  .in .icons .icon-3 {float:left;width:334px;height:240px;text-align: center;font-style: italic;}
+  .in .icons {margin: 40px auto 60px auto;width: 1000px;height: 240px;}
+  .in p {width: 825px;}
+  .op-main-div {position:absolute;}
+  .number-01, .number-02 {display: block;}
+  .flexslider .count-numbers {display: block; right: -80px; top: 70px;}
+  .flex-direction-nav {top: 40px;right: -120px;display: block;}
+  .menu-overlay ul li a:link, .menu-overlay ul li a:visited, .menu-overlay ul li a:active {color: white;}
+  .menu-overlay ul {height: 40px;}
+  .menu-overlay {bottom: 0;}
+  .in .icons img {margin-bottom: 40px;}
+  .cooking .content {top: 110px;color: white;}
+  .flex-direction-nav {bottom: inherit;}
+  .faqs .faqs-arrow {right: 0;}
+  .cooking .content a:link, .cooking .content a:visited {margin: 60px auto 0 auto;}
+  .flexslider .count-numbers {display: block;}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+   .book-a-dinner-div {position: absolute;left: 10%;width: 50%;text-align: left;top: 70px;}
+  .bottom-bar-gray p {width: 40%;position: absolute;left: 20%;top: 90px;}
+  .bottom-bar-gray a {position: absolute;right: 300px;top:110px;}
+  h1 {width: 60%;}
+  .cooking-intro {width: 70%; margin: 0 auto;color: #6d6d6c;}
+  .menu-overlay ul {width: 1100px;}
+  .menu-overlay ul li {float: left;width: 183px;}
+  .float-left {float: left;width: 45%;}
+  .training .t-content {position:absolute;height: 500px;}
+  .faqs {width: 60%;}
+  .faqs .q {width: 100%;}
+  .cooking .content {position: absolute;}
+  .cooking .content h1 {color: white;}
+  .flexslider {width: 40%; margin: 0 auto;position: relative;}
+  .news-row {width: 60%;}
+  .news-date .day {font-size: 100px !important;}
+  .news-content {width:60%;}
+  .op-main-content {width: 60%;}
+  .training img {display: block;height:inherit;}
+  .content-01 {position: absolute;width: 300px;text-align: left;z-index: 10;left: 20%;padding:0;}
+  .content-02 {position: absolute;width: 300px;text-align: left;z-index: 10;left: 50%;top: 50%;padding:0;}
+  .training {height: 600px;background: url('../images/state-cook.jpg') 100%;}
+  .training .t-content {color: white;width: 100%;}
+  .training h3 {color:white;}
+  .training h1 { color:white;}
+  .number-01 {position: absolute;}
+  .number-02 {position: absolute;}
+  .in .icons .icon-1 {float:left;width:333px;height:240px;text-align: center;font-style: italic;}
+  .in .icons .icon-2 {float:left;width:333px;height:240px;text-align: center;font-style: italic;}
+  .in .icons .icon-3 {float:left;width:334px;height:240px;text-align: center;font-style: italic;}
+  .in .icons {margin: 40px auto 60px auto;width: 1000px;height: 240px;}
+  .in p {width: 825px;}
+  .op-main-div {position:absolute;}
+  .number-01, .number-02 {display: block;}
+  .flexslider .count-numbers {display: block; right: -80px; top: 70px;}
+  .flex-direction-nav {top: 40px;right: -120px;display: block;}
+  .menu-overlay ul li a:link, .menu-overlay ul li a:visited, .menu-overlay ul li a:active {color: white;}
+  .menu-overlay ul {height: 40px;}
+  .menu-overlay {bottom: 0;}
+  .in .icons img {margin-bottom: 40px;}
+  .cooking .content {top: 110px;color: white;}
+  .flex-direction-nav {bottom: inherit;}
+  .faqs .faqs-arrow {right: 0;}
+  .cooking .content a:link, .cooking .content a:visited {margin: 60px auto 0 auto;}
+  .flexslider .count-numbers {display: block;}
+}

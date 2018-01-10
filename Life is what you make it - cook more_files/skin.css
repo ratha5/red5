@@ -1,0 +1,1748 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display|PT+Sans|Raleway);
+/*Universal*/
+html { height: 100%;-webkit-font-smoothing: antialiased; text-shadow: 1px 1px 1px rgba(0,0,0,0.004);}
+body { background: rgba(254, 254, 254, 1); font-family: 'Raleway', serif; font-size: 14px; color: #222222; height: 100%; }
+
+.clearfix { zoom: 1; }
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+/*Framework Styles*/
+#RegalSkin { width: 100%; height: 100%; background: url('images/regalmainbg.png'); background-repeat: repeat; }
+
+.dinner-listings-consultant select.input-float-left.dropdown-state {
+    max-width: 200px;
+}
+
+.ui-datepicker, .ui-datepicker.ui-widget-content, .comiseo-daterangepicker.ui-widget-content {
+    background: #eee !important;
+}
+
+.UserSearch .k-icon.k-i-close,
+.OpportunitiesSearch .k-icon.k-i-close {
+    margin-right: 20px;
+	margin-top: 0px
+}
+
+.pageWidth { width: 100%; }
+.no-border {border: none !important;}
+.businessLinks a, .businessLinks a:link,  .businessLinks a:visited, .loginGroup a, .loginGroup a:link, .loginGroup a:visited { color: #fff; }
+.businessLinks, .loginGroup { padding: 5px; text-align: right;height:20px;position: relative;}
+.logoDiv {width: 20%; }
+.logoDiv img {max-height:64px; margin: 20px 0 20px 20px;}
+/*Backoffice main menu*/
+.menuLinks.backoffice { background: #20373d; position: relative; margin-bottom: 30px; height: auto;}
+.menuLinks.backoffice ul.topLevel {margin: 0; padding: 0; list-style: none;width: 100%;height: auto;}
+.backoffice .mainMenu ul.topLevel {list-style: none; margin: 0;}
+.backoffice .mainMenu ul.topLevel > li.last {border-right: none;}
+.backoffice .searchDiv .search-icon {background: url('images/search-icon-white.png') no-repeat; background-size: contain; }
+
+.backoffice .drop-down-arrow-white {background: url('images/menu-down-arrow-white.png') no-repeat;width: 20px; height: 20px;display: inline-block; background-position: 5px 10px;}
+.backoffice.topLinks { background: #20373d; }
+/*Corporate main menu*/
+.menuLinks.corporate { background: white; position: relative; margin-bottom: 30px; height: auto; }
+.menuLinks.corporate ul.topLevel {margin: 0; padding: 0; list-style: none;width: 100%;height: auto;}
+.corporate .mainMenu {margin-top: 0px;}
+.corporate .mainMenu ul.topLevel {list-style: none; margin: 0;}
+.corporate .mainMenu ul.topLevel > li.last {border-right: none;}
+.corporate .drop-down-number {font-family: 'Playfair Display', serif;font-weight: bold; display: inline-block;color: #e8ebeb;}
+
+.corporate .subLevel > ul > li {background: white;}
+.corporate .subLevel > ul > li > a:link, .corporate .subLevel > ul > li > a:visited, .corporate .subLevel > ul > li > a:active {color: rgba(33, 56, 61, 1);}
+.corporate .searchDiv #dnn_dnnSearch_txtSearch {border: 1px solid #d9d9d9;background: transparent;color: black;}
+.corporate.topLinks { background:#20373d; border-bottom: 1px solid #344a4e; }
+
+.contentDiv { background: transparent; margin: 0 auto; }
+.footerDiv {position: relative; background: #20383d; color: #fff; border-top: 10px solid #485b5f;  border-bottom: 1px solid #485b5f;  border-right: 1px solid #485b5f;  border-left: 1px solid #485b5f; }
+.footer-vbar {position: absolute; right: 100px;top: -60px;}
+#dnn_FooterBottomPane, .FooterCopyright {border-top: 1px solid #374c51;padding: 10px;font-size: 12px;}
+.footer-copy {width: 75%;margin: 0 auto;}
+
+
+
+.footer-copy > div.dsa a:link, .footer-copy > div.dsa a:visited, .footer-copy > div.dsa:active {color: white;}
+#dnn_WelcomeContentPane {color: white; font-family: 'Raleway', serif; position: absolute;}
+#dnn_WelcomeContentPane a:link, #dnn_WelcomeContentPane a:visited { color: #f9a860; }
+#dnn_LanguagePane {right: 0; top: 0;}
+#dnn_LanguagePane .sign-in-out {position: relative;top: 0;left: 0;}
+.logo-bottom {text-align: center; margin: 90px 0;}
+.footerDiv ul {margin: 0px; padding: 0px; list-style: none; }
+.footerDiv .footer-ul {margin-top: 60px;}
+.footerDiv .footer-ul a:link, .footerDiv .footer-ul a:visited {color: white;}
+.grid-row.clearfix {position: relative;margin-bottom: 10px;}
+/*Text Styles*/
+a, a:link, a:visited, a:active { color: black; text-decoration: none; }
+a:hover { text-decoration: underline; }
+.Normal, .NormalDisabled, .NormalDeleted { font-size: 14px; font-size: 1.4rem; }
+p { line-height: 1.6em; }
+h1, h2, h3, h4, h5, h6 { line-height: 1.1; margin-bottom: 14px; margin-top: 14px; font-weight: normal; }
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small { font-size: 60%; color: #888; line-height: 0; }
+h1 { font-size: 44px; }
+h2 { font-size: 37px; }
+h3 { font-size: 27px; }
+h4 { font-size: 23px; }
+h5 { font-size: 17px; }
+h6 { font-size: 14px; }
+ul, li {list-style: none;margin: 0; padding: 0;}
+/*Widget Styles*/
+.regal-widget {cursor: pointer;}
+.regal-widget-body, .regal-widget-loader {background: #92a3ae; text-align: center; color: #0a2835;padding-top: 30px;padding-bottom: 30px;height: 130px;}
+.regal-widget-body h1 {padding: 0; margin: 0;font-size: 28px; font-family: 'Playfair Display', serif;font-weight: bold; }
+.regal-widget-body .widget-count-number { margin-top: 20px; display: block; height: 50px;padding: 0;font-size: 68px; font-family: 'Playfair Display', serif;font-weight: bold;}
+.regal-widget-body .widget-title-small {font-size: 16px;}
+.regal-widget-body h3 {padding: 0; margin: 0;font-size: 18px; font-family: 'Raleway', serif; text-transform: uppercase;}
+.regal-widget-body h4 {padding: 0; margin: 7px 0 0 0;font-size: 12px; font-family: 'Raleway', serif;}
+.regal-widget-footer, .regal-widget-header {background: #0a2835; text-align: center; font-size: 12px;color: white;padding: 5px 0;}
+.regal-widget-info {display: none;width: 100%;left: 0; position: absolute; top: 227px;border: 1px solid #0a2835; background: white; z-index: 102;cursor:default;}
+.book-a-dinner .regal-widget-info {display: none;width: auto; position: absolute; top: 227px;border: 1px solid #0a2835; background: white; z-index: 102;cursor:default;}
+
+.regal-widget-connector {background: #0a2835;height:10px;width: auto;display: none;}
+.regal-widget-content {padding: 20px 10px 40px 20px;cursor: initial;min-height: 140px;}
+.regal-widget-info-header {color: #0a2835; text-transform: uppercase; font-weight: bold;}
+.regal-widget-action-button {border: 0;background: #0a2835; color: white; text-align: center; padding: 5px 15px;width:95px;cursor:pointer;}
+.regal-widget-action-button.left {position: absolute !important; bottom: 0px; left: 0px; margin: 0 0 5px 5px;}
+.regal-widget-action-button.right {position: absolute !important; bottom: 0px; right: 0px; margin: 0 5px 5px 0;}
+.regal-widget-action-button.large {width:120px;}
+.regal-widget input, .regal-widget textarea {border: 1px solid #c6c6c6; color: #0a2835; width: 130px;}
+.regal-widget input:-ms-input-placeholder, .regal-widget textarea:-ms-input-placeholder {color: #c6c6c6;}
+.regal-widget textarea.half-width {width: 110px;margin-top:10px;height: 60px;}
+.regal-widget input[type='checkbox'] {width: auto;}
+.regal-widget ul {margin: 0;padding: 0;}
+.regal-widget ul li {line-height: 25px;}
+.regal-widget .searchfield {background: url('images/search-icon-grey.png') no-repeat; background-position: 180px 3px; background-size: 20px 20px;}
+.regal-widget select {border: 1px solid #c6c6c6; color: #0a2835; padding: 4px 4px 4px 10px;margin-right: 10px;margin-left:0;}
+.regal-widget select.select-state {width: 66px;margin-right: 4px;}
+.regal-widget select.select-halfwidth {width: 95px;float:left;}
+
+.regal-widget select.select-language {width: 205px;margin-bottom: 10px;display: block !important;}
+.regal-widget select.select-owner {width: 205px;margin-bottom: 10px;display: block !important;}
+.book-a-dinner .regal-widget select.select-language {width: 205px;margin-bottom: 10px;display: block !important;}
+.book-a-dinner .regal-widget select.select-owner {width: 205px;margin-bottom: 10px;display: block !important;}
+/*select#phoneSelect {width: 123px;}*/
+textarea.guest-textarea {height: 165px !important;}
+input#city {margin-right: 5px;}
+
+.regal-widget select.select-phone { width: 155px; margin-bottom: 10px;float: left;}
+.regal-widget select.select-referredby {position: relative;top: -80px;width: 155px; margin-bottom: 10px;float: left;}
+.regal-widget select.select-location, .regal-widget select.select-source {width: 205px;float:none;margin-bottom: 10px;}
+.regal-widget select.select-fullwidth {width: 202px;float: left;}
+.regal-widget-dinner-form.with-border {border-top: 1px solid #c6c6c6;padding-top: 10px;}
+.regal-widget-subheader {margin-bottom: 9px;border-top: 1px solid #c6c6c6;padding-top: 12px;}
+.regal-widget input { margin-right: 10px;margin-bottom: 10px;padding: 5px 0 5px 5px;opacity:1.0;}
+select#country.select {margin-bottom: 10px;}
+.regal-widget #AddLeadResults {position: absolute;bottom: 50px;width: 200px;right: -150px;color:#89d36f; font-weight:bold;}
+.regal-widget .textareaSingleHeight {height: 15px;width: 192px;}
+.regal-widget textarea#eventNotes, .regal-widget textarea#editEventNotes, .regal-widget textarea#editNotes, .regal-widget textarea#editDietaryRestrictions, .regal-widget textarea#dietaryRestrictions, .regal-widget textarea#notes {height: 50px;max-width:192px;}
+.regal-widget textarea { height: 53px; margin-bottom: 5px; margin-right: 10px;font-size: 12px;padding: 5px;}
+.regal-widget-dinner-form.with-button {position: absolute; right: 140px; bottom: 5px;}
+.addGuestWidget .regal-widget-dinner-form.with-button {right: 0px;}
+.regal-widget-dinner-form.with-button.forbookdinner {position: relative; bottom: 0;margin-bottom: 10px;width: 100%;}
+.regal-widget-dinner-form.with-button.forbookdinner .regal-widget-action-button {border: 0;background: #0a2835; color: white; text-align: center; padding: 5px 15px;width:100px;cursor:pointer;position: relative;bottom: inherit;}
+.regal-widget-small-text {font-size: 12px;}
+.regal-widget.blue-widget .regal-widget-body {background: #133e5b; color: white;}
+.regal-widget.blue-widget .regal-widget-body h2 {color: white;padding: 0; margin: 0;font-family: 'Playfair Display', serif;font-weight: bold; }
+.regal-widget.column-2 .regal-widget-div {float: left;}
+.regal-widget .regal-widget-div a:link, .regal-widget .regal-widget-div a:visited {color: #92a3ae; text-decoration: underline; font-size: 13px;}
+.regal-widget.column-2 .regal-widget-div.column-3 {width: 33.3%;}
+.regal-widget.blue-widget .regal-widget-display {color: #92a3ae;height: 55px;margin-bottom: 10px;}
+.regal-widget.blue-widget .regal-widget-title {padding: 5px 0;font-family: 'Playfair Display', serif;font-weight: bold;}
+/*CheckList widget*/
+.widget-list .regal-widget-body {background: white; text-align: left; color: #0a2835;padding: 20px;height: auto;}
+.widget-list .regal-widget-body h3 {text-align: center;padding: 0; margin: 0;font-size: 14px; font-family: 'Raleway', serif; text-transform: uppercase;font-weight: bold;}
+.widget-list .regal-widget-body .checklist-title{color: #133E5B;padding: 0; margin: 0;font-size: 14px; font-family: 'Raleway', serif; text-transform: uppercase;font-weight: bold;}
+.widget-list .list-before-dinner {margin-bottom: 20px;}
+.regal-widget .list-before-dinner, regal-widget .list-after-dinner {float: left;}
+
+/*Referral Widget */
+.regal-widget.referral-widget .regal-widget-body {text-align: left;padding-left: 30px;}
+.regal-widget.referral-widget .referral-data {font-size: 28px; font-family: 'Playfair Display', serif;font-weight: bold;}
+.regal-widget.referral-widget .referral-label {text-transform: uppercase;margin-bottom: 10px;display: block;}
+/*Dinner List Widget*/
+.regal-widget.dinners-list .regal-widget-body {background: #f7f7f7;padding-top: 0px;height: inherit;}
+.regal-widget.dinners-list .regal-widget-body .regal-widget-form {float: none;position: relative;}
+/*.regal-widget ul.dinner-tabs {list-style: none;margin: 0 10px;}
+.regal-widget ul.dinner-tabs li {float: left; background: #92a3ae;color: white;text-transform: uppercase;width:33.3%;}
+.regal-widget ul.dinner-tabs li.active {background: #688193;}*/
+.regal-widget.dinners-list .regal-widget-info-header {text-align: left;padding: 0 10px;background: #0a2835; color: white; font-size:12px;margin: 0 10px;}
+.regal-widget.dinners-list .regal-widget-info-header-gray {background: #cccccc;}
+.regal-widget.dinners-list .regal-widget-info-header .party-number {float:right; font-size:12px;margin-top:3px;}
+.regal-widget.dinners-list .regal-widget-info-header #PartyNumber {float: right;font-size: 12px;margin-top: 3px;position: relative;text-transform:none;}
+.regal-widget.dinners-list .regal-widget-info-header #YourCookingShowsTitle {margin-right:40px;}
+.regal-widget.dinners-list .regal-widget-info-header .regal-widget-input-select select {width: 105px;}
+.regal-widget.dinners-list .dinner-listings {min-height: 400px; overflow-x:hidden;background: white;overflow-y:scroll;margin: 0 10px;cursor: default;}
+.regal-widget.dinners-list .dinner-listings #dinnerDivRight {float: right;margin-right: 5px;position: relative;}
+.regal-widget.dinners-list .dinner-listings #dinnerDivLeft {float: left;text-align: left;width:50%;}
+.regal-widget.dinners-list .dinner-listings #dinnerDivLeft > div > div {min-height: 20px;}
+.regal-widget.dinners-list .dinner-listings .dinner-listings-name {line-height: 24px; font-size: 24px; font-family: 'Playfair Display', serif; color: #133e5b;margin-bottom: 10px;}
+.regal-widget.dinners-list .dinner-listings .dinner-listings-consultant {margin-top: 10px;}
+.regal-widget.dinners-list .dinner-status-button {background: #1c3344; width: 180px; padding: 5px 10px;text-align:center;color: white;margin-bottom: 5px;}
+.regal-widget.dinners-list .dinner-guest-button, .regal-widget.dinners-list .dinner-lead-button, .regal-widget.dinners-list .dinner-reschedule-button {background: #e5e5e5; padding: 5px 10px;text-align:center;color: #1c3344;margin-bottom: 5px;cursor:pointer;}
+.regal-widget.dinners-list .dinner-listings hr {background: #d9d9d9; margin: 20px 0;}
+.regal-widget.dinners-list .find-button {margin-right: 10px;border: none; background: #1c3344; width: 70px; padding: 5px 10px;text-align:center;color: white; right: 100px; bottom: 10px;margin-top: 0px;}
+.regal-widget.dinners-list .dinner-list-popover {position: absolute;background: white;z-index: 100;border:1px solid #1c3344;padding: 15px 10px 10px 20px;margin-top: -6px;}
+.regal-widget.dinners-list .buttonIsActive {border: 1px solid #1c3344; background: white;border-bottom: none;position: relative; z-index: 101;}
+.regal-widget.dinners-list .dinner-form.with-button .action-button {background:#1c3344;border:none; color: white; padding: 5px 10px;display: block; width: 80px; float: left;margin-bottom: 5px;margin-right: 5px;cursor:pointer;}
+.regal-widget.dinners-list .regal-widget-input-select select {color: #c6c6c6; }
+.regal-widget.dinners-list .regal-widget-input-select select.dropdown-state {background:#1c3344;color: white; border: none;outline: none;cursor: pointer;margin-left:0; }
+.regal-widget.dinners-list .regal-widget-input-select .input-float-left.select-width-97.dropdown-state {width: auto !important;}
+.regal-widget.dinners-list .regal-widget-input-select .white-arrow {position: absolute;top: -4px;right: 10px;}
+.regal-widget.dinners-list .white-arrow {position: absolute;top: 7px;right: -10px;pointer-events: none;}
+.regal-widget.dinners-list .regal-widget-input-select option {background: white; color: #1c3344;}
+.regal-widget.dinners-list .regal-widget-input-select select[disabled] { color: white !important;}
+.regal-widget.dinners-list .regal-widget-input-select select[disabled] > option { color: white !important;}
+/*RSVP Status*/
+.regal-widget.status-display {}
+.regal-widget.status-display .regal-widget-body {background: transparent;padding-top: 0px;height: auto;padding-bottom: 0;margin-bottom: 5px;}
+.regal-widget.status-display .regal-status {padding: 5px 0;background: #0a2835;color: white;height: 20px;}
+.regal-widget.status-display .regal-status.green-band {border-left: 5px solid #89d36f;}
+.regal-widget.status-display .regal-status.yellow-band {border-left: 5px solid #f8d47e;}
+.regal-widget.status-display .regal-status.red-band {border-left: 5px solid #bf4c4c;}
+.regal-widget.status-display .regal-status.blank-band {border-left: 5px solid transparent;}
+.regal-widget.status-display .regal-status .regal-status-title {float:left;margin-left: 5px;}
+.regal-widget.status-display .regal-status .regal-status-count {float:right;margin-right: 5px;background: white;color: black;padding: 1px 4px;min-width: 27px;text-align: right;}
+.regal-widget.status-display .regal-status-list {background: white;font-size: 15px;text-align: left;padding: 2px 0 4px;}
+.regal-widget.status-display .regal-status-list ul li { padding: 2px 25px;}
+.regal-widget.status-display .regal-status ul {text-align: left; margin-left: 20px;}
+.regal-widget.status-display .regal-status-manage {background: white;padding: 20px 0;}
+.regal-widget.status-display .regal-manage-button {background: #0a2835; color: white;border: none; padding: 10px 40px;}
+/* Widget Icons*/
+.regal-widget-icon-dinner {background: url('images/booking.png') no-repeat; width: 85px; height: 85px;margin:3px auto 0 auto;}
+.regal-widget-icon-guest-dinner {background: url('images/newguest.png') no-repeat; width: 85px; height: 85px;margin:10px auto 0 auto;}
+.regal-widget-close-btn {background: url('images/icons/widget-close-btn.png') no-repeat;width: 20px; height: 20px;background-size: contain;position: absolute;right: 5px;top: 5px;cursor:pointer;}
+.regal-widget-icon-add-lead {background: url('images/newlead.png') no-repeat; width: 85px; height: 85px;margin:0px auto 0 auto;}
+.regal-widget-icon-browse-products {background: url('images/record-purchase.png') no-repeat; width: 75px; height: 75px;margin:0px auto 0 auto;background-size: contain;}
+.regal-widget-icon-returnToPortal {background: url('images/icons/returntoportal.png') no-repeat; width: 85px; height: 68px;margin:20px auto 0 auto;}
+.regal-widget-icon-record-purchase {background: url('images/record-purchase.png') no-repeat; width: 85px; height: 85px;margin:5px auto 0 auto;}
+.regal-widget-icon-training {background: url('images/Training-T-85x85bl.png') no-repeat; width: 85px; height: 85px;margin:5px auto 0 auto;}
+.regal-widget-icon-DMPLogin {
+    background: url('images/DistMktg-85x85-B.png') no-repeat;
+    width: 85px;
+    height: 85px;
+    margin: 5px auto 0 auto;
+}
+
+select#eventState:disabled {
+    background-color: rgb(235, 235, 228);
+    color: gray;
+}
+
+
+h1.h1-halfsize {width: 50%;margin: 0 auto;}
+
+.widget-returnportal {background: white;}
+.widget-returnportal .regal-widget-body, .widget-returnportal .regal-widget-footer {background: transparent;}
+.widget-rsvpoverview .rsvp-invited, .widget-rsvpoverview .rsvp-attending, .widget-rsvpoverview .rsvp-notcoming {width: 70%;margin: 0 auto;padding: 7px;background: white;margin-bottom: 10px;}
+.widget-rsvpoverview label {float: left;display: inline-block;width: 150px;text-align: left;text-transform: uppercase;color: #183e55;}
+.widget-rsvpoverview span {font-family: 'Playfair Display', serif;color: #183e55;font-size: 24px;}
+.widget-cooking-status {width: 99% !important;margin-left: 3px;margin-top: 10px;}
+.widget-cooking-status #CookingShowByStatusLeftColumnDiv, .widget-cooking-status #CookingShowByStatusRightColumnDiv {float: left;width: 49%;}
+.widget-cooking-status #CookingShowByStatusLeftColumnDiv > div, .widget-cooking-status #CookingShowByStatusRightColumnDiv > div   {width: 70%;margin: 0 auto;padding: 7px;background: white;margin-bottom: 10px;}
+.widget-cooking-status #CookingShowByStatusLeftColumnDiv > div label, .widget-cooking-status #CookingShowByStatusRightColumnDiv > div label {float: left;display: inline-block;width: 150px;text-align: left;text-transform: uppercase;color: #183e55;}
+.widget-cooking-status #CookingShowByStatusLeftColumnDiv > div span, .widget-cooking-status #CookingShowByStatusRightColumnDiv > div span {font-family: 'Playfair Display', serif;color: #183e55;font-size: 24px;}
+/*Assert UI*/
+ul#assertResults { border: 2px ridge maroon; background-color: #ffffcc; padding: 0.25em 1.5em; margin-left: 0; }
+ul#assertResults li.pass { color: #006400; }
+ul#assertResults li.fail { color: #dc143c; text-decoration: line-through; }
+/*Loading Icon*/
+.isloading-wrapper.isloading-right {margin-left: 10px;}
+.isloading-overlay {position: relative;text-align: center;width: inherit;top: none !important;margin: 0 !important;}
+.isloading-overlay .isloading-wrapper {background: #FFFFFF;-webkit-border-radius: 7px;-webkit-background-clip: padding-box;-moz-border-radius: 7px;-moz-background-clip: padding;border-radius: 7px;background-clip: padding-box;display: inline-block;margin: 0 auto;padding: 10px 20px;top: 10%;z-index: 100;width: 40% !important;}
+/*Required Fields*/
+.requiredText {color: #a94442;}
+.requiredInput {color: #a94442 !important;border: 1px solid #a94442 !important; background-color: pink !important;}
+/*Nav Toggle*/
+.backoffice #nav-toggle span, .backoffice #nav-toggle span:before, .backoffice #nav-toggle span:after {background: #fff;cursor: pointer;}
+.corporate #nav-toggle span, .corporate #nav-toggle span:before, .corporate #nav-toggle span:after {background: rgba(33, 56, 61, 1); cursor: pointer;}
+#nav-toggle { position: absolute; right: 20px; top: 40px; }
+#nav-toggle { cursor: pointer; padding: 10px 35px 16px 0px; }
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {cursor: pointer;border-radius: 3px;height: 3px;width: 30px;position: absolute;display: block;content: '';}
+#nav-toggle span:before {top: -10px;}
+#nav-toggle span:after {bottom: -10px;}
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {transition: all 500ms ease-in-out;}
+#nav-toggle.active span {background-color: transparent;}
+#nav-toggle.active span:before, #nav-toggle.active span:after {top: 0;}
+#nav-toggle.active span:before {transform: rotate(45deg);}
+#nav-toggle.active span:after {transform: rotate(-45deg);}
+
+
+.dinners-list-search-container .comiseo-daterangepicker-triggerbutton { border-radius: 0 !important;height: 27px !important;font-weight: normal !important;background: white !important;color: #c6c6c6 !important;font-size: inherit !important;}
+.dinners-list-search-container .comiseo-daterangepicker-triggerbutton .ui-button-text {padding: 0px 0px 0px 5px !important; font-size:12px !important;}
+.ui-button-text-icon-secondary .ui-button-icon-secondary, .ui-button-text-icons .ui-button-icon-secondary, .ui-button-icons-only .ui-button-icon-secondary {right: .1em !important;}
+.select-width-97 {width: 97px;margin-right: 5px !important;}
+.regal-widget-input-select {width: 315px; margin: 0 auto; text-align: left;position: relative;}
+.dinners-list .regal-widget-form .dinners-list-search-container {width: 90%;margin: 0 auto;text-align: left;}
+.dinners-list .regal-widget-form .dinner-listings-consultant .regal-widget-input-select {width: auto !important;}
+.dinners-list .sortDisplay {background:#97a1a2;}
+div.subLevel ul {margin-left: 0px;}
+/*Login*/
+.login-page {width: 100%;background: white;border: 1px solid #1c3344;padding: 40px 0;position:relative;}
+.login-page .signin-div, .login-page .create-div {padding: 10px;margin-bottom: 20px;}
+.login-page .signin-div > div, .login-page .create-div > div {margin: 0 20px;}
+.login-page .signin-header {font-size: 30px;color: #1c3344;line-height: 40px;font-family: 'Playfair Display', serif;}
+.login-page .email-div > div, .login-page .password-div > div {font-weight: bold;}
+.login-page .email-div > input, .login-page .password-div > input {border: 1px solid #dbdbdb; width: 100%;margin-bottom: 10px;}
+.login-page .signin-div .forgot-link .forgot-link-a {color: #4a6a80;margin-bottom: 10px;display: block;}
+.login-page .signin-checkout-button input, .login-page .create-checkout-button input {background: #1c3344;color: white; border: none; padding: 10px;min-width: 230px;text-transform: uppercase;margin: 0;}
+.login-page .create-div .info-text {font-weight: bold; margin-bottom: 10px;}
+.login-page label span {font-weight: bold;}
+.login-page label {display: block;margin-left: 20px;}
+.login-page input {margin-left: 20px;margin-bottom: 10px;border: 1px solid #d6d6d6; width: 300px;}
+
+/* For UI dialog*/
+.ui-dialog{z-index:106 !important;}
+.ui-widget-overlay{z-index:105 !important;}
+.ui-autocomplete{z-index:104 !important;}
+.ui-autocomplete-loading { background: url('images/loading.gif') no-repeat !important; background-position: 180px 4px !important; }
+
+div#dialog span {padding: 10px;display: inline-block;}
+
+/*Manage RSVP*/
+.manage-rsvp {width: 100% !important;}
+.rsvp-title {height: 25px;background: #0a2835;color: white;text-align: center;padding-top: 10px;}
+.manage-rsvp .regal-manage-rsvp {width: 100%; background: #f6f7f7;max-height: 500px;overflow-y: scroll;}
+.manage-rsvp .regal-manage-rsvp .manage-header ul {margin-bottom: 10px;}
+.manage-rsvp .regal-manage-rsvp .manage-header li {width: 23.4%;float: left;padding: 10px 0;text-align: left;text-transform: uppercase; color:  #0a2835; font-size: 18px;font-weight: bold;}
+.manage-rsvp .regal-manage-rsvp .manage-header li.blank {width: 5%;}
+.manage-rsvp .regal-manage-rsvp .manage-header li.first div {margin-left: 10px;}
+.manage-rsvp .regal-manage-rsvp .manage-header li.last {text-align: right;}
+.manage-rsvp .regal-manage-rsvp .manage-header li.last div {padding-right:20px;}
+.manage-rsvp .regal-manage-rsvp .manage-data li.notes-info textarea {height: 110px;}
+
+.manage-rsvp .regal-manage-rsvp .manage-data > li.row-normal {background: white;padding: 10px 0;margin: 0 10px;}
+.manage-rsvp .regal-manage-rsvp .manage-data > li.row-alternate {background: #f6f7f7;padding: 10px 0;margin: 0 10px;}
+
+
+
+.manage-rsvp .regal-manage-rsvp .manage-data li.green-band {border-right: 5px solid #89d36f;}
+.manage-rsvp .regal-manage-rsvp .manage-data li.yellow-band {border-right: 5px solid #f8d47e;}
+.manage-rsvp .regal-manage-rsvp .manage-data li.red-band {border-right: 5px solid #bf4c4c;}
+.manage-rsvp .regal-manage-rsvp .manage-data li.blank-band {border-right: 5px solid #092835;}
+.manage-rsvp .regal-manage-rsvp .manage-data li.no-invite-band {border-right: 5px solid #ff00c6;}
+.manage-rsvp .regal-manage-rsvp .guest-info .guest-name {font-size: 18px;font-weight: bold;}
+.manage-rsvp .regal-manage-rsvp .guest-info .spouse-name {font-weight: bold;}
+.manage-rsvp .regal-manage-rsvp .manage-data .edit-info .edit-type {color: #9ea7a8;}
+.manage-rsvp .regal-manage-rsvp .manage-data .remove-guest {background: #e4e4e4; padding: 4px 20px;color: #0d1e2a;border: none; text-transform: uppercase;font-weight: bold;}
+.manage-rsvp .regal-manage-rsvp .manage-data .status-info select {border: none; background: transparent;color: black;}
+.manage-rsvp .regal-manage-rsvp .add-guest-button {margin-left: 60px;margin-bottom: 30px; background: #e4e4e4; padding: 4px 20px;color: #0d1e2a;border: none; text-transform: uppercase;font-weight: bold;}
+#dnn_ContentPlacement3 {height: 285px; background: #e2e2e2;position: relative;}
+.bottom-bar-gray p {color: #123e5b;font-size:28px;text-align: left;top: 100px;font-family: "Playfair Display";}
+.bottom-bar-gray a {top: 130px;background: #123e5b;color: white;padding: 10px 40px;font-family: "Playfair Display";font-style:italic;}
+
+/*Ribbon*/
+#dnn_ConsultantPane, #dnn_ConsultantPane2 {background: #485b5f;}
+.ribbon {padding: 20px;margin: 0 auto;color: white;}
+
+.ribbon-right {text-align: right;padding-top: 20px;}
+.ribbon-photo, .ribbon-info {float: left;}
+.ribbon-photo {margin-right: 20px;}
+.ribbon-photo img {width: 120px;height: 120px;}
+.ribbon-info {margin-top: 20px;}
+.ribbon-name {font-family: "Playfair Display";font-size: 24px; line-height:30px;}
+.ribbon-cookware {font-weight: bold;}
+.ribbon-btn:link, .ribbon-btn:visited {background: #21383d; color: #faa860; padding: 2px 20px;text-transform: uppercase;font-weight: bold;}
+
+.dinner-tabs { height: 70px; }
+.dinner-tabs { list-style: none; margin: 0; }
+.dinner-tabs li { float: left; width: 33.1%; text-align: center; background: #0a2835;color: white; padding: 10px 0px; font-size: 16px; text-transform: uppercase; }
+.dinner-tabs li a:link, .dinner-tabs ul li a:active, .dinner-tabs ul li a:visited { color: #fff; }
+.dinner-tabs li.active { border-left: 1px solid #808080; border-top: 1px solid #808080; border-right: 1px solid #808080;  background: white;color: #0a2835;margin-top: -10px;padding-bottom: 10px;padding-top: 20px;}
+
+.message-success {padding: 10px;color: #dff0d8;font-weight: bold;}
+.message-fail {padding: 10px; color: #f2dede;font-weight: bold;}
+
+/*UserSearch*/
+#UserSearchPanel {border: 1px solid #20373d;margin-bottom: 10px;}
+#UserSearchPanel .k-widget.k-tabstrip {background: #20373d;}
+#UserSearchPanel .k-widget .k-content {padding: 0;}
+#UserSearchPanel .k-tabstrip-items .k-item {background: #20373d;border: none;}
+#UserSearchPanel .k-tabstrip-items .k-state-active.k-item {border-left: 1px solid #20373d;border-top: 1px solid #20373d;border-right: 1px solid #20373d; border-bottom: none; background: #ffffff;margin-top: -10px;margin-left: -1px;padding-bottom: 2px;padding-top: 10px;}
+#UserSearchPanel .k-tabstrip-items .k-state-active.k-item .k-link {color: #20373d;}
+#UserSearchPanel .k-loading.k-complete {border: none;}
+#UserSearchPanel .k-pager-nav {background: white; opacity: 1;}
+#UserSearchPanel .k-grid-pager .k-label {color: white;}
+#UserSearchPanel .search-filters > .left > span, #UserSearchPanel .search-filters > .right > span, #UserSearchPanel .edit-notes > span {font-weight: bold;}
+#UserSearchPanel .search-filters > .right input {padding: 10px;border-radius: 1px;border: 1px solid #e5e5e5;margin-bottom: 10px;}
+#UserSearchPanel button.search-button {background: #20373d;color: white; border: none;padding: 5px 10px;}
+#UserSearchPanel .edit-notes {padding: 10px;}
+#UserSearchPanel .edit-notes #notes {overflow-y: scroll; border: 1px solid rgb(169, 169, 169);}
+#UserSearchPanel .edit-notes #notes textarea {border-bottom: 1px solid rgb(169, 169, 169);border-top: none;border-left: none;border-right: none;margin: 0 0 10px 10px;}
+#UserSearchPanel .box-wide.box-padding {padding: 0px; width: 100%;background: white;}
+#UserSearchPanel .box-wide.box-padding > div {padding: 10px;}
+#UserSearchPanel .k-grid-toolbar, #UserSearchPanel .k-grid-toolbar .k-button {background: #20373d;border: none;}
+#UserSearchPanel .k-grid-toolbar, #UserSearchPanel .k-grid-toolbar
+.k-i-arrow-s {background-position: -16px -32px !important;opacity: 1;}
+#UserSearchPanel .k-link:not(.k-state-disabled):hover>.k-i-arrow-s, #UserSearchPanel .k-state-hover>.k-i-arrow-s, #UserSearchPanel .k-state-hover>*>.k-i-arrow-s, #UserSearchPanel .k-button:not(.k-state-disabled):hover .k-i-arrow-s, #UserSearchPanel .k-textbox:hover .k-i-arrow-s, #UserSearchPanel .k-button:active .k-i-arrow-s {background-position: -16px -32px;}
+#UserSearchPanel .k-grid-toolbar .toolbar .k-widget .k-dropdown-wrap {background: #20373d;border: none;border-radius: 0;}
+#UserSearchPanel .k-grid-toolbar .toolbar .k-widget .k-state-hover,
+#UserSearchPanel .k-grid-toolbar .toolbar .k-widget .k-state-active,
+#UserSearchPanel .k-grid-toolbar .toolbar .k-widget .k-state-focus,
+#UserSearchPanel .k-grid-toolbar .toolbar .k-widget .k-state-border-down {background: #20373d !important;border: none !important;border-radius: 0 !important;}
+#UserSearchPanel .k-grid-toolbar .toolbar .k-widget .k-dropdown-wrap .k-input {color: white;}
+#UserSearchPanel table.k-selectable thead.k-grid-header {background: #92a3ad;}
+#UserSearchPanel table.k-selectable thead.k-grid-header tr th {background: #92a3ad !important;border: none !important;color:white;}
+#UserSearchPanel table.k-selectable thead.k-grid-header tr th a:link, #UserSearchPanel table.k-selectable thead.k-grid-header tr th a:visited, #UserSearchPanel table.k-selectable thead.k-grid-header tr th a:active {color: white;text-transform: uppercase;}
+#UserSearchPanel #selectedUserName {color: black; font-weight: bold;margin-top:10px;line-height: 2.5rem;}
+#UserSearchPanel .search-filters {float: left;padding: 10px;}
+#UserSearchPanel .note-textarea {position: relative;color:#20373d;}
+#UserSearchPanel .note-textarea button { background: transparent;position: absolute; right: 50px; top: 0;cursor: pointer;}
+.k-animation-container .k-list-container.k-popup {background: #133f5c !important;color:white !important;border: none;}
+#UserSearchPanel .k-pager-wrap .k-pager-numbers .k-state-selected {border-radius: 0;border:none;}
+.new-overflow {overflow: auto;}
+/*Holdup Grid*/
+#HoldUpGridPanel {border: 1px solid #20373d;margin-bottom: 10px;overflow:auto;}
+#HoldUpGridPanel .k-widget.k-tabstrip {background: #20373d;}
+#HoldUpGridPanel .k-widget .k-content {padding: 0;}
+#HoldUpGridPanel .k-tabstrip-items .k-item {background: #20373d;border: none;}
+#HoldUpGridPanel .k-tabstrip-items .k-state-active.k-item {border-left: 1px solid #20373d;border-top: 1px solid #20373d;border-right: 1px solid #20373d; border-bottom: none; background: #ffffff;margin-top: -10px;margin-left: -1px;padding-bottom: 2px;padding-top: 10px;}
+#HoldUpGridPanel .k-tabstrip-items .k-state-active.k-item .k-link {color: #20373d;}
+#HoldUpGridPanel .k-loading.k-complete {border: none;}
+#HoldUpGridPanel .k-pager-nav {background: white; opacity: 1;}
+#HoldUpGridPanel .k-grid-pager .k-label {color: white;}
+#HoldUpGridPanel .search-filters > .left > span, #HoldUpGridPanel .search-filters > .right > span, #HoldUpGridPanel .edit-notes > span {font-weight: bold;}
+#HoldUpGridPanel .search-filters > .right input {padding: 10px;border-radius: 1px;border: 1px solid #e5e5e5;margin-bottom: 10px;}
+#HoldUpGridPanel button {background: #20373d;color: white; border: none;padding: 5px 10px;}
+#HoldUpGridPanel .k-grid-header button {background: #ffffff;}
+#HoldUpGridPanel .edit-notes {width: 70%;float: right;}
+#HoldUpGridPanel .edit-notes #notes {overflow-y: scroll; border: 1px solid rgb(169, 169, 169);}
+#HoldUpGridPanel .edit-notes #notes textarea {border-bottom: 1px solid rgb(169, 169, 169);border-top: none;border-left: none;border-right: none;margin: 0 0 10px 10px;}
+#HoldUpGridPanel .box-wide.box-padding {padding: 10px 0 10px 10px; width: 98%;}
+#HoldUpGridPanel .k-grid-toolbar, #HoldUpGridPanel .k-grid-toolbar .k-button {background: #20373d;border: none;}
+#HoldUpGridPanel .k-grid-toolbar, #HoldUpGridPanel .k-grid-toolbar
+.k-i-arrow-s {background-position: -16px -32px !important;opacity: 1;}
+#HoldUpGridPanel .k-link:not(.k-state-disabled):hover>.k-i-arrow-s, #HoldUpGridPanel .k-state-hover>.k-i-arrow-s, #HoldUpGridPanel .k-state-hover>*>.k-i-arrow-s, #HoldUpGridPanel .k-button:not(.k-state-disabled):hover .k-i-arrow-s, #HoldUpGridPanel .k-textbox:hover .k-i-arrow-s, #HoldUpGridPanel .k-button:active .k-i-arrow-s {background-position: -16px -32px;}
+#HoldUpGridPanel .k-grid-toolbar .toolbar .k-widget .k-dropdown-wrap {background: #20373d;border: none;border-radius: 0;}
+#HoldUpGridPanel .k-grid-toolbar .toolbar .k-widget .k-state-hover,
+#HoldUpGridPanel .k-grid-toolbar .toolbar .k-widget .k-state-active,
+#HoldUpGridPanel .k-grid-toolbar .toolbar .k-widget .k-state-focus,
+#HoldUpGridPanel .k-grid-toolbar .toolbar .k-widget .k-state-border-down {background: #20373d !important;border: none !important;border-radius: 0 !important;}
+#HoldUpGridPanel .k-grid-toolbar .toolbar .k-widget .k-dropdown-wrap .k-input {color: white;}
+#HoldUpGridPanel table.k-selectable thead.k-grid-header {background: #92a3ad;}
+#HoldUpGridPanel table.k-selectable thead.k-grid-header tr th {background: #92a3ad !important;border: none !important;color:white;}
+#HoldUpGridPanel table.k-selectable thead.k-grid-header tr th a:link, #HoldUpGridPanel table.k-selectable thead.k-grid-header tr th a:visited, #HoldUpGridPanel table.k-selectable thead.k-grid-header tr th a:active {color: white;text-transform: uppercase;}
+#HoldUpGridPanel #selectedUserName {color: black; font-weight: bold;margin-top:10px;line-height: 2.5rem;}
+#HoldUpGridPanel .search-filters {width: 30%;float: left;}
+#HoldUpGridPanel .note-textarea {position: relative;color:#20373d;}
+#HoldUpGridPanel .note-textarea button { background: transparent;position: absolute; right: 50px; top: 0;cursor: pointer;}
+.k-animation-container .k-list-container.k-popup {background: #133f5c !important;color:white !important;border: none;}
+#HoldUpGridPanel .k-pager-wrap .k-pager-numbers .k-state-selected {border-radius: 0;border:none;}
+
+
+.ui-autocomplete.ui-front.ui-menu.ui-widget.ui-widget-content,
+.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable.ui-resizable,
+.ui-menu.ui-widget.ui-widget-content {
+    background: #eee !important;
+}
+
+/*Backoffice Dashboard widgets*/
+.backoffice-widget-box {
+    background: #0c2834;
+    color: white;
+    border-bottom: 5px solid #f8a967;
+    text-align: center;
+    height: 270px;
+}
+.backoffice-widget-box img {margin-top: 20px;}
+.backoffice-widget-box .title {font-size: 24px; font-family: 'Playfair Display', serif;margin: 10px 0;}
+.backoffice-widget { margin: 0 2.5px;position: relative;}
+.backoffice-widget .title {color: white;font-size: 34px; font-family: 'Playfair Display', serif;}
+.backoffice-widget .sub-title {color: white;position: absolute;top: 105px;width: 100%;text-align: center;}
+.backoffice-widget .title {color: white;position: absolute;top: 140px;width: 100%;text-align: center;}
+.backoffice-widget img {width: 100%;}
+
+.backoffice-time-period .regal-widget-body {padding-top: 10px;padding-bottom: 50px;}
+.backoffice-time-period .regal-widget-body .consultant-img img {max-height: 80px;}
+.backoffice-time-period .regal-widget-body .consultant-name {padding: 4px;height:44px; font-size: 24px; font-family: 'Playfair Display', serif;color: white; text-transform: uppercase;}
+.backoffice-time-period .regal-widget-body .regal-widget-input-select select {margin: 0 auto;}
+.backoffice-time-period .regal-widget-body .regal-widget-input-select {width: auto; text-align: center;}
+
+.consultant-cooking .regal-widget-body {padding-top: 10px;padding-bottom: 50px;}
+.consultant-cooking .regal-widget-body .consultant-img img {max-height: 80px;}
+.consultant-cooking .regal-widget-body .consultant-name {padding: 4px;height:44px; font-size: 24px; font-family: 'Playfair Display', serif;color: white; text-transform: uppercase;}
+.consultant-cooking .regal-widget-body .regal-widget-input-select select {margin: 0 auto;}
+.consultant-cooking .regal-widget-body .regal-widget-input-select {width: auto; text-align: center;}
+
+
+/*Fixed Menu*/
+.menuLinks.f-nav.corporate{ z-index: 9999; position: fixed; left: 0; top: 0; width: 100%;opacity:0.9;}
+.menuLinks.f-nav.corporate .drop-down-number{display: none;}
+.menuLinks.f-nav.corporate .mainMenu ul.topLevel > li {padding: 0 !important;}
+.menuLinks.f-nav.corporate .mainMenu ul.topLevel > li .subLevel {top: 66px !important;}
+.menuLinks.f-nav.corporate .logoDiv img {width: 40%; margin: 10px;}
+
+/*Dealership*/
+.dealership {background: white;padding: 20px;}
+.dealership input, .dealership select {margin-bottom: 5px;}
+.dealership input:disabled, .dealership select:disabled {background-color:darkgray; color:darkgray}
+
+.dealership .dealership-left .title {font-size: 34px;color: #0b2836; font-family: 'Playfair Display', serif;margin-bottom: 10px;}
+.dealership .dealership-left .info-title, .dealership .dealership-right .info-title {font-size: 16px;color: #0b2836;margin: 20px 0;font-weight: bold;text-transform: uppercase;}
+.dealership .dealership-left .day-title {min-width: 85px;padding-top: 3px;}
+.dealership .dealership-left .doubleLength {width: 270px;}
+.dealership .dealership-left .dealership-size .input-float-left {width: 130px;}
+.dealership .dealership-left .dealership-size select.input-float-left {width: 134px;}
+.dealership .dealership-right .info-title span {font-weight: normal;}
+.dealership .dealership-right button {color: white; background: #3d5f78;text-transform: uppercase;padding: 5px 20px;border: none;margin-top: 10px;}
+.dealership .dealership-right textarea {width: 300px;height: 80px;}
+
+
+#dnn_FooterContentPane3 .footer-ul {position: relative;}
+#dnn_FooterContentPane3 #dnn_LOGIN1_loginLink {display:block;margin-top: 60px;font-family:Raleway;color:#fff;}
+
+/*Show update*/
+.regal-widget.show-update {max-height: 600px; overflow-y:auto;background: #fff;}
+.regal-widget.show-update .regal-widget-body {height: auto;background: #fff;text-align:left;padding:10px;}
+.regal-widget.show-update .regal-widget-body .checklist-title{color: #0a2835;padding: 0; margin: 0;font-size: 14px; font-family: 'Raleway', serif; text-transform: uppercase;font-weight: bold;}
+.regal-widget.show-update .enter-update {color:#c6c6c6;display: block;margin-bottom:20px;font-weight: bold; color: #0a2835;}
+
+.regal-widget.show-update .blue-btn:link, .regal-widget.show-update .blue-btn:visited {margin-left:5px; text-transform: uppercase;float:right; display:block; text-align: center; padding:5px 15px;background: #0a2835;color: white;margin-top: 20px;}
+.regal-widget.show-update .show-edit > div, .regal-widget.show-update .show-info > div {color:#0a2835;font-weight: bold;margin-bottom:20px;}
+.regal-widget.show-update .show-info pre {max-width: 235px;}
+
+.regal-widget.new-bookings .regal-widget-body {background: #d9d9d9;margin-top: 10px;}
+.regal-widget.new-bookings .regal-widget-body .k-grid-header {background: #92a3ae;}
+.regal-widget.new-bookings .regal-widget-body .k-header {font-size:12px;background: #92a3ae;color: #fff;border: none;}
+.regal-widget.new-bookings .k-grid-header-wrap, .regal-widget.new-bookings .k-grid-footer-wrap {border: none;border-width: 0;border-style: none;}
+.regal-widget.new-bookings .k-grid-header, .regal-widget.new-bookings .k-grid {border: none;}
+.regal-widget.new-bookings table, .regal-widget.new-bookings td, .regal-widget.new-bookings th, .regal-widget.new-bookings tr {border: none;}
+
+#dnn_GridBox3 .widget-list.widget-vertical, #dnn_GridBox3 .regal-widget, #dnn_GridBox1 .regal-widget {width: 100%;}
+.grid-row.clearfix.DNNEmptyPane {margin: 0;}
+
+.accountmanagement #thetabs h2 {font-size: 25px;font-family: 'Playfair Display', serif;color:#123e5b;}
+.accountmanagement .dealership.regal-widget {padding:0px;margin:0px;}
+.accountmanagement .dealership.regal-widget .dealership-left, .accountmanagement .dealership.regal-widget .dealership-right {padding:10px;}
+.accountmanagement #thetabs {padding:0; border-bottom-right-radius: 0;border-bottom-left-radius: 0;border-top-right-radius: 0; border-top-left-radius: 0;border: 1px solid #123e5b;background: #fff;}
+.accountmanagement #thetabs > ul {border-bottom-right-radius: 0;border-bottom-left-radius: 0;border-top-right-radius: 0; border-top-left-radius: 0;}
+.accountmanagement .ui-tabs .ui-tabs-panel {padding: 0;}
+.accountmanagement .ui-tabs .ui-tabs-panel > div {padding: 10px;}
+.accountmanagement .UAMenuItems li {text-align: right;font-family: 'Playfair Display', serif;}
+.accountmanagement .highlighter {width:19.6em;}
+.accountmanagement #LoginDiv h3 {font-size: 20px; font-weight: bold;}
+.accountmanagement #LoginDiv p {font-size: 14px;line-height: initial;margin: 0 0 20px 0;padding: 0;}
+.accountmanagement #LoginDiv input {font-size: 14px;}
+.accountmanagement .regal-widget-action-button {border: 0;background: #0a2835;color: white;text-align: center;padding: 0px 10px;cursor: pointer;}
+
+.shopping h3, .productdetail h3, .product-detail h3, body.ProductDetail h3 {text-align: left;font-style: normal;color: #0b2836;font-weight: bold;margin-bottom: 20px;font-family: inherit; font-size: 32px;}
+.shopping ul.shop-ul li {padding: 5px;}
+.shopping ul.shop-ul li .title {margin: 10px;text-align: left;color:black;font-weight: bold;text-transform: uppercase;height: 36px;}
+.shopping ul.shop-ul li .subtitle {color: #3e5e75;text-align: left;margin: 10px;}
+
+.menu-overlay.our-products-menu ul li {width: 200px;}
+.productdetail .menu-overlay ul li {width: 300px;}
+.shopping .tag-line-overlay, .our .tag-line-overlay, .productdetail .tag-line-overlay {position: absolute;color: white;font-family: 'Playfair Display', serif;width: 100%;top: 60px;}
+.product-detail .left, .product-detail .right {padding: 5px;}
+.product-detail .left .thumbnails {margin-top: 10px;}
+.product-detail .left .thumbnails img {width: 32%;}
+.product-detail .right .prod-specs {background:#20373d;color: white;text-align: left;padding: 2px 0 2px 10px;margin-bottom:20px;}
+.product-detail .right p {text-align: left;}
+.product-detail .right .add-to-cart .price, .product-detail .right .add-to-cart button {float: right;}
+.product-detail .right .add-to-cart .price {color: #3c5f75;text-transform: uppercase;margin-right: 20px;margin-top: 5px;}
+.product-detail .right .add-to-cart button {background: #20373d;color: white; text-transform: uppercase;border: none; padding: 5px 10px;}
+
+.my-events .left {float: left;width:34%;background: #688293;color: #fff;padding: 20px;}
+.my-events .right {float: left;width:60%;padding: 20px;}
+.my-events .left h3 {font-family: "Playfair Display";}
+.my-events .left label {font-weight: bold;width: 160px;display: block;float: left;}
+.my-events .left > div {margin-bottom: 20px;} 
+
+.ribbon-social a img {margin: 10px 0;}
+
+/*AccountManagement Account Types*/
+.account-types {background: white;font-size: 14px;}
+.account-types label {font-size: 14px;}
+.account-types select {margin-bottom: 10px;}
+.account-types .customer-type, .account-types .dealership-type {float: left;width: 50%;color:#0b2836;font-size: 18px;font-weight: bold;}
+.account-types .customer-type span, .account-types .dealership-type span {font-size: 16px;font-weight: normal;}
+.account-types .agreement, .account-types .title {float: left;width: 50%;}
+.account-types .agreement .left {float: left;width: 150px;}
+.account-types .agreement .left label {color:#0b2836;font-size: 18px;font-weight: bold;}
+.account-types .agreement .right {float: left;}
+.account-types .title .left {float: left;width: 150px;}
+.account-types .title .left label {color:#0b2836;font-size: 18px;font-weight: bold;}
+.account-types .title .right {float: left;}
+.account-types .training, .account-types .training2 {float: left; width: 50%;}
+.account-types .training .left {float: left;width: 150px;}
+.account-types .training .left label {color:#0b2836;font-size: 18px;font-weight: bold;}
+.account-types .training .right {float: left;}
+.account-types button {background: #3d5f78; color: white;text-transform: uppercase;border: none; padding: 4px 10px;text-align: center;}
+
+/*AccountManagement Account Premission*/
+.account-premissions {padding: 20px 20px 20px 0px; background: white;font-size: 14px;}
+.account-premissions .premissions-header {color:#0b2836;font-size: 18px;font-weight: bold;}
+.account-premissions .access-info {padding: 10px;border: 1px solid #c6c6c6;margin-bottom: 20px;width: 50%;line-height: 20px;}
+
+/*SPV Purchase*/
+.spv-purchase > .header {color: #20373d; font-family: 'Playfair Display';border-left: 1px solid #20373d;border-right: 1px solid #20373d;border-top: 1px solid #20373d;background:white;padding: 10px; text-align: left;font-size: 22px;margin-bottom: 10px;font-weight: bold;}
+.spv-purchase .row div .header {background: #20373d; color: white;padding: 5px 0 5px 50px;margin-bottom: 20px;}
+.spv-purchase .row > div {margin-right: 7px; background: white;margin-bottom: 10px;border-bottom: 1px solid #20373d;border-right: 1px solid #20373d;border-left: 1px solid #20373d;}
+
+
+.spv-purchase .row div.order-info > select, .spv-purchase .row div.order-info > input, .spv-purchase .row div.customer-info > select, .spv-purchase .row div.customer-info > input {margin-left: 50px; width: 80%;margin-bottom: 10px;}
+
+.spv-purchase .row div.customer-info .left input {margin-left: 50px; margin-bottom: 10px;width: 80%;}
+.spv-purchase .row div.customer-info .left select { margin-bottom: 10px;width: 80%;}
+
+.spv-purchase .row div.customer-info .left .half-size {width: 40%;}
+
+.spv-purchase .row .preferred-date select {width: 30%;float: left;margin-right: 10px;}
+.spv-purchase .row .preferred-date select.select-first {margin-left: 50px;}
+.spv-purchase .row .actual-date select {width: 30%;float: left;margin-right: 10px;}
+.spv-purchase .row .actual-date select.select-first {margin-left: 50px;}
+
+.spv-purchase .purchase {padding-bottom: 10px;}
+.spv-purchase .purchase-row {margin-left: 50px;margin-bottom: 10px;padding-bottom: 10px;}
+.spv-purchase .purchase-row > div {float: left;margin-right:10px;}
+.spv-purchase .purchase-row > div input {width: 100%;}
+
+
+.spv-purchase .purchase-row-buttons {text-align: right;}
+
+.spv-purchase .purchase-row-buttons button {margin-right: 10px;}
+.spv-purchase .purchase-row-buttons button.delete {background: #688293; color: white; text-transform: uppercase;padding: 4px 10px;border: none;}
+.spv-purchase .purchase-row-buttons button.update {background: #20373d; color: white; text-transform: uppercase;padding: 4px 10px;border: none;}
+.spv-purchase .purchase-row-buttons button.save {background: #20373d; color: white; text-transform: uppercase;padding: 4px 10px;border: none;}
+.spv-purchase .order-notes {background: white;padding-bottom: 10px;}
+.spv-purchase .order-notes .left {float: left;width: 50%;}
+.spv-purchase .order-notes .left div.title, .spv-purchase .order-notes .right div.title {font-weight: bold;}
+.spv-purchase .order-notes .left button.save {background: #20373d; color: white; text-transform: uppercase;padding: 4px 10px;border: none;margin-left: 50px;}
+.spv-purchase .order-notes .left div.title, .spv-purchase .order-notes .left textarea {margin-left: 50px;}
+.spv-purchase .order-notes .left textarea {width: 80%; height: 100px;}
+.spv-purchase .order-notes .right {float: left;width: 50%;}
+.spv-purchase .order-notes .right .notes-info {width: 90%;}
+.spv-purchase .order-notes .notes-info {padding: 5px;border: 2px solid #cccccc;}
+.spv-purchase .order-notes .notes-info .note-row textarea {width: 100%;text-align: left;}
+.spv-purchase .order-notes .notes-info .edit-buttons {text-align: right;}
+.spv-purchase .order-notes .notes-info .edit-buttons a {color:#91a3ad;text-transform: uppercase;}
+.spv-purchase .purchase-row-buttons .go-back-buttons {display: block;float: left;margin-left: 30px;margin-bottom: 10px;}
+.spv-purchase .update.go-back-header {background: #20373d; color: white; text-transform: uppercase;padding: 4px 10px;border: none;float: right;}
+.spv-purchase .purchase-info .retailprice input, .spv-purchase .purchase-info .retailtotal input, .spv-purchase .purchase-info .spv input, .spv-purchase .purchase-info .qty input, .spv-purchase .purchase-info .total input, .spv-purchase .purchase-info .purchase-total input {text-align: right;}
+#eventPostalCode {padding-right: 0;}
+
+input.div-date {margin-top: 10px;}
+.regal-widget.new-bookings .regal-widget-header {text-align: center; text-transform: none;}
+
+#dnn_WelcomeContentPane .DnnModule {display: inline-block;margin-right: 10px;}
+
+.input-float-left {margin-left: 50px;}
+.regal-dealership-dinner-form.dealership-size .input-float-left, .day .input-float-left {margin-left: 0;}
+.gridbox #dnn_GridBox1 .DnnModule-DNN_HTML {display: inline-block;}
+.fl3-class {display: none;}
+.margin-right-10 {margin-right: 10px;}
+div.ui-dialog-titlebar > .ui-dialog-titlebar-close {top: 5px !important; right: 5px !important;}
+.ui-dialog-titlebar.ui-widget-header {border: 1px solid #0a2835;background: #0a2835;}
+.history-div {position:absolute; background: white;z-index: 100;border: none;padding: 5px;margin-top: -6px;border: 1px solid black;}
+.right .history-div {min-width:460px; left:calc(100% - 460px);}
+.right .history-div table {
+    width: 100%;
+}
+.history-div table {border:none; border-spacing:0px;}
+.history-div table thead tr {background : black; text-align:center; margin:2px;}
+.history-div table thead tr td {color: white}
+.history-div table tbody tr td{padding: 5px;border-right: 1px solid white;}
+.add-guest-btn {position:relative !important; margin-right:10px; display:inline-block !important}
+
+.bio-textarea, .food-textarea, .pet-textarea {max-width: 400px;}
+.guest-textarea, .lead-textarea {max-width: 120px;}
+.featherlight .featherlight-content {min-width: auto !important;}
+/* Executive site */
+body.executive .menuLinks { background: #c7c7c7;}
+body.executive .regal-widget-body, body.executive .regal-widget-loader {background: #d1d1d1;}
+body.executive .regal-widget-footer, body.executive .regal-widget-header {background: #425156;}
+body.executive .regal-widget-body .donut-wrapper {background: #d1d1d1 !important;}
+body.executive .Corp_HoldUpDateRangeGrid .k-header.k-grid-toolbar,
+body.executive .PurchaseByStatusDateRangeGrid .k-header.k-grid-toolbar,
+body.executive .ClosingAverageDateRangeGrid .k-header.k-grid-toolbar,
+body.executive .Corp_RepsByTitleDateRangeGrid .k-header.k-grid-toolbar,
+body.executive .SPVByStatusDateRangeGrid .k-header.k-grid-toolbar,
+body.executive .Corp_NewRecruitsGridDateRangeGrid .k-header.k-grid-toolbar,
+body.executive .ShowsByStatusDateRangeGrid .k-header.k-grid-toolbar {background: #d1d1d1 !important;}
+
+.hot-news-text {position: absolute;color: white;font-family: 'Playfair Display', serif;width: 100%;text-align: center;}
+body.hot #EDN_Ozone {border-bottom: 1px solid black;border-right: 1px solid black;border-left: 1px solid black;}
+body.hot .DnnModule-DNN_HTML div {position: relative;}
+
+.dinner-listings-consultant .dinners-list-left {vertical-align: top;}
+.dinner-listings-consultant .dinners-list-right {vertical-align: top;text-align: right;}
+.regal-widget.hot-news {cursor: default;}
+#editDinnerStatusSelect {width: 160px;}
+body.executive .k-treelist .k-status {background-color: #fff !important;}
+.reports .ui-button-text-icon-secondary .ui-button-text {color: #d1d1d1 !important;}
+.input-no-select { -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -o-user-select: none; user-select: none; }
+
+div[id^=DealerSPVReportTop] .RadComboBox {width: 240px;}
+div[id^=DealerSPVReportTop] .RadComboBox td.rcbInputCell {height: 36px; background: #20373d;}
+div[id^=DealerSPVReportTop] .RadComboBox td.rcbInputCell .rcbInput { color: white;}
+div[id^=DealerSPVReportTop] .RadComboBox td.rcbArrowCellRight, div[id^=DealerSPVReportTop] .RadComboBox table.rcbHovered td.rcbArrowCellRight {background: #20373d;background: url(images/menu-down-arrow-white.png) no-repeat; width: 20px; height: 20px;background-position: 0 !important;}
+body.reports div[id$=DateDropDownList_DropDownList_DropDown] ul.rcbList {background: #133f5c !important;color: white;width: 100%;}
+body.reports div[id$=DateDropDownList_DropDownList_DropDown] .rcbScroll { overflow: hidden !important;}
+.impersonate .regal-widget-dinner-form.with-button.forbookdinner {text-align:left;}
+.impersonate .regal-widget-dinner-form.with-button.forbookdinner button {width: 140px;}
+
+.regal-widget.new-bookings.widget-horizontal,
+.KO.binding.regal-widget.widget-list.widget-horizontal {
+    max-width: inherit !important;
+}
+
+span.k-widget.k-combobox.k-header {
+  width: 100%;
+  height: 25px;
+  margin-bottom: 10px;
+  background-color: none;
+}
+
+.businessInfo span.k-widget.k-combobox.k-header {
+  max-width: 500px;
+}
+
+.UserSearch span.k-widget.k-combobox.k-header, 
+.OpportunitiesSearch span.k-widget.k-combobox.k-header {
+  width: 265px;
+  height: 25px;
+  margin-bottom: 10px;
+  background-color: inherit;
+}
+
+.UserSearch span.k-widget.k-combobox.k-header span.k-dropdown-wrap.k-state-disabled input.k-input,
+.UserSearch .regal-widget-info .regal-widget-content .regal-widget-dinner-form .k-widget .k-state-disabled .k-combobox.k-input {
+  background-color: #EBEAE5;
+  color: #A5A4A0;
+  height: 25px;
+   padding: 0;
+   border: 1px solid #c6c6c6 ;
+   text-indent: 5px;
+   font-size: 13.3333px;
+   font-family: Arial, serif;
+}
+
+.add-guest-widget span.k-widget.k-combobox.k-header {
+  width: 205px;
+}
+
+.regal-dealership-dinner-form span.k-widget.k-combobox.k-header {
+  width: 270px;
+}
+
+.spv-purchase span.k-widget.k-combobox.k-header {
+  margin-left: 50px;
+  width: 80%;
+  height: 19px;
+  background-color: none;
+}
+
+span.k-widget.k-combobox.k-header span.k-dropdown-wrap.k-state-default,
+span.k-widget.k-combobox.k-header span.k-dropdown-wrap.k-state-disabled {
+  height: 25px;
+}
+
+.spv-purchase span.k-widget.k-combobox.k-header span.k-dropdown-wrap.k-state-default,
+.spv-purchase span.k-widget.k-combobox.k-header span.k-dropdown-wrap.k-state-disabled {
+  height: 19px;
+}
+
+.comiseo-daterangepicker-main.ui-widget-content {
+    background: #eee !important;
+}
+
+input[type="text"]:disabled {
+    background: rgb(235, 235, 228);
+}
+
+#dnn_LanguagePane input[type="text"]:disabled {
+    background: inherit;
+}
+
+span.k-widget.k-combobox.k-header span.k-dropdown-wrap.k-state-default input.k-input {
+   height: 25px;
+   padding: 0;
+   border: 1px solid #c6c6c6 ;
+   color: #0a2835 ;
+   text-indent: 5px;
+   font-size: 13.3px;
+   font-family: sans-serif;
+   width: 174px !important;
+}
+
+.order-info span.k-widget.k-combobox.k-header span.k-dropdown-wrap.k-state-default input.k-input,
+.book-a-dinner span.k-widget.k-combobox.k-header span.k-dropdown-wrap.k-state-default input.k-input {
+  font-size: 13.3px;
+  text-indent: 3px;
+}
+
+
+
+.spv-purchase span.k-widget.k-combobox.k-header span.k-dropdown-wrap.k-state-default input.k-input,
+.spv-purchase span.k-widget.k-combobox.k-header span.k-dropdown-wrap.k-state-disabled input.k-input {
+  margin-left: 0;
+  height: 19px;
+  line-height: normal !important;
+}
+
+span.k-widget.k-combobox.k-header span.k-dropdown-wrap.k-state-default .k-select span.k-icon.k-i-arrow-s,
+span.k-icon.k-i-arrow-s {
+  margin-top: 0px;
+}
+
+.regal-widget.blue-widget.column-2 .dinner-details {
+  padding-top: 10px !important;
+  padding-bottom: 50px !important;
+}
+
+.regal-widget.blue-widget.column-2 .dinner-details .regal-widget-div.column-3 .regal-widget-display {
+  height: 80px !important;
+}
+
+.regal-widget-body.dinner-details .k-dropdown .k-state-default {
+    height: 28px !important;
+}
+
+.regal-widget.book-a-dinner .select-state:disabled {
+    background-color: rgb(235, 235, 228);
+    color: #0a2835;
+}
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+    .contentDiv { width: 100%; }
+  .mainMenu { height: auto; width: 100%; margin: 0 auto;display: none;}
+  .backoffice .searchDiv {display:none;}
+  .backoffice .searchDiv .search-container {position:relative;left: inherit;top: inherit; display: none !important;}
+  .backoffice .searchDiv .search-icon {margin-top: 0px; width: 23px; height: 23px; cursor: pointer; display: none;}
+  .backoffice .searchDiv {width: 100%; position: relative; background: #475b5e;padding: 10px 0;text-align: center;}
+  .corporate .searchDiv {display:none;}
+  .corporate .searchDiv .search-container {position:relative;left: inherit;top: inherit;}
+  .corporate .searchDiv .search-icon {margin-top: 0px; width: 23px; height: 23px; cursor: pointer;}
+  .menuLinks.f-nav .corporate .searchDiv .search-icon {margin-top: 20px;}
+  .corporate .searchDiv .search-icon {background: url('images/search-icon-grey.png') no-repeat; background-size: contain;display: inline-block;float: left;margin-left: 30px; }
+  .corporate .searchDiv {width: 100%; position: relative; background: white;padding: 10px 0;text-align: center;}
+
+  .menuLinks > ul > li {float: none;}
+  #nav-toggle { display: block; }
+  .logo-bottom {display: block;}
+  .footerPaneDivs div[id$='Pane1'] {width: 100%;}
+  .footerPaneDivs div[id$='Pane2'] {width: 100%;}
+  .footerPaneDivs div[id$='Pane3'] {width: 100%;}
+  .footerPaneDivs div[id$='Pane4'] {width: 100%;}
+  .footerDiv div[id$='Pane1'], .footerDiv div[id$='Pane2'], .footerDiv div[id$='Pane3'], .footerDiv div[id$='Pane4'] {float: none; margin: 0 auto;text-align: center;}
+  .footerDiv .footer-ul {font-size: 16px;}
+  .regal-widget {width: 100%; float: none;margin: 0 2.5px 10px 2.5px;}
+	.regal-widget-info {display: none;position: relative; z-index: 100;top:0px;}
+  .regal-widget-dinner-form { float: none;position: relative;height: auto;}
+  .book-a-dinner .regal-widget-dinner-form { float: left;position: relative;height: auto;width: 100%;}
+  .book-a-dinner .regal-widget-info {left: 0px;}
+  .dinnerportalconsultant .book-a-dinner .regal-widget-info {left: 0px;}
+  .regal-widget-dinner-form input.input-float-left {float: none;}
+  .regal-widget-action-button {position:relative; bottom: 6px}
+  .regal-widget.blue-widget {width: 100%;}
+  .regal-widget.column-1 {width: 100%;}
+  .regal-widget.column-2 {width: 100%;}
+  .widget-list.widget-horizontal {width: 100%;}
+  .widget-list.widget-vertical {width: 100%;}
+  .widget-list.widget-vertical .list-before-dinner, .widget-list.widget-vertical .list-after-dinner {float:left; width: 49%;}
+  .backoffice .mainMenu ul.topLevel > li {padding: 0px;margin-top: 0px;float: none; width: 100%; text-align: center; text-transform: uppercase; border-right: none;padding: 20px 0; background: #475b5e;border-bottom: 1px solid #8c9798;}
+  .backoffice .mainMenu ul.topLevel > li > a:link, .backoffice .mainMenu ul > li > a:visited, .backoffice .mainMenu ul > li > a.disabled {color: white; font-size: 16px;}
+  .backoffice .mainMenu ul.topLevel > li > div.subLevel {position: relative;top: inherit;width: 100%;}
+  .backoffice .mainMenu ul.topLevel > li > div.subLevel > ul > li {background: #6f7e80;padding: 10px 0; margin-top: 10px;}
+  .backoffice .searchDiv #dnn_dnnSearch_txtSearch {border: inherit;background: #97a1a2;color: white;padding: 2px 0; margin-right: 1px;}
+  .backoffice .searchDiv #dnn_dnnSearch_cmdSearch {content: "";width: 23px; height: 23px;text-indent: -9999px; display: inline-block;background:url('images/search-icon-mobile.png') no-repeat;background-size: contain;}
+  .corporate .mainMenu ul.topLevel > li > a > table {margin: 0 0 0 20px;}
+  .backoffice .drop-down-arrow {background: url('images/menu-down-arrow-white.png') no-repeat;width: 20px; height: 20px;display: inline-block;}
+  .backoffice .subLevel li table, .backoffice .topLevel li table {margin: 0 auto;}
+  .corporate .mainMenu ul.topLevel > li a:link, .corporate .mainMenu ul li a:visited {color: rgba(33, 56, 61, 1);}
+  .corporate .mainMenu ul.topLevel > li {background: white; position: relative;padding: 20px 0px;float: none;cursor: pointer; width: 100%; text-align: left; text-transform: uppercase; border-right: none;border-bottom: 1px solid #d9d9d9;}
+  .corporate .mainMenu ul.topLevel > li:hover {background: initial;border: none;}
+  .corporate .mainMenu ul.topLevel > li:hover > a {color: inherit;}
+  .corporate .mainMenu ul.topLevel > li.haschild:hover {padding-bottom: 0px;}
+  .corporate .mainMenu ul.topLevel > li.last > a:link {border: initial;}
+  .corporate .drop-down-arrow {background: url('images/menu-down-arrow.png') no-repeat;width: 20px; height: 20px;display: inline-block;}
+  .corporate:hover .drop-down-arrow {background: url('images/menu-down-arrow-white.png') no-repeat;width: 20px; height: 20px;display: inline-block;}
+  
+  .corporate .drop-down-number {color: #d9d9d9;}
+  .corporate .searchDiv #dnn_dnnSearch_cmdSearch {content: "";width: initial; height: initial;text-indent: initial; display: inline-block;background: none;background-size: contain;border: 1px solid #d9d9d9;padding: 0 5px 1px 5px;}
+  .corporate .searchDiv #dnn_dnnSearch_txtSearch {border: inherit;background: #97a1a2;color: white;padding: 2px 0; margin-right: 1px;}
+  .corporate .subLevel {position: relative;top: initial;width: 100%;}
+  body.mobile .corporate .subLevel {display: none !important;}
+  .corporate .subLevel li table {margin: 0 0 0 60px;}
+  .corporate .subLevel li {padding: 20px 0;border-bottom: 1px solid  #d9d9d9;}
+  .corporate .subLevel li.last {border-bottom: none;padding:20px 0 0 0;}
+  .login-page {height: auto;}
+  .login-page .signin-div, .login-page .create-div {width: auto;float: none;}
+  .login-page .signin-div {border-bottom: 1px solid #dbdbdb;}
+  .corporate .menuTDSize {width: auto; height: auto;}
+  .widget-list.widget-horizontal .list-before-dinner, .widget-list.widget-horizontal .list-after-dinner {float:none; width: 100%;}
+  .ribbon {width: 95%;}
+  .backoffice-widget {width: 100%;float: none;}
+  .backoffice-widget-box {width: 100%;float:none;}
+  .ribbon-left, .ribbon-right {float: none; width: 100%;}
+  .ribbon {width: 90%;}
+  .regal-widget .regal-widget-host-fields {float: none;color:#222;}
+  .regal-widget select.select-state {float:none;}
+  /*div.ui-dialog {width: 95% !important;margin-left: 0 !important;left: 0 !important;}*/
+  .regal-widget-dinner-form.with-button.forbookdinner {left: 7px;right: inherit;text-align:left;}
+  .shopping ul.shop-ul li {width:100%;float: none;}
+  .product-detail .left, .product-detail .right {float: none;width:100%;}
+  .regal-widget.blue-widget .regal-widget-title {font-size:15px;}
+  .regal-widget.new-bookings {width: 100%;}
+  .new-bookings .regal-widget-body, .new-bookings .regal-widget-loader {height: auto;}
+  .regal-widget.new-bookings .regal-widget-body {padding: 0px;}
+  .regal-widget input.input-float-left { width: 100%;margin-left:0;}
+  .regal-widget input.doubleLength {width: 99%;}
+  .regal-widget .dinner-listings-consultant input.doubleLength {width: 100%;}
+  .regal-widget .dinnerslist-contact-form input.doubleLength {width: 100%;}
+  .regal-widget input.threeQuarters {width: 100%;}
+  .regal-widget input.oneQuarters {width: 100%;}
+  .regal-widget textarea {width: 100%;}
+  .regal-widget.dinners-list .dinner-listings {padding: 2px;}
+  .regal-widget.dinners-list .dinner-listings #dinnerDivRight {width:40%;}
+  .footer-vbar {display: none;}
+  #dnn_FooterContentPane3 #dnn_LOGIN1_loginLink {font-size: 16px;}
+  .footer-copy > div.terms, .footer-copy > div.policy, .footer-copy > div.dsa {float: none;text-align: center;}
+  .footer-copy > div {float: none;}
+  .footer-copy > div.policy {margin-right: 0;}
+  .footer-copy > div.dsa {margin-right: 0;}
+  div.copyright {position: absolute;top: 140px;width: 100%;left: 0;text-align: center;}
+  .shopping .tag-line-overlay, .our .tag-line-overlay, .productdetail .tag-line-overlay {font-size: 20px;}
+  #editDinnerStatusSelect {padding: 0px 4px 4px 24px;}
+  .regal-widget.blue-widget .regal-widget-body h2 {font-size: 24px;}
+  .backoffice .topLevel .menuTDSize span {color: white;}
+  .backoffice .subLevel .menuTDSize span {color: white;}
+  .dealership .dealership-left {width: 100%; float: none;}
+  .dealership .dealership-right {width: 100%; float: none;}
+  .span-bar {margin-left: 0px;}
+  .dealership .dealership-left .day-title {float: none;}
+  .manage-rsvp .regal-manage-rsvp .manage-data > li > ul > li {width: auto;float: none;text-align: left;}
+  .manage-rsvp .regal-manage-rsvp .manage-data > li > ul > li.edit-info {width: auto;float: none;text-align: left;}
+  .manage-rsvp .regal-manage-rsvp .manage-data > li > ul > li.status-info {text-align: left;}
+  .manage-rsvp ul.manage-header {display: none;}
+  input.hasDatepicker, input.div-date {margin-left: 0px;}
+
+    .k-dropdown-wrap.k-state-disabled input.k-input {
+        height: inherit !important;
+        line-height: inherit !important;
+        padding: inherit !important;
+        text-indent: 3px !important;
+        font-family: sans-serif;
+        font-size: 13.3px;
+        background: rgb(235, 235, 228);
+        border: 1px solid #c6c6c6;
+        width: 138px !important;
+    }
+
+    .regal-widget-dinner-form .k-dropdown-wrap .k-select {
+        min-height: 25px !important;
+    }
+
+    .dinner-details .regal-widget-div .regal-widget-display span {
+        font-size: 13px !important;
+        line-height: 13px !important;
+    }
+  .spv-purchase .row div.customer-info {float: none; width: 100%;margin-right: 0;height: 540px;}
+  .spv-purchase .row div.customer-info .left, .spv-purchase .row div.customer-info .right {float: none; width: 100%;}
+  .spv-purchase .row .preferred-date {float: none; width: 100%;padding-bottom: 20px;}
+  .spv-purchase .row .actual-date {float: none; width: 100%;margin-right: 0;padding-bottom: 20px;}
+  .spv-purchase .purchase-info .search-name, .spv-purchase .purchase-info .spv, .spv-purchase .purchase-info .qty, .spv-purchase .purchase-info .total, .spv-purchase .purchase-info .freegift, .spv-purchase .purchase-info .hostgift, .spv-purchase .purchase-info .retailprice, .spv-purchase .purchase-info .retailtotal {display: block;width: 100%;margin-left:50px;margin-bottom:5px;}
+  .purchase-info span.qty label, .purchase-info span.spv label, .purchase-info span.search-name label, .purchase-info span.product-name label, .purchase-info span.total label, .purchase-info span.freegift label, .purchase-info span.retailprice label, .purchase-info span.retailtotal label, .purchase-info span.hostgift label {float: left;display:inline-block;width: 100px;text-align: right; margin-right:10px;}
+  .spv-purchase .purchase-info .retailprice input, .spv-purchase .purchase-info .retailtotal input, .spv-purchase .purchase-info .spv input, .spv-purchase .purchase-info .qty input, .spv-purchase .purchase-info .total input, .spv-purchase .purchase-info .purchase-total input {width: auto;border: 1px solid grey;}
+  .spv-purchase .product-name input {width: auto;}
+  .spv-purchase .product-name {width: auto;display: block;margin-left: 50px;margin-bottom: 5px;}
+  .purchase-header {display: none;}
+  .spv-purchase .row div.customer-info .right input, .spv-purchase .row div.customer-info .right select {margin-bottom: 10px;width: 80%;margin-left: 50px;}
+  .freegift {margin-left: 50px;}
+  #dnn_WelcomeContentPane {right: initial;position: relative;}
+  .regal-widget.book-a-dinner .regal-widget-info {width: 100%;right: inherit;left: inherit;}
+  .regal-widget.dinners-list .dinner-listings {max-height: 400px;}
+  .regal-widget.blue-widget.column-2 .regal-widget-info {width: 100%;}
+  .regal-widget.blue-widget.column-2 .regal-widget-info .regal-widget-dinner-form {height: auto;}
+  .qty-class {position:absolute; margin-left: 5px;}
+  .spv-purchase .cancel-icon {position: absolute;}
+  .spv-purchase .purchase-row-buttons .purchase-total {float: right;margin-right: 10px;margin-bottom: 10px}
+  .spv-purchase .purchase-row-buttons .purchase-total label {display:block;}
+  .spv-purchase .purchase-totals-row {text-align: left;padding-bottom: inherit;padding-right:inherit;margin: 0 auto 10px auto;text-align: center;}
+  .spv-purchase .purchase-info .purchase-total input {width: 30px;}
+  .spv-purchase .purchase-info .search-name { width: auto;}
+  .spv-purchase .purchase-info .search-name input {border: 1px solid grey;}
+  .spv-purchase .purchase-info .purchase-total {padding: 5px; border: 1px solid grey;}
+
+  body.executive .backoffice .mainMenu ul.topLevel > li {padding: 0px;margin-top: 0px;float: none; width: 100%; text-align: center; text-transform: uppercase; border-right: none;padding: 20px 0; background: #475b5e;border-bottom: 1px solid #8c9798;}
+  body.executive .backoffice .mainMenu ul.topLevel > li > a:link, body.executive .backoffice .mainMenu ul > li > a:visited, body.executive .backoffice .mainMenu ul > li > a.disabled {color: white; font-size: 16px;}
+  body.executive .backoffice .mainMenu ul.topLevel > li > div.subLevel {position: relative;top: inherit;width: 100%;}
+  body.executive .backoffice .mainMenu ul.topLevel > li > div.subLevel > ul > li {background: #6f7e80;padding: 10px 0; margin-top: 10px;}
+  body.executive .backoffice .searchDiv #dnn_dnnSearch_txtSearch {border: inherit;background: #97a1a2;color: white;padding: 2px 0; margin-right: 1px;}
+  body.executive .backoffice .searchDiv #dnn_dnnSearch_cmdSearch {content: "";width: 23px; height: 23px;text-indent: -9999px; display: inline-block;background:url('images/search-icon-mobile.png') no-repeat;background-size: contain;}
+  body.executive .backoffice .drop-down-arrow {background: url('images/menu-down-arrow.png') no-repeat;width: 20px; height: 20px;display: inline-block;}
+  body.executive .backoffice .subLevel li table, body.executive .backoffice .topLevel li table {margin: 0 auto;}
+  body.executive .backoffice .topLevel .menuTDSize span {color: #20373d;}
+  body.executive .backoffice .subLevel .menuTDSize span {color: white;}
+  
+  .dinners-list-search-container .comiseo-daterangepicker-triggerbutton {display: block !important;}
+  .dinners-list-search-container .comiseo-daterangepicker-triggerbutton {min-width: 100% !important;;}
+  .dinners-list-search-container .comiseo-daterangepicker-triggerbutton .ui-button-text {padding: 0px 0px 0px 5px !important; font-size:12px !important;}
+  .dinner-listings-consultant .dinners-list-left {display: block;width:100%;}
+  .dinner-listings-consultant .dinners-list-right {display: block;width:100%;}
+  .dinner-listings-consultant {margin-bottom: 20px;}
+  .dinners-list-search-container .regal-widget input.doubleLength {width: auto;}
+  .regal-widget-body.dinner-details {height:auto;}
+  .regal-widget-body.dinner-details .regal-widget-div.column-3 {width: 100% !important;float: none;}
+  .dinner-listings-consultant .dinners-list-right {margin-left: 0px;}
+  .regal-widget-body.dinner-details .k-dropdown .k-input {font-size: 15px;width: 138px;}
+  .hot-news-text {font-size: 15px;top: 10px;}
+  #UserSearchPanel .search-filters {width: 100%;}
+  #UserSearchPanel button.search-button {float: none; right: 0;}
+  .OrderSearch button.newOrder-button {margin: 10px 0 0 0;}
+  #UserSearchPanel .edit-notes {width: 100%;float: none;}
+  .dinners-list-left .input-float-left.select-width-97 {width: 100%;}
+  .regal-widget.accountDetails input#firstName {margin-right: 100px;}
+  .dashboard-ad {float: none;width: 100%;height: 262px;}
+  .ourstory-iframe {width: 100%; height: 270px;margin: 0 0 30px 30px;}
+  .flex-div {width: 100%; float: none;}
+  .flex-div a img {width: 100% !important;height:414px;}
+  .regal-widget.dinners-list .regal-widget-info-header #PartyNumber {right: 0px;}
+  .regal-widget.dinners-list .dinner-guest-button, .regal-widget.dinners-list .dinner-lead-button, .regal-widget.dinners-list .dinner-reschedule-button {width: 120px;}
+  .regal-widget.dinners-list .dinner-listings .dinner-listings-consultant > div {min-width: 155px;}
+  .regal-widget.dinners-list .dinner-list-popover {right: inherit;}
+  .regal-widget.show-update .comment-area {width: 100%; height: 100px;max-width: inherit;}
+  #dnn_LanguagePane {position: relative;}
+}
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+  .contentDiv { width: 100%; }
+  .mainMenu { height: auto; width: 100%; margin: 0 auto;display: none;}
+  .backoffice .searchDiv {display: none;background: #475b5e;}
+  .backoffice .searchDiv .search-container {position:relative;left: inherit;top: inherit;display:none !important;}
+  .backoffice .searchDiv .search-icon {margin-top: 0px; width: 23px; height: 23px; cursor: pointer; display: none;}
+  .backoffice .searchDiv {width: 100%; position: relative; background: #475b5e;padding: 10px 0;text-align: center;}
+  .corporate .searchDiv {display: none;background: #475b5e;}
+  .corporate .searchDiv .search-container {position:relative;left: inherit;top: inherit;}
+  .corporate .searchDiv .search-icon {margin-top: 0px; width: 23px; height: 23px; cursor: pointer;}
+  .menuLinks.f-nav .corporate .searchDiv .search-icon {margin-top: 20px;}
+  .corporate .searchDiv .search-icon {background: url('images/search-icon-grey.png') no-repeat; background-size: contain; display: inline-block;float: left;margin-left: 30px;}
+  .corporate .searchDiv {width: 100%; position: relative; background: white;padding: 10px 0;text-align: center;}
+
+  .menuLinks > ul > li {float: none;}
+  #nav-toggle { display: block; }
+  .logo-bottom {display: block;}
+  .footerPaneDivs div[id$='Pane1'] {width: 100%;}
+  .footerPaneDivs div[id$='Pane2'] {width: 100%;}
+  .footerPaneDivs div[id$='Pane3'] {width: 100%;}
+  .footerPaneDivs div[id$='Pane4'] {width: 100%;}
+  .footerDiv div[id$='Pane1'], .footerDiv div[id$='Pane2'], .footerDiv div[id$='Pane3'], .footerDiv div[id$='Pane4'] {float: none; margin: 0 auto;text-align: center;}
+  .footerDiv .footer-ul {font-size: 16px;}
+  .regal-widget {width: 100%; float: none;margin: 0 2.5px 10px 2.5px;}
+	.regal-widget-info {display: none;position: relative; z-index: 100;top:0px;}
+  .regal-widget-dinner-form { float: none;position: relative;height: auto;}
+  .book-a-dinner .regal-widget-dinner-form { float: left;position: relative;height: auto;width: 100%;}
+  .book-a-dinner .regal-widget-info {left: 0px;}
+  .dinnerportalconsultant .book-a-dinner .regal-widget-info {left: 0px;}
+  .regal-widget-dinner-form input.input-float-left {float: none;}
+  .regal-widget-action-button {position:relative; bottom: 6px;}
+  .regal-widget.blue-widget {width: 100%;}
+  .regal-widget.column-1 {width: 100%;}
+  .regal-widget.column-2 {width: 100%;}
+  .widget-list.widget-horizontal {width: 100%;}
+  .widget-list.widget-vertical {width: 100%;}
+  .widget-list.widget-vertical .list-before-dinner, .widget-list.widget-vertical .list-after-dinner {float:left; width: 49%;}
+  .backoffice .mainMenu ul.topLevel > li {padding: 0px;margin-top: 0px;float: none; width: 100%; text-align: center; text-transform: uppercase; border-right: none;padding: 20px 0; background: #475b5e;border-bottom: 1px solid #8c9798;}
+  .backoffice .mainMenu ul.topLevel > li > a:link, .backoffice .mainMenu ul > li > a:visited, .backoffice .mainMenu ul > li > a.disabled {color: white; font-size: 16px;}
+  .backoffice .mainMenu ul.topLevel > li > div.subLevel {position: relative;top: inherit;width: 100%;}
+  .backoffice .mainMenu ul.topLevel > li > div.subLevel > ul > li {background: #6f7e80;padding: 10px 0; margin-top: 10px;}
+  .backoffice .searchDiv #dnn_dnnSearch_txtSearch {border: inherit;background: #97a1a2;color: white;padding: 2px 0; margin-right: 1px;}
+  .backoffice .searchDiv #dnn_dnnSearch_cmdSearch {content: "";width: 23px; height: 23px;text-indent: -9999px; display: inline-block;background:url('images/search-icon-mobile.png') no-repeat;background-size: contain;}
+  .corporate .mainMenu ul.topLevel > li > a > table {margin: 0 0 0 20px;}
+  .backoffice .drop-down-arrow {background: url('images/menu-down-arrow-white.png') no-repeat;width: 20px; height: 20px;display: inline-block;}
+  .backoffice .subLevel li table, .backoffice .topLevel li table {margin: 0 auto;}
+  .corporate .mainMenu ul.topLevel > li a:link, .corporate .mainMenu ul li a:visited {color: rgba(33, 56, 61, 1);}
+  .corporate .mainMenu ul.topLevel > li { position: relative;padding: 20px 0px;float: none;cursor: pointer; width: 100%; text-align: left; text-transform: uppercase; border-right: none;background: white;border-bottom: 1px solid #d9d9d9;}
+  .corporate .mainMenu ul.topLevel > li:hover {background: initial;border: none;}
+  .corporate .mainMenu ul.topLevel > li:hover > a {color: inherit;}
+  .corporate .mainMenu ul.topLevel > li.haschild:hover {padding-bottom: 0px;}
+  .corporate .mainMenu ul.topLevel > li.last > a:link {border: initial;}
+  .corporate .drop-down-arrow {background: url('images/menu-down-arrow.png') no-repeat;width: 20px; height: 20px;display: inline-block;}
+  .corporate:hover .drop-down-arrow {background: url('images/menu-down-arrow-white.png') no-repeat;width: 20px; height: 20px;display: inline-block;}
+  
+  .corporate .drop-down-number {color: #d9d9d9;}
+  .corporate .searchDiv #dnn_dnnSearch_txtSearch {border: inherit;background: #97a1a2;color: white;padding: 2px 0; margin-right: 1px;}
+  .corporate .searchDiv #dnn_dnnSearch_cmdSearch {content: "";width: initial; height: initial;text-indent: initial; display: inline-block;background: initial;background-size: contain;border: 1px solid #d9d9d9;padding: 0 5px 1px 5px;}
+  .corporate .subLevel {position: relative;top: initial;width: 100%;}
+  body.mobile .corporate .subLevel {display: none !important;}
+  .corporate .subLevel li table {margin: 0 0 0 60px;}
+  .corporate .subLevel li {padding: 20px 0;border-bottom: 1px solid  #d9d9d9;}
+  .corporate .subLevel li.last {border-bottom: none;padding:20px 0 0 0;}
+  .login-page {height: auto;}
+  .login-page .signin-div, .login-page .create-div {width: auto;float: none;}
+  .login-page .signin-div {border-bottom: 1px solid #dbdbdb;}
+  .corporate .menuTDSize {width: auto; height: auto;}
+  .widget-list.widget-horizontal .list-before-dinner, .widget-list.widget-horizontal .list-after-dinner {float:none; width: 100%;}
+  .ribbon {width: 95%;}
+  .backoffice-widget {width: 100%;float: none;}
+  .backoffice-widget-box {width: 100%;float:none;}
+  .ribbon-left, .ribbon-right {float: none; width: 100%;}
+  .ribbon {width: 90%;}
+  .regal-widget .regal-widget-host-fields {float: none;color:#222;}
+  .regal-widget select.select-state {float:none;}
+  /*div.ui-dialog {width: 95% !important;margin-left: 0 !important;left: 0 !important;}*/
+  .regal-widget-dinner-form.with-button.forbookdinner {left: 7px;right: inherit;text-align:left;}
+  .shopping ul.shop-ul li {width:100%;float: none;}
+  .product-detail .left, .product-detail .right {float: none;width:100%;}
+  .regal-widget.blue-widget .regal-widget-title {font-size:15px;}
+  .regal-widget.new-bookings {width: 100%;}
+  .new-bookings .regal-widget-body, .new-bookings .regal-widget-loader {height: auto;}
+  .regal-widget.new-bookings .regal-widget-body {padding: 0px;}
+  .regal-widget input.input-float-left { width: 100%;margin-left:0;}
+  .regal-widget input.doubleLength {width: 100%;}
+  .regal-widget .dinner-listings-consultant input.doubleLength {width: 100%;}
+  .regal-widget .dinnerslist-contact-form input.doubleLength {width: 100%;}
+  .regal-widget input.threeQuarters {width: 100%;}
+  .regal-widget input.oneQuarters {width: 100%;}
+  .regal-widget textarea {width: 100%;}
+  .regal-widget.dinners-list .dinner-listings {padding: 2px;}
+  .regal-widget.dinners-list .dinner-listings #dinnerDivRight {width:40%;}
+  .footer-vbar {display: none;}
+  #dnn_FooterContentPane3 #dnn_LOGIN1_loginLink {font-size: 16px;}
+  .footer-copy > div.terms, .footer-copy > div.policy, .footer-copy > div.dsa {float: none;text-align: center;}
+  .footer-copy > div {float: none;}
+  .footer-copy > div.policy {margin-right: 0;}
+  .footer-copy > div.dsa {margin-right: 0;}
+  div.copyright {position: absolute;top: 140px;width: 100%;left: 0;text-align: center;}
+  .shopping .tag-line-overlay, .our .tag-line-overlay, .productdetail .tag-line-overlay {font-size: 20px;}
+  #editDinnerStatusSelect {padding: 0px 4px 4px 24px;}
+  .regal-widget.blue-widget .regal-widget-body h2 {font-size: 24px;}
+  .backoffice .topLevel .menuTDSize span {color: white;}
+  .backoffice .subLevel .menuTDSize span {color: white;}
+  .dealership .dealership-left {width: 100%; float: none;}
+  .dealership .dealership-right {width: 100%; float: none;}
+  .span-bar {margin-left: 0px;}
+  .dealership .dealership-left .day-title {float: none;}
+  .manage-rsvp .regal-manage-rsvp .manage-data > li > ul > li {width: auto;float: none;text-align: left;}
+  .manage-rsvp .regal-manage-rsvp .manage-data > li > ul > li.edit-info {width: auto;float: none;text-align: left;}
+  .manage-rsvp .regal-manage-rsvp .manage-data > li > ul > li.status-info {text-align: left;}
+  .manage-rsvp ul.manage-header {display: none;}
+  input.hasDatepicker, input.div-date {margin-left: 0px;}
+  .spv-purchase .row div.order-info {float: none; width: 100%;height: 350px;}
+  .spv-purchase .row div.customer-info {float: none; width: 100%;margin-right: 0;height: 540px;}
+  .spv-purchase .row div.customer-info .left, .spv-purchase .row div.customer-info .right {float: none; width: 100%;}
+  .spv-purchase .purchase-info .search-name, .spv-purchase .purchase-info .spv, .spv-purchase .purchase-info .qty, .spv-purchase .purchase-info .total, .spv-purchase .purchase-info .freegift, .spv-purchase .purchase-info .hostgift, .spv-purchase .purchase-info .retailprice, .spv-purchase .purchase-info .retailtotal {display: block;width: 100%;margin-left:50px;margin-bottom:5px;}
+  .purchase-info span.qty label, .purchase-info span.spv label, .purchase-info span.search-name label, .purchase-info span.product-name label, .purchase-info span.total label, .purchase-info span.freegift label, .purchase-info span.retailprice label, .purchase-info span.retailtotal label, .purchase-info span.hostgift label {float: left;display:inline-block;width: 100px;}
+  .spv-purchase .purchase-info .retailprice input, .spv-purchase .purchase-info .retailtotal input, .spv-purchase .purchase-info .spv input, .spv-purchase .purchase-info .qty input, .spv-purchase .purchase-info .total input, .spv-purchase .purchase-info .purchase-total input {width: auto;border: 1px solid grey;}
+  .spv-purchase .product-name input {width: auto;border: 1px solid grey;}
+  .spv-purchase .product-name {width: auto;display: block;margin-left: 50px;margin-bottom: 5px;}
+  .purchase-header {display: none;}
+  .spv-purchase .row div.customer-info .right input, .spv-purchase .row div.customer-info .right select {margin-bottom: 10px;width: 80%;margin-left: 50px;}
+  .freegift {margin-left: 50px;}
+  #dnn_WelcomeContentPane {right: initial;position: relative;}
+  .regal-widget.book-a-dinner .regal-widget-info {width: 100%;right: inherit;left: inherit;}
+  .regal-widget.dinners-list .dinner-listings {max-height: 400px;}
+  .regal-widget.blue-widget.column-2 .regal-widget-info {width: 100%;}
+  .regal-widget.blue-widget.column-2 .regal-widget-info .regal-widget-dinner-form {height: auto;}
+  .qty-class {position:absolute; margin-left: 5px;}
+  .spv-purchase .cancel-icon {position: absolute;}
+  .spv-purchase .purchase-row-buttons .purchase-total {float: right;margin-right: 10px;margin-bottom: 10px;}
+  .spv-purchase .purchase-row-buttons .purchase-total label {display:block;}
+  .spv-purchase .purchase-totals-row {text-align: left;padding-bottom: inherit;padding-right:inherit;margin: 0 auto 10px auto;text-align: center;}
+  .spv-purchase .purchase-info .purchase-total input {width: 30px;}
+  .spv-purchase .purchase-info .search-name { width: auto;}
+  .spv-purchase .purchase-info .search-name input {border: 1px solid grey;}
+  .spv-purchase .purchase-info .purchase-total {padding: 5px; border: 1px solid grey;}
+
+  body.executive .backoffice .mainMenu ul.topLevel > li {padding: 0px;margin-top: 0px;float: none; width: 100%; text-align: center; text-transform: uppercase; border-right: none;padding: 20px 0; background: #475b5e;border-bottom: 1px solid #8c9798;}
+  body.executive .backoffice .mainMenu ul.topLevel > li > a:link, body.executive .backoffice .mainMenu ul > li > a:visited, body.executive .backoffice .mainMenu ul > li > a.disabled {color: white; font-size: 16px;}
+  body.executive .backoffice .mainMenu ul.topLevel > li > div.subLevel {position: relative;top: inherit;width: 100%;}
+  body.executive .backoffice .mainMenu ul.topLevel > li > div.subLevel > ul > li {background: #6f7e80;padding: 10px 0; margin-top: 10px;}
+  body.executive .backoffice .searchDiv #dnn_dnnSearch_txtSearch {border: inherit;background: #97a1a2;color: white;padding: 2px 0; margin-right: 1px;}
+  body.executive .backoffice .searchDiv #dnn_dnnSearch_cmdSearch {content: "";width: 23px; height: 23px;text-indent: -9999px; display: inline-block;background:url('images/search-icon-mobile.png') no-repeat;background-size: contain;}
+  body.executive .backoffice .drop-down-arrow {background: url('images/menu-down-arrow.png') no-repeat;width: 20px; height: 20px;display: inline-block;}
+  body.executive .backoffice .subLevel li table, body.executive .backoffice .topLevel li table {margin: 0 auto;}
+  body.executive .backoffice .topLevel .menuTDSize span {color: #20373d;}
+  body.executive .backoffice .subLevel .menuTDSize span {color: white;}
+
+  .dinners-list-search-container .comiseo-daterangepicker-triggerbutton {display: block !important;}
+  .dinners-list-search-container .comiseo-daterangepicker-triggerbutton {min-width: 100% !important;;}
+  .dinners-list-search-container .comiseo-daterangepicker-triggerbutton .ui-button-text {padding: 0px 0px 0px 5px !important; font-size:12px !important;}
+  .dinner-listings-consultant .dinners-list-left {display: block;width:100%;}
+  .dinner-listings-consultant .dinners-list-right {display: block;width:100%;}
+  .dinners-list-search-container .regal-widget input.doubleLength {width: auto;}
+  .regal-widget-body.dinner-details {height:auto;}
+  .regal-widget-body.dinner-details .regal-widget-div.column-3 {width: 100% !important;float: none;}
+  .dinner-listings-consultant .dinners-list-right {margin-left: 0px;}
+  .regal-widget-body.dinner-details .k-dropdown .k-input {font-size: 15px;width: 138px;}
+  .hot-news-text {font-size: 15px;top: 10px;}
+  #UserSearchPanel .search-filters {width: 100%;}
+  #UserSearchPanel button.search-button {float: none; right: 0;}
+  .OrderSearch button.newOrder-button {margin: 10px 0 0 0;}
+  #UserSearchPanel .edit-notes {width: 100%;float: none;}
+  .dinners-list-left .input-float-left.select-width-97 {width: 100%;}
+  .regal-widget.accountDetails input#firstName {margin-right: 100px;}
+  .dashboard-ad {float: none;width: 100%;height: 262px;}
+  .ourstory-iframe {width: 100%; height: 270px;margin: 0 0 30px 30px;}
+  .flex-div {width: 100%; float: none;}
+  .flex-div a img {width: 100% !important;height:414px;}
+  .regal-widget.dinners-list .regal-widget-info-header #PartyNumber {right: 0px;}
+  .regal-widget.dinners-list .dinner-guest-button, .regal-widget.dinners-list .dinner-lead-button, .regal-widget.dinners-list .dinner-reschedule-button {width: 120px;}
+  .regal-widget.dinners-list .dinner-listings .dinner-listings-consultant > div {min-width: 155px;}
+  .regal-widget.dinners-list .dinner-list-popover {right: inherit;}
+  .regal-widget.show-update .comment-area {width: 100%; height: 100px;max-width: inherit;}
+  #dnn_LanguagePane {position: relative;}
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+  .contentDiv { width: 100%; }
+  .mainMenu { height: auto; width: 75%; margin: 0 auto;display: inherit;}
+  .backoffice .searchDiv {display:inherit;}
+  .backoffice .searchDiv .search-container {position:absolute;left: -100px;top: 70px;}
+  .backoffice .searchDiv .search-icon {margin-top: 40px; width: 23px; height: 23px; cursor: pointer; display: block;}
+  .backoffice .searchDiv {width: 5%; position: relative; background: inherit;padding: 0;text-align: initial;}
+  .corporate .searchDiv {display:inherit;}
+  .corporate .searchDiv .search-container {position:absolute;left: -100px;top: 70px;}
+  .corporate .searchDiv .search-icon {margin-top: 40px; width: 23px; height: 23px; cursor: pointer; display: block;}
+  .menuLinks.f-nav .corporate .searchDiv .search-icon {margin-top: 20px;}
+  .corporate .searchDiv .search-icon {background: url('images/search-icon.png') no-repeat; background-size: contain; display: block;float: initial;margin-left: initial; }
+  .corporate .searchDiv {width: 5%; position: relative; background: inherit;padding: 0;text-align: initial;}
+
+  .menuLinks > ul > li {float: left;}
+  #nav-toggle { display: none; }
+  .logo-bottom {display: none;}
+  .footerPaneDivs div[id$='Pane1'] {width: 100%;}
+  .footerPaneDivs div[id$='Pane2'] {width: 100%;}
+  .footerPaneDivs div[id$='Pane3'] {width: 100%;}
+  .footerPaneDivs div[id$='Pane4'] {width: 100%;}
+  .footerDiv div[id$='Pane1'], .footerDiv div[id$='Pane2'], .footerDiv div[id$='Pane3'], .footerDiv div[id$='Pane4'] {float: none; margin: 0 auto;text-align: center;}
+  .footerDiv .footer-ul {font-size: 14px;}
+  .regal-widget {width: 24%; float: left;margin: 0 2.5px 10px 2.5px;}
+	.regal-widget-info {display: none;left: 0; position: absolute; top: 190px;}
+  .regal-widget-dinner-form { float: left;position: relative;height: auto;}
+  .book-a-dinner .regal-widget-dinner-form { float: left;position: relative;height: auto;width: 215px;}
+  .book-a-dinner .regal-widget-info {left: 0px;}
+  .dinnerportalconsultant .book-a-dinner .regal-widget-info {left: 0px;}
+  .regal-widget-dinner-form input.input-float-left {float: left;}
+  .regal-widget-action-button {position:absolute; bottom: 5px}
+  .regal-widget.blue-widget {width: 24%;}
+  .regal-widget.column-1 {width: 24%;}
+  .regal-widget.column-2 {width: 49%;}
+  .widget-list.widget-horizontal {width: 49%;}
+  .widget-list.widget-vertical {width: 24%;}
+  .widget-list.widget-vertical .list-before-dinner, .widget-list.widget-vertical .list-after-dinner {float:left; width: 100%;}
+  .backoffice .mainMenu ul.topLevel > li {position: relative;padding: 20px 0px;float: left; width: 33%; text-align: center; text-transform: uppercase; border-right: none;padding: 0; background: inherit;border-bottom: none;height: 105px;margin:0;}
+  .backoffice .mainMenu ul.topLevel > li > a:link, .backoffice .mainMenu ul > li > a:visited, .backoffice .mainMenu ul > li > a.disabled {font-size: 16px;color: white; font-size: initial;display: block; height: 65px;margin: 0;padding-top: 40px;text-decoration:none;}
+  .backoffice .mainMenu ul.topLevel > li:hover {background: #475b5e;border-bottom: 5px solid #f9a866;}
+  .backoffice .mainMenu ul.topLevel > li > div.subLevel {position: absolute;width: 100%;top: 110px;padding: 15px 0;background: white;z-index: 1000;}
+  .backoffice .mainMenu ul.topLevel > li > div.subLevel > ul > li {background: white;padding: 0;}
+  .backoffice .mainMenu ul.topLevel > li > div.subLevel > ul > li a:link, .backoffice .mainMenu ul.topLevel > li > div.subLevel > ul > li a:visited {color: rgba(33, 56, 61, 1) !important;}
+
+  .backoffice .searchDiv #dnn_dnnSearch_txtSearch {border: 1px solid rgba(33, 56, 61, 1);background: white;color: rgba(33, 56, 61, 1);}
+  .backoffice .searchDiv #dnn_dnnSearch_cmdSearch {content: "";width: 23px; height: 23px;text-indent: -9999px; display: inline-block;background: initial;}
+  .backoffice .drop-down-arrow {background: url('images/menu-down-arrow-white.png') no-repeat;width: 20px; height: 20px;display: inline-block;}
+  .backoffice .mainMenu ul.topLevel > li > a > table, .corporate .mainMenu ul.topLevel > li > a > table {margin: 0 auto;}
+  .backoffice .subLevel li table, .backoffice .topLevel li table {margin: 0 auto;}
+  .corporate .mainMenu ul.topLevel > li { position: relative;padding: 20px 0px;float: left;cursor: pointer; width: 19%; text-align: left; text-transform: uppercase; background: inherit;border-bottom: none;}
+  .corporate .mainMenu ul.topLevel > li > a:link, .corporate .mainMenu ul.topLevel > li > a:visited {color: rgba(33, 56, 61, 1);border-right: 1px solid rgba(33, 56, 61, 1);display:block;}
+  .corporate .mainMenu ul.topLevel > li.last > a:link {border: none;}
+  .corporate .mainMenu ul.topLevel > li.haschild:hover {padding-bottom: 19px;}
+  .corporate .mainMenu ul.topLevel > .subLevel li span  {color: rgba(33, 56, 61, 1) !important; }
+  .corporate .drop-down-arrow {background: url('images/menu-down-arrow.png') no-repeat;width: 20px; height: 20px;display: inline-block;}
+  .corporate:hover .drop-down-arrow {background: url('images/menu-down-arrow.png') no-repeat;}
+  .corporate .drop-down-number {color: white;}
+  .corporate .searchDiv #dnn_dnnSearch_txtSearch {border: 1px solid rgba(33, 56, 61, 1);background: white;color: rgba(33, 56, 61, 1);}
+  .corporate .searchDiv #dnn_dnnSearch_cmdSearch {content: "";width: 23px; height: 23px;text-indent: -9999px; display: none;background: initial;padding: initial;}
+  .corporate .subLevel {position: absolute;top: 104px;width: 100%;z-index:100;}
+  .corporate .subLevel li table {margin: 0 auto;}
+  .corporate .subLevel li {padding: 10px 0 10px 0;border-bottom:none;}
+  .corporate .subLevel li.last {border-bottom: none;padding:0;}
+  .login-page {height: auto;}
+  .login-page .signin-div, .login-page .create-div {width: 100%;float: none;}
+  .login-page .signin-div {border-right: 1px solid #dbdbdb;border-bottom: none;}
+  .corporate .menuTDSize {width: 95px; height: 55px;}
+  .corporate .menuTDSize > span { font-size: 13px;font-weight: bold;}
+  .widget-list.widget-horizontal .list-before-dinner, .widget-list.widget-horizontal .list-after-dinner {float:none; width: 100%;}
+  .corporate .drop-down-number {font-size: 28px;}
+  .ribbon {width: 80%;}
+  .backoffice-widget {width: 24%;float: left;}
+  .backoffice-widget-box {width: 49%;float:left;}
+  .ribbon-left, .ribbon-right {float: left; width: 50%;}
+  .ribbon {width: 60%;}
+  .regal-widget .regal-widget-host-fields {float: right;color:#222;}
+  .regal-widget select.select-state {float:left;}
+  /*div.ui-dialog {width: 300px !important;margin-left: -154px !important;left: 50% !important;}*/
+  .regal-widget-dinner-form.with-button.forbookdinner {right: 7px;left: inherit;text-align:right;}
+  .shopping ul.shop-ul li {width:32%;float: left;}
+  .product-detail .left, .product-detail .right {float: left;width:48%;}
+  .regal-widget.blue-widget .regal-widget-title {font-size:15px;}
+  .regal-widget.new-bookings {width: 49%;}
+  .new-bookings .regal-widget-body, .new-bookings .regal-widget-loader {height: auto;}
+  .regal-widget.new-bookings .regal-widget-body {padding: 0px;}
+  .regal-widget input.input-float-left { width: 85px;margin-left:initial;}
+  .regal-widget input.doubleLength {width: 90%;}
+  .regal-widget .dinner-listings-consultant input.doubleLength {width: 230px;}
+  .regal-widget .dinnerslist-contact-form input.doubleLength {width: 168.5px;}
+  .regal-widget input.threeQuarters {width: 120px;}
+  .regal-widget input.oneQuarters {width: 50px;}
+  .regal-widget textarea {width: 192px;}
+  .regal-widget.dinners-list .dinner-listings {padding: 20px;}
+  .regal-widget.dinners-list .dinner-listings #dinnerDivRight {width:40%;}
+  .footer-vbar {display: block;}
+  #dnn_FooterContentPane3 #dnn_LOGIN1_loginLink {font-size: 12px;}
+  .footer-copy > div.terms, .footer-copy > div.policy, .footer-copy > div.dsa {float: right;text-align: right;}
+  .footer-copy > div {float: left;}
+  .footer-copy > div.policy {margin-right: 20px;}
+  .footer-copy > div.dsa {margin-right: 20px;}
+  div.copyright {position: relative;top: inherit;width: 315px;left: inherit;text-align: left;}
+  .shopping .tag-line-overlay, .our .tag-line-overlay, .productdetail .tag-line-overlay {font-size: 40px;}
+  #editDinnerStatusSelect {padding: 0px 4px 4px 8px;}
+  .regal-widget.blue-widget .regal-widget-body h2 {font-size: 24px;}
+  .backoffice .topLevel .menuTDSize span {color: white;}
+  .backoffice .subLevel .menuTDSize span {color: black;}
+  .dealership .dealership-left {width: 45%; float: left;}
+  .dealership .dealership-right {width: 55%; float: left;}
+  .span-bar {margin-left: 100px;}
+  .dealership .dealership-left .day-title {float: left;}
+  .manage-rsvp .regal-manage-rsvp .manage-data > li > ul > li {width: 23.4%;float: left;text-align: left;}
+  .manage-rsvp .regal-manage-rsvp .manage-data > li > ul > li.edit-info {width: 5%;float: left;text-align: left;}
+  .manage-rsvp .regal-manage-rsvp .manage-data > li > ul > li.status-info {text-align: right;}
+  .manage-rsvp ul.manage-header {display: block;}
+  input.hasDatepicker, input.div-date {margin-left: 50px;}
+
+  .spv-purchase .row div.order-info {float: none; width: 100%;height: 365px;}
+  .spv-purchase .row div.customer-info {float: none; width: 100%;margin-right: 0;height: 540px;}
+  .spv-purchase .row div.customer-info .left, .spv-purchase .row div.customer-info .right {float: none; width: 100%;}
+  .spv-purchase .row .preferred-date {float: none; width: 100%;padding-bottom: 20px;}
+  .spv-purchase .row .actual-date {float: none; width: 100%;margin-right: 0;padding-bottom: 20px;}
+  .spv-purchase .purchase-info .search-name, .spv-purchase .purchase-info .spv, .spv-purchase .purchase-info .qty, .spv-purchase .purchase-info .total, .spv-purchase .purchase-info .freegift,  .spv-purchase .purchase-info .hostgift, .spv-purchase .purchase-info .retailprice, .spv-purchase .purchase-info .retailtotal {display: block;width: auto;margin-left:50px;margin-bottom:5px;}
+  .spv-purchase .purchase-info .retailprice input, .spv-purchase .purchase-info .retailtotal input, .spv-purchase .purchase-info .spv input, .spv-purchase .purchase-info .qty input, .spv-purchase .purchase-info .total input, .spv-purchase .purchase-info .purchase-total input {width: auto;}
+  .spv-purchase .product-name input {width: auto;}
+  .spv-purchase .product-name {width: auto;display: block;margin-left: 50px;margin-bottom: 5px;}
+  .purchase-header {display: none;}
+  .spv-purchase .row div.customer-info .right input, .spv-purchase .row div.customer-info .right select {margin-bottom: 10px;width: 80%;margin-left: 50px;}
+  .freegift {margin-left: 50px;}
+  #dnn_WelcomeContentPane {right: 60px;position: absolute;}
+  .regal-widget.book-a-dinner .regal-widget-info {width: 695px;right: 0;left: inherit;}
+  .regal-widget.dinners-list .dinner-listings {max-height: 600px;}
+  .regal-widget.blue-widget.column-2 .regal-widget-info {width: 695px;}
+  .regal-widget.blue-widget.column-2 .regal-widget-info .regal-widget-dinner-form {height: 565px;}
+  .qty-class {display: none;}
+  .purchase-info span.qty label, .purchase-info span.spv label, .purchase-info span.search-name label, .purchase-info span.product-name label, .purchase-info span.total label, .purchase-info span.freegift label, .purchase-info span.retailprice label, .purchase-info span.retailtotal label, .purchase-info span.hostgift label {float: left;display:inline-block;width: 100px;}
+  .spv-purchase .cancel-icon {width: 27px; height: 26px;display: inline-block;position: relative;}
+  .spv-purchase .purchase-info .freegift {width: auto;}
+  .spv-purchase .purchase-row-buttons .purchase-total {float: right;margin-right: 92px;margin-bottom: 0px}
+  .spv-purchase .purchase-row-buttons .purchase-total label {display:none;}
+  .spv-purchase .purchase-totals-row {text-align: right;padding-bottom: 10px;padding-right:74px;}
+  .spv-purchase .purchase-info .search-name { width: auto;margin-bottom: 5px;}
+  .spv-purchase .purchase-info .purchase-total {padding: 5px; border: 1px solid grey;}
+
+
+  body.executive .backoffice .mainMenu ul.topLevel > li {position: relative;padding: 20px 0px;float: left; width: 33%; text-align: center; text-transform: uppercase; border-right: none;padding: 0; background: inherit;border-bottom: none;height: 105px;margin:0;}
+  body.executive .backoffice .mainMenu ul.topLevel > li > a:link, body.executive .backoffice .mainMenu ul > li > a:visited, body.executive .backoffice .mainMenu ul > li > a.disabled {font-size: 16px;color: white; font-size: initial;display: block; height: 65px;margin: 0;padding-top: 40px;text-decoration:none;}
+  body.executive .backoffice .mainMenu ul.topLevel > li:hover {background: #d1d1d1;border-bottom: 5px solid #f9a866;}
+  body.executive .backoffice .mainMenu ul.topLevel > li > div.subLevel {position: absolute;width: 100%;top: 110px;padding: 15px 0;background: white;z-index: 1000;}
+  body.executive .backoffice .mainMenu ul.topLevel > li > div.subLevel > ul > li {background: white;padding: 0;}
+  body.executive .backoffice .mainMenu ul.topLevel > li > div.subLevel > ul > li a:link, body.executive .backoffice .mainMenu ul.topLevel > li > div.subLevel > ul > li a:visited {color: rgba(33, 56, 61, 1) !important;}
+  body.executive .backoffice .searchDiv #dnn_dnnSearch_txtSearch {border: 1px solid rgba(33, 56, 61, 1);background: white;color: rgba(33, 56, 61, 1);}
+  body.executive .backoffice .searchDiv #dnn_dnnSearch_cmdSearch {content: "";width: 23px; height: 23px;text-indent: -9999px; display: inline-block;background: initial;}
+  body.executive .backoffice .drop-down-arrow {background: url('images/menu-down-arrow.png') no-repeat;width: 20px; height: 20px;display: inline-block;}
+  body.executive .backoffice .mainMenu ul.topLevel > li > a > table {margin: 0 auto;}
+  body.executive .backoffice .subLevel li table, body.executive .backoffice .topLevel li table {margin: 0 auto;}
+  body.executive .backoffice .topLevel .menuTDSize span {color: #20373d;}
+  body.executive .backoffice .subLevel .menuTDSize span {color: black;}
+ .dinners-list-search-container .comiseo-daterangepicker-triggerbutton {display: block !important;}
+  .dinners-list-search-container .comiseo-daterangepicker-triggerbutton {min-width: 237px !important;}
+  .dinners-list-search-container .comiseo-daterangepicker-triggerbutton .ui-button-text {padding: 0px 0px 0px 5px !important; font-size:13px !important;}
+  .dinner-listings-consultant .dinners-list-left {display: inline-block;width:50%;}
+  .dinner-listings-consultant .dinners-list-right {display: inline-block;width:50%;}
+  .dinners-list-search-container .regal-widget input.doubleLength {width: initial;}
+  .regal-widget-body.dinner-details {height:400px;}
+  .regal-widget-body.dinner-details .regal-widget-div.column-3 {width: 33.3%;float: left;}
+  .dinner-listings-consultant .dinners-list-right {margin-left: 0px !important;}
+  .regal-widget-body.dinner-details .k-dropdown .k-input {font-size: 15px;width: 158px;}
+  .hot-news-text {font-size: 40px;top: 60px;}
+  #UserSearchPanel .search-filters {width: 30%;}
+  #UserSearchPanel button.search-button {float: right; right: 2rem;}
+  .OrderSearch button.newOrder-button {margin: 1.2em;}
+  #UserSearchPanel .edit-notes {width: 66%;float: right;}
+  .dinners-list-left .input-float-left.select-width-97 {width: 237px;padding-left:0;margin-bottom: 10px;}
+  .regal-widget.accountDetails input#firstName {margin-right: 120px;}
+  .dashboard-ad {float: left;width: 50%;height: 262px;}
+  .ourstory-iframe {width: 480px; height: 270px;margin: 0 0 30px 30px;}
+  .flex-div {width: 50%; float: left;}
+  .flex-div a img {width: 520px !important;height:414px;}
+  .regal-widget.dinners-list .regal-widget-info-header #PartyNumber {right: 75px;}
+  .regal-widget.dinners-list .dinner-guest-button, .regal-widget.dinners-list .dinner-lead-button, .regal-widget.dinners-list .dinner-reschedule-button {width: 180px;}
+  .regal-widget.dinners-list .dinner-listings .dinner-listings-consultant > div {min-width: 225px;}
+  .regal-widget.dinners-list .dinner-list-popover {right: inherit;}
+  .regal-widget.show-update .comment-area {width: 90%; height: 100px;max-width: 235px;}
+  #dnn_LanguagePane {position: absolute;}
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+  .contentDiv { width: 100%; }
+  .mainMenu { height: auto; width: 75%; margin: 0 auto;display: inherit;}
+  .backoffice .searchDiv {display: inherit;}
+  .backoffice .searchDiv .search-container {position:absolute;left: -100px;top: 70px;}
+  .backoffice .searchDiv .search-icon {margin-top: 40px; width: 23px; height: 23px; cursor: pointer;display: block;}
+  .backoffice .searchDiv {width: 5%; position: relative; background: inherit;padding: 0;text-align: initial;}
+  .corporate .searchDiv {display: inherit;}
+  .corporate .searchDiv .search-container {position:absolute;left: -100px;top: 70px;}
+  .corporate .searchDiv .search-icon {margin-top: 40px; width: 23px; height: 23px; cursor: pointer;display: block;}
+  .menuLinks.f-nav .corporate .searchDiv .search-icon {margin-top: 20px;}
+  .corporate .searchDiv .search-icon {background: url('images/search-icon.png') no-repeat; background-size: contain; display: block;float: initial;margin-left: initial;}
+  .corporate .searchDiv {width: 5%; position: relative; background: inherit;padding: 0;text-align: initial;}
+
+  .menuLinks > ul > li {float: left;}
+  #nav-toggle { display: none; }
+  .logo-bottom {display: block;}
+  .footerPaneDivs div[id$='Pane1'] {width: 40%;}
+  .footerPaneDivs div[id$='Pane2'] {width: 20%;}
+  .footerPaneDivs div[id$='Pane3'] {width: 20%;}
+  .footerPaneDivs div[id$='Pane4'] {width: 20%;}
+  .footerDiv div[id$='Pane1'], .footerDiv div[id$='Pane2'], .footerDiv div[id$='Pane3'], .footerDiv div[id$='Pane4'] {float: left;margin: inherit;text-align: inherit;}
+  .footerDiv .footer-ul {font-size: 12px;}
+  .regal-widget {width: 24%; float: left;margin: 0 2.5px 10px 2.5px;}
+	.regal-widget-info {display: none;left: 0; position: absolute; top: 190px;}
+  .regal-widget-dinner-form { float: left;position: relative;height: auto;}
+  .book-a-dinner .regal-widget-dinner-form { float: left;position: relative;height: auto;width: 215px;}
+  .book-a-dinner .regal-widget-info {left: -140px;}
+  .dinnerportalconsultant .book-a-dinner .regal-widget-info {left: 0px;}
+  .regal-widget-dinner-form input.input-float-left {float: left;}
+  .regal-widget-action-button {position:absolute; bottom: 5px}
+  .regal-widget.blue-widget {width: 24%;}
+  .regal-widget.column-1 {width: 24%;}
+  .regal-widget.column-2 {width: 49%;}
+  .widget-list.widget-horizontal {width: 49%;}
+  .widget-list.widget-vertical {width: 24%;}
+  .widget-list.widget-vertical .list-before-dinner, .widget-list.widget-vertical .list-after-dinner {float:none; width: 100%}
+  .backoffice .mainMenu ul.topLevel > li {position: relative;padding: 20px 0px;float: left;cursor: pointer; width: 33%; text-align: center; text-transform: uppercase; border-right: none;padding: 0; background: inherit;border-bottom: none;margin: 0; height: 105px;}
+  .backoffice .mainMenu ul.topLevel > li > a:link, .backoffice .mainMenu ul > li > a:visited, .backoffice .mainMenu ul > li > a.disabled {font-size: 18px;color: white; font-size: initial;display: block; height: 65px;margin: 0;padding-top: 40px;text-decoration:none;}
+  .backoffice .mainMenu ul.topLevel > li > div.subLevel {position: absolute;width: 100%;}
+  .backoffice .mainMenu ul.topLevel > li > div.subLevel > ul > li {background: white;padding: 0;}
+  .backoffice .searchDiv #dnn_dnnSearch_txtSearch {border: 1px solid rgba(33, 56, 61, 1);background: white;color: rgba(33, 56, 61, 1);}
+  .backoffice .searchDiv #dnn_dnnSearch_cmdSearch {content: "";width: 23px; height: 23px;text-indent: -9999px; display: inline-block;background: initial;}
+  .backoffice .drop-down-arrow {background: url('images/menu-down-arrow-white.png') no-repeat;width: 20px; height: 20px;display: inline-block;}
+  .backoffice .mainMenu ul.topLevel > li > a:link > table, .corporate .mainMenu ul.topLevel > li > a:active > table {margin: 0 auto;}
+  .backoffice .subLevel li table, .backoffice .topLevel li table {margin: 0 auto;}
+  .corporate .mainMenu ul.topLevel > li > a:link, .corporate .mainMenu ul.topLevel > li > a:visited {color: rgba(33, 56, 61, 1);border-right: 1px solid #e2e2e2;display:block;}
+  .corporate .mainMenu ul.topLevel > .subLevel li span  {color: rgba(33, 56, 61, 1) !important; }
+  .corporate .mainMenu ul.topLevel > li { position: relative;padding: 20px 0px;float: left;cursor: pointer; width: 19%; text-align: left; text-transform: uppercase;background: inherit;border-bottom: none;}
+  .corporate .mainMenu ul.topLevel > li.last > a:link {border: none;}
+  .corporate .mainMenu ul.topLevel > li:hover {background: #fff;border: none;}
+  .corporate .mainMenu ul.topLevel > li.haschild:hover {padding-bottom: 19px;}
+  .corporate .drop-down-arrow {background: url('images/menu-down-arrow.png') no-repeat;display: inline-block;}
+  .corporate:hover .drop-down-arrow {background: url('images/menu-down-arrow.png') no-repeat;}
+  .corporate .drop-down-number {color: white;}
+  .corporate .searchDiv #dnn_dnnSearch_txtSearch {border: 1px solid rgba(33, 56, 61, 1);background: white;color: rgba(33, 56, 61, 1);}
+  .corporate .searchDiv #dnn_dnnSearch_cmdSearch {content: "";width: 23px; height: 23px;text-indent: -9999px; display: none;background: initial;padding: initial;}
+  .corporate .subLevel {position: absolute;top: 104px;width: 100%;z-index:100;}
+  .corporate .subLevel li table {margin: 0 auto;}
+  .corporate .subLevel li {padding: 10px 0 10px 0;border-bottom:none;}
+  .corporate .subLevel li.last {border-bottom: none;padding:0;}
+  .login-page {height: 300px;}
+  .login-page .signin-div, .login-page .create-div {width: 48%;float: left;}
+  .login-page .signin-div {border-right: 1px solid #dbdbdb;border-bottom: none;}
+  .corporate .menuTDSize {width: 95px; height: 55px;}
+  .widget-list.widget-horizontal .list-before-dinner, .widget-list.widget-horizontal .list-after-dinner {float:none; width: 49%;}
+  .corporate .drop-down-number {font-size: 42px;}
+  .ribbon {width: 60%;}
+  .backoffice-widget {width: 24%;float: left;}
+  .backoffice-widget-box {width: 49%;}
+  .backoffice-widget-box {width: 49%;float:left;}
+  .ribbon-left, .ribbon-right {float: left; width: 50%;}
+  .ribbon {width: 60%;}
+  .regal-widget .regal-widget-host-fields {float: right;color:#222;}
+  .regal-widget select.select-state {float:left;}
+  #topCheckLists {display: flex;}
+  /*div.ui-dialog {width: 300px !important;margin-left: -154px !important;left: 50% !important;}*/
+  .regal-widget-dinner-form.with-button.forbookdinner {right: 7px;left: inherit;text-align:right;}
+  .shopping ul.shop-ul li {width:32%;float: left;}
+  .product-detail .left, .product-detail .right {float: left;width:48%;}
+  .regal-widget.blue-widget .regal-widget-title {font-size:15px;}
+  .regal-widget.new-bookings {width: 49%;}
+  .new-bookings .regal-widget-body, .new-bookings .regal-widget-loader {height: auto;}
+  .regal-widget.new-bookings .regal-widget-body {padding: 20px;}
+  .regal-widget input.input-float-left { width: 85px;margin-left:initial;}
+  .regal-widget input.doubleLength {width: 90%;}
+  .regal-widget .dinner-listings-consultant input.doubleLength {width: 230px;}
+  .regal-widget .dinnerslist-contact-form input.doubleLength {width: 168px;}
+  .regal-widget input.threeQuarters {width: 120px;}
+  .regal-widget input.oneQuarters {width: 50px;}
+  .regal-widget textarea {width: 192px;}
+  .regal-widget.dinners-list .dinner-listings {padding: 20px;}
+  .regal-widget.dinners-list .dinner-listings #dinnerDivRight {width:40%;}
+  .footer-vbar {display: block;}
+  #dnn_FooterContentPane3 #dnn_LOGIN1_loginLink {font-size: 12px;}
+  .footer-copy > div.terms, .footer-copy > div.policy, .footer-copy > div.dsa {float: right;text-align: right;}
+  .footer-copy > div {float: left;}
+  .footer-copy > div.policy {margin-right: 20px;}
+  .footer-copy > div.dsa {margin-right: 20px;}
+  div.copyright {position: relative;top: inherit;width: 315px;left: inherit;text-align: left;}
+  .shopping .tag-line-overlay, .our .tag-line-overlay, .productdetail .tag-line-overlay {font-size: 40px;}
+  #editDinnerStatusSelect {padding: 0px 4px 4px 8px;}
+  .regal-widget.blue-widget .regal-widget-body h2 {font-size: 24px;}
+  .backoffice .topLevel .menuTDSize span {color: white;}
+  .backoffice .subLevel .menuTDSize span {color: black;}
+  .dealership .dealership-left {width: 45%; float: left;}
+  .dealership .dealership-right {width: 55%; float: left;}
+  .span-bar {margin-left: 100px;}
+  .dealership .dealership-left .day-title {float: left;}
+  .manage-rsvp .regal-manage-rsvp .manage-data > li > ul > li {width: 23.4%;float: left;text-align: left;}
+  .manage-rsvp .regal-manage-rsvp .manage-data > li > ul > li.edit-info {width: 5%;float: left;text-align: left;}
+  .manage-rsvp .regal-manage-rsvp .manage-data > li > ul > li.status-info {text-align: right;}
+  .manage-rsvp ul.manage-header {display: block;}
+  input.hasDatepicker, input.div-date {margin-left: 30px;}
+
+  .spv-purchase .row div.order-info {float: left; width: 39%;height: 365px;}
+  .spv-purchase .row div.customer-info {float: left; width: 59%;margin-right: 0;height: 540px;}
+  .spv-purchase .row div.customer-info .left, .spv-purchase .row div.customer-info .right {float: left; width: 50%;}
+  .spv-purchase .row .preferred-date {float: left; width: 49%;padding-bottom: 20px;}
+  .spv-purchase .row .actual-date {float: left; width: 49%;margin-right: 0;padding-bottom: 20px;}
+  .spv-purchase .purchase-info .search-name, .spv-purchase .purchase-info .spv, .spv-purchase .purchase-info .qty, .spv-purchase .purchase-info .total, .spv-purchase .purchase-info .freegift,  .spv-purchase .purchase-info .hostgift, .spv-purchase .purchase-info .retailprice, .spv-purchase .purchase-info .retailtotal {display: inline-block;width: 85px;margin-left:0px;margin-bottom:0px;}
+  .spv-purchase .purchase-info .retailprice input, .spv-purchase .purchase-info .retailtotal input, .spv-purchase .purchase-info .spv input, .spv-purchase .purchase-info .qty input, .spv-purchase .purchase-info .total input, .spv-purchase .purchase-info .purchase-total input {width: 80px;}
+  .spv-purchase .product-name input {width: 165px;}
+  .spv-purchase .product-name {width: 170px;display: inline-block;margin-left: 0px;margin-bottom: 0px;}
+  .purchase-header {display: block;}
+  .spv-purchase .row div.customer-info .right input, .spv-purchase .row div.customer-info .right select {margin-bottom: 10px;width: 80%;margin-left: 0;}
+  .freegift {margin-left: 0;}
+  #dnn_WelcomeContentPane {right: 60px;position: absolute;}
+  .regal-widget.book-a-dinner .regal-widget-info {width: 695px;right: 0;left: inherit;}
+  .regal-widget.dinners-list .dinner-listings {max-height: 600px;}
+  .regal-widget.blue-widget.column-2 .regal-widget-info {width: 695px;}
+  .regal-widget.blue-widget.column-2 .regal-widget-info .regal-widget-dinner-form {height: 565px;}
+  .qty-class {display: none;}
+  .purchase-info span.qty label, .purchase-info span.spv label, .purchase-info span.search-name label, .purchase-info span.product-name label, .purchase-info span.total label, .purchase-info span.freegift label, .purchase-info span.retailprice label, .purchase-info span.retailtotal label, .purchase-info span.hostgift label {float: none;display:none;width: auto;}
+  .spv-purchase .cancel-icon {width: 27px; height: 26px;display: inline-block;position: relative;}
+  .spv-purchase .purchase-info .freegift {width: auto;}
+  .spv-purchase .purchase-row-buttons .purchase-total {float: right;margin-right: 92px;margin-bottom: 0px}
+  .spv-purchase .purchase-row-buttons .purchase-total label {display:none;}
+  .spv-purchase .purchase-totals-row {text-align: right;padding-bottom: 10px;padding-right:123px;}
+  .spv-purchase .purchase-info .search-name { width: 175px;}
+  .spv-purchase .purchase-info .total-spv {margin-right: 52px;}
+  .spv-purchase .purchase-info .purchase-total {padding: 5px; border: 1px solid grey;}
+
+  body.executive .backoffice .mainMenu ul.topLevel > li {position: relative;padding: 20px 0px;float: left;cursor: pointer; width: 33%; text-align: center; text-transform: uppercase; border-right: none;padding: 0; background: inherit;border-bottom: none;margin: 0; height: 105px;}
+  body.executive .backoffice .mainMenu ul.topLevel > li > a:link, body.executive .backoffice .mainMenu ul > li > a:visited, body.executive .backoffice .mainMenu ul > li > a.disabled {font-size: 18px;color: white; font-size: initial;display: block; height: 65px;margin: 0;padding-top: 40px;text-decoration:none;}
+  body.executive .backoffice .mainMenu ul.topLevel > li > div.subLevel {position: absolute;width: 100%;}
+  body.executive .backoffice .mainMenu ul.topLevel > li > div.subLevel > ul > li {background: white;padding: 0;}
+  body.executive .backoffice .searchDiv #dnn_dnnSearch_txtSearch {border: 1px solid rgba(33, 56, 61, 1);background: white;color: rgba(33, 56, 61, 1);}
+  body.executive .backoffice .searchDiv #dnn_dnnSearch_cmdSearch {content: "";width: 23px; height: 23px;text-indent: -9999px; display: inline-block;background: initial;}
+  body.executive .backoffice .drop-down-arrow {background: url('images/menu-down-arrow.png') no-repeat;width: 20px; height: 20px;display: inline-block;}
+  body.executive .backoffice .mainMenu ul.topLevel > li > a:link > table {margin: 0 auto;}
+  body.executive .backoffice .subLevel li table, body.executive .backoffice .topLevel li table {margin: 0 auto;}
+  body.executive .backoffice .topLevel .menuTDSize span {color: #20373d;}
+  body.executive .backoffice .subLevel .menuTDSize span  {color: black;}
+ .dinners-list-search-container .comiseo-daterangepicker-triggerbutton {display: block !important;}
+  .dinners-list-search-container .comiseo-daterangepicker-triggerbutton {min-width: 237px !important;;}
+  .dinners-list-search-container .comiseo-daterangepicker-triggerbutton .ui-button-text {padding: 0px 0px 0px 5px !important; font-size:13px !important;}
+  .dinner-listings-consultant .dinners-list-left {display: inline-block;width:50%;}
+  .dinner-listings-consultant .dinners-list-right {display: inline-block;width:50%;}
+  .dinners-list-search-container .regal-widget input.doubleLength {width: initial;}
+  .regal-widget-body.dinner-details {height:130px;}
+  .regal-widget-body.dinner-details .regal-widget-div.column-3 {width: 33.3%;float: left;}
+  .dinner-listings-consultant .dinners-list-right {margin-left: 70px;}
+  .regal-widget-body.dinner-details .k-dropdown .k-input {font-size: 15px;width: 158px;}
+  .hot-news-text {font-size: 40px;top: 60px;}
+  #UserSearchPanel .search-filters {width: 30%;}
+  #UserSearchPanel button.search-button {float: right; right: 2rem;}
+  .OrderSearch button.newOrder-button {margin: 1.2em;}
+  #UserSearchPanel .edit-notes {width: 66%;float: right;}
+  .dinners-list-left .input-float-left.select-width-97 {width: 237px;padding-left:0;margin-bottom: 10px;}
+  .regal-widget.accountDetails input#firstName {margin-right: inherit;}
+  .dashboard-ad {float: left;width: 50%;height: 262px;}
+  .ourstory-iframe {width: 480px; height: 270px;margin: 0 0 30px 30px;}
+  .flex-div {width: 50%; float: left;}
+  .flex-div a img {width: 520px !important;height:414px;}
+  .regal-widget.dinners-list .regal-widget-info-header #PartyNumber {right: 75px;}
+  .regal-widget.dinners-list .dinner-guest-button, .regal-widget.dinners-list .dinner-lead-button, .regal-widget.dinners-list .dinner-reschedule-button {width: 180px;}
+  .regal-widget.dinners-list .dinner-listings .dinner-listings-consultant > div {min-width: 225px;}
+  .regal-widget.dinners-list .dinner-list-popover {right: -22px;}
+  .regal-widget.show-update .comment-area {width: 90%; height: 100px;max-width: 235px;}
+  #dnn_LanguagePane {position: absolute;}
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+  .mainMenu { height: auto; width: 75%; margin: 0 auto;display: inherit;}
+  .backoffice .searchDiv {display: inherit;}
+  .backoffice .searchDiv .search-container {position:absolute;left: -100px;top: 70px;}
+  .backoffice .searchDiv .search-icon {margin-top: 40px; width: 23px; height: 23px; cursor: pointer; display: block;}
+  .backoffice .searchDiv {width: 5%; position: relative; background: inherit;padding: 0;text-align: initial;display: none !important;}
+  .corporate .searchDiv {display: inherit;}
+  .corporate .searchDiv .search-container {position:absolute;left: -100px;top: 70px;background: #fff;}
+  .corporate .searchDiv .search-icon {margin-top: 40px; width: 23px; height: 23px; cursor: pointer; display: block;}
+  .menuLinks.f-nav .corporate .searchDiv .search-icon {margin-top: 20px;}
+  .corporate .searchDiv .search-icon {background: url('images/search-icon.png') no-repeat; background-size: contain; display: block;float: initial;margin-left: initial; }
+  .corporate .searchDiv {width: 5%; position: relative; background: inherit;padding: 0;text-align: initial;}
+
+  .menuLinks > ul > li {float: left;}
+  #nav-toggle { display: none; }
+  .logo-bottom {display: block;}
+  .footerPaneDivs div[id$='Pane1'] {width: 40%;}
+  .footerPaneDivs div[id$='Pane2'] {width: 20%;}
+  .footerPaneDivs div[id$='Pane3'] {width: 20%;}
+  .footerPaneDivs div[id$='Pane4'] {width: 20%;}
+  .footerDiv div[id$='Pane1'], .footerDiv div[id$='Pane2'], .footerDiv div[id$='Pane3'], .footerDiv div[id$='Pane4'] {float: left; margin: inherit;text-align: inherit;}
+  .footerDiv .footer-ul {font-size: 12px;}
+  .regal-widget {width: 24%; float: left;margin: 0 2.5px 10px 2.5px;}
+	.regal-widget-info {display: none;left: 0; position: absolute; top: 190px;}
+  .regal-widget-dinner-form { float: left;position: relative;height: auto;}
+  .book-a-dinner .regal-widget-dinner-form { float: left;position: relative;height: auto;width: 215px;}
+  .book-a-dinner .regal-widget-info {left: -140px;}
+  .dinnerportalconsultant .book-a-dinner .regal-widget-info {left: 0px;}
+  .regal-widget-dinner-form input.input-float-left {float: left;}
+  .regal-widget-action-button {position:absolute; bottom: 5px;}
+  .regal-widget.blue-widget {width: 24%;}
+  .regal-widget.column-1 {width: 24%;}
+  .regal-widget.column-2 {width: 49%;}
+  .widget-list.widget-horizontal {width: 49%;}
+  .widget-list.widget-vertical {width: 100%;}
+  .widget-list.widget-vertical .list-before-dinner, .widget-list.widget-vertical .list-after-dinner {float:none; width: 100%;}
+  .backoffice .mainMenu ul.topLevel > li {position: relative;padding: 20px 0px;float: left; width: 33%; text-align: center; text-transform: uppercase; border-right: none;padding: 0; background: inherit;border-bottom: 5px solid transparent;height: 100px;}
+  .backoffice .mainMenu ul.topLevel > li.haschild {cursor: default;}
+  .backoffice .mainMenu ul.topLevel > li.selected, .backoffice .mainMenu ul.topLevel > li:hover.haschild {background: #475b5e;border-bottom: 5px solid #f9a866;}
+  .backoffice .mainMenu ul.topLevel > li:hover {background: #475b5e;border-bottom: 5px solid #f9a866;}
+  .backoffice .mainMenu ul.topLevel > li > a:link, .backoffice .mainMenu ul > li > a:visited, .backoffice .mainMenu ul > li > a.disabled {font-size: 18px;color: white; font-size: initial;display: block; height: 65px;margin: 0;padding-top: 40px;text-decoration:none;}
+  .backoffice .mainMenu ul.topLevel > li > div.subLevel {position: absolute;width: 100%;top: 104px;padding: 15px 0;background: white;z-index: 1000;}
+  .backoffice .mainMenu ul.topLevel > li > div.subLevel > ul > li {background: white;padding: 0;}
+  .backoffice .mainMenu ul.topLevel > li > div.subLevel > ul > li a:link, .backoffice .mainMenu ul.topLevel > li > div.subLevel > ul > li a:visited {color: rgba(33, 56, 61, 1) !important;}
+  .backoffice .searchDiv #dnn_dnnSearch_txtSearch {border: 1px solid rgba(33, 56, 61, 1);background: white;color: rgba(33, 56, 61, 1);}
+  .backoffice .searchDiv #dnn_dnnSearch_cmdSearch {content: "";width: 23px; height: 23px;text-indent: -9999px; display: inline-block;background: initial;}
+  .backoffice .drop-down-arrow {background: url('images/menu-down-arrow-white.png') no-repeat;width: 20px; height: 20px;display: inline-block;}
+  .backoffice .subLevel li table, .backoffice .topLevel li table {margin: 0 auto;}
+  .corporate .mainMenu ul.topLevel > li.last > a:link {border: none;}
+  .corporate .mainMenu ul.topLevel > li > a:link, .corporate .mainMenu ul.topLevel > li > a:visited {color: rgba(33, 56, 61, 1);border-right: 1px solid #e2e2e2;display:block;}
+  .corporate .mainMenu ul.topLevel > .subLevel > li span  {color: rgba(33, 56, 61, 1) !important; }
+  .backoffice .mainMenu ul.topLevel > li > a > table, .corporate .mainMenu ul.topLevel > li > a > table {margin: 0 auto;}
+  .corporate .mainMenu ul.topLevel > li { position: relative;padding: 19px 0px;float: left;cursor: pointer; width: 19%; text-align: left; text-transform: uppercase;background: inherit;border-bottom: 5px solid #fff;}
+  .corporate .mainMenu ul.topLevel > li:hover, .corporate .mainMenu ul.topLevel > li.selected {background: #fff;border-bottom: 5px solid #f9a866;}
+  .corporate .mainMenu ul.topLevel > li.haschild:hover {padding-bottom: 19px;}
+  .corporate .drop-down-arrow {background: url('images/menu-down-arrow.png') no-repeat;width: 20px; height: 20px;display: inline-block;}
+  .corporate .drop-down-number {color: white;}
+  .corporate:hover .drop-down-arrow {background: url('images/menu-down-arrow.png') no-repeat;}
+  .corporate .searchDiv #dnn_dnnSearch_txtSearch {border: 1px solid rgba(33, 56, 61, 1);background: white;color: rgba(33, 56, 61, 1);}
+  .corporate .searchDiv #dnn_dnnSearch_cmdSearch {content: "";width: 23px; height: 23px;text-indent: -9999px; display: none;background: initial;padding: initial;}
+  .corporate .subLevel {position: absolute;top: 104px;width: 100%;z-index:100;}
+  .corporate .subLevel li table {margin: 0 auto;}
+  .corporate .subLevel li {padding: 10px 0 10px 0;border-bottom:none;}
+  .corporate .subLevel li.last {border-bottom: none;padding:0;}
+  .login-page {height: 300px;}
+  .login-page .signin-div, .login-page .create-div {width: 48%;float: left;}
+  .login-page .signin-div {border-right: 1px solid #dbdbdb;border-bottom: none;}
+  .corporate .menuTDSize {width: 95px; height: 55px;}
+  .widget-list.widget-horizontal .list-before-dinner, .widget-list.widget-horizontal .list-after-dinner {float:none; width: 49%;}
+  .corporate .drop-down-number {font-size: 42px;}
+  .ribbon {width: 60%;}
+  .backoffice-widget {width: 24%;float: left;}
+  .backoffice-widget-box {width: 49%;float:left;}
+  .ribbon-left, .ribbon-right {float: left; width: 50%;}
+  .ribbon {width: 60%;}
+  .regal-widget .regal-widget-host-fields {float: right;color:#222;}
+  .regal-widget select.select-state {float:left;}
+  /*div.ui-dialog {width: 300px !important;margin-left: -154px !important;left: 50% !important;}*/
+  .regal-widget-dinner-form.with-button.forbookdinner {right: 7px;left: inherit;text-align:right;}
+  .shopping ul.shop-ul li {width:32%;float: left;}
+  .product-detail .left, .product-detail .right {float: left;width:48%;}
+  .regal-widget.blue-widget .regal-widget-title {font-size:15px;}
+  .regal-widget.new-bookings {width: 49%;}
+  .new-bookings .regal-widget-body, .new-bookings .regal-widget-loader {height: auto;}
+  .regal-widget.new-bookings .regal-widget-body {padding: 20px;}
+
+  .regal-widget input.input-float-left { width: 85px;margin-left:0;}
+  .regal-widget input.doubleLength {width: 90%;}
+  .regal-widget .dinner-listings-consultant input.doubleLength {width: 230px;}
+  .regal-widget .dinnerslist-contact-form input.doubleLength {width: 168.5px;}
+ /* .book-a-dinner #eventAddress1  input.doubleLength, .book-a-dinner #eventAddress2  input.doubleLength, .book-a-dinner #eventCity  input.doubleLength, .book-a-dinner #eventPostalCode  input.doubleLength {-webkit-text-fill-color:#0a2835 !important;}
+  */
+  .regal-widget input.threeQuarters {width: 120px;}
+  .regal-widget input.oneQuarters {width: 50px;}
+  .regal-widget textarea {width: 192px;}
+  .regal-widget.dinners-list .dinner-listings {padding: 20px;}
+  .regal-widget.dinners-list .dinner-listings #dinnerDivRight {width:40%;}
+  .footer-vbar {display: block;}
+  #dnn_FooterContentPane3 #dnn_LOGIN1_loginLink {font-size: 12px;}
+  .footer-copy > div.terms, .footer-copy > div.policy, .footer-copy > div.dsa {float: right;text-align: right;}
+  .footer-copy > div {float: left;}
+  .footer-copy > div.policy {margin-right: 20px;}
+  .footer-copy > div.dsa {margin-right: 20px;}
+  div.copyright {position: relative;top: inherit;width: 315px;left: inherit;text-align: left;}
+  .shopping .tag-line-overlay, .our .tag-line-overlay, .productdetail .tag-line-overlay {font-size: 40px;}
+
+  #editDinnerStatusSelect {padding: 0px 4px 4px 4px; text-decoration: underline;}
+  .regal-widget.blue-widget .regal-widget-body h2 {font-size: 24px;}
+    .backoffice .topLevel .menuTDSize span {color: white;}
+    .backoffice .subLevel .menuTDSize span {color: black;}
+  .dealership .dealership-left {width: 45%; float: left;}
+  .dealership .dealership-right {width: 55%; float: left;}
+  .span-bar {margin-left: 100px;}
+  .dealership .dealership-left .day-title {float: left;}
+
+  .manage-rsvp .regal-manage-rsvp .manage-data > li > ul > li {width: 23.4%;float: left;text-align: left;}
+  .manage-rsvp .regal-manage-rsvp .manage-data > li > ul > li.edit-info {width: 5%;float: left;text-align: left;}
+  .manage-rsvp .regal-manage-rsvp .manage-data > li > ul > li.status-info {text-align: right;}
+  .manage-rsvp ul.manage-header {display: block;}
+
+  input.hasDatepicker, input.div-date {margin-left: 30px;}
+
+  .spv-purchase .row div.order-info {float: left; width: 39%;height: 365px;position: relative;}
+  .spv-purchase .row div.customer-info {float: left; width: 59%;margin-right: 0;height: 365px;position: relative;}
+  .spv-purchase .row div.purchase-info {position: relative;}
+  .spv-purchase .row div.customer-info .left, .spv-purchase .row div.customer-info .right {float: left; width: 50%;}
+  .spv-purchase .row .preferred-date {float: left; width: 49%;padding-bottom: 20px;}
+  .spv-purchase .row .actual-date {float: left; width: 49%;margin-right: 0;padding-bottom: 20px;}
+  .spv-purchase .purchase-info .search-name, .spv-purchase .purchase-info .spv, .spv-purchase .purchase-info .qty, .spv-purchase .purchase-info .total, .spv-purchase .purchase-info .freegift, .spv-purchase .purchase-info .hostgift, .spv-purchase .purchase-info .retailprice, .spv-purchase .purchase-info .retailtotal {display: inline-block;width: 110px;margin-left:0px;margin-bottom:0px;}
+  .spv-purchase .purchase-info .retailprice input, .spv-purchase .purchase-info .retailtotal input, .spv-purchase .purchase-info .spv input, .spv-purchase .purchase-info .qty input, .spv-purchase .purchase-info .total input, .spv-purchase .purchase-info .purchase-total input {width: 105px;}
+  .spv-purchase .product-name input {width: 280px;}
+  .spv-purchase .product-name {width: 285px;display: inline-block;margin-left: 0px;margin-bottom: 0px;}
+  .purchase-header {display: block;}
+  .spv-purchase .row div.customer-info .right input, .spv-purchase .row div.customer-info .right select {margin-bottom: 10px;width: 80%;margin-left: 0;}
+  .freegift {margin-left: 0;}
+  #dnn_WelcomeContentPane {right: 60px;position: absolute;}
+  .regal-widget.book-a-dinner .regal-widget-info {width: 695px;right: 0;left: inherit;}
+  .regal-widget.dinners-list .dinner-listings {max-height: 600px;}
+  .regal-widget.blue-widget.column-2 .regal-widget-info {width: 695px;}
+  .regal-widget.blue-widget.column-2 .regal-widget-info .regal-widget-dinner-form {height: 595px;}
+  .qty-class {position:absolute; margin-left: 5px;}
+  .qty-class {display: none;}
+  .purchase-info span.qty label, .purchase-info span.spv label, .purchase-info span.search-name label, .purchase-info span.product-name label, .purchase-info span.total label, .purchase-info span.freegift label, .purchase-info span.retailprice label, .purchase-info span.retailtotal label, .purchase-info span.hostgift label {float: none;display:none;width: auto;}
+  .spv-purchase .cancel-icon {width: 27px; height: 26px;display: inline-block;position: relative;}
+  .spv-purchase .purchase-info .freegift, .spv-purchase .purchase-info .hostgift {width: auto;}
+  .spv-purchase .purchase-row-buttons .purchase-total {float: right;margin-right: 92px;margin-bottom: 0px;}
+  .spv-purchase .purchase-row-buttons .purchase-total label {display:none;}
+  .spv-purchase .purchase-info .search-name input { text-align: left;}
+  .spv-purchase .purchase-totals-row {text-align: right;padding-bottom: 10px;padding-right:68px;}
+  .spv-purchase .purchase-info .search-name { width: 175px;}
+  .spv-purchase .purchase-info .total-spv {margin-right: 76px;}
+  .spv-purchase .purchase-info .purchase-total {padding: 5px; border: 1px solid grey;}
+
+  body.executive .backoffice .mainMenu ul.topLevel > li {position: relative;padding: 20px 0px;float: left; width: 33%; text-align: center; text-transform: uppercase; border-right: none;padding: 0; background: inherit;border-bottom: 5px solid transparent;height: 100px;}
+  body.executive .backoffice .mainMenu ul.topLevel > li.haschild {cursor: default;}
+  body.executive .backoffice .mainMenu ul.topLevel > li.selected, body.executive .backoffice .mainMenu ul.topLevel > li:hover.haschild {background: #fff;border-bottom: 5px solid #f9a866;}
+  body.executive .backoffice .mainMenu ul.topLevel > li:hover {background: #d1d1d1;border-bottom: 5px solid #f9a866;}
+  body.executive .backoffice .mainMenu ul.topLevel > li > a:link, body.executive .backoffice .mainMenu ul > li > a:visited, body.executive .backoffice .mainMenu ul > li > a.disabled {font-size: 18px;color: white; font-size: initial;display: block; height: 65px;margin: 0;padding-top: 40px;text-decoration:none;}
+  body.executive .backoffice .mainMenu ul.topLevel > li > div.subLevel {position: absolute;width: 100%;top: 104px;padding: 15px 0;background: white;z-index: 1000;}
+  body.executive .backoffice .mainMenu ul.topLevel > li > div.subLevel > ul > li {background: white;padding: 0;}
+  body.executive .backoffice .mainMenu ul.topLevel > li > div.subLevel > ul > li a:link, body.executive .backoffice .mainMenu ul.topLevel > li > div.subLevel > ul > li a:visited {color: rgba(33, 56, 61, 1) !important;}
+  body.executive .backoffice .searchDiv #dnn_dnnSearch_txtSearch {border: 1px solid rgba(33, 56, 61, 1);background: white;color: rgba(33, 56, 61, 1);}
+  body.executive .backoffice .searchDiv #dnn_dnnSearch_cmdSearch {content: "";width: 23px; height: 23px;text-indent: -9999px; display: inline-block;background: initial;}
+  body.executive .backoffice .drop-down-arrow {background: url('images/menu-down-arrow.png') no-repeat;width: 20px; height: 20px;display: inline-block;}
+  body.executive .backoffice .subLevel li table, body.executive .backoffice .topLevel li table {margin: 0 auto;}
+  body.executive .backoffice .mainMenu ul.topLevel > li > a > table {margin: 0 auto;}
+  body.executive .backoffice .topLevel .menuTDSize span {color: #20373d;}
+  body.executive .backoffice .subLevel .menuTDSize span {color: black;}
+  
+  .dinners-list-search-container .comiseo-daterangepicker-triggerbutton {display: block !important;}
+  .dinners-list-search-container .comiseo-daterangepicker-triggerbutton {width: 237px !important;;}
+  .dinners-list-search-container .comiseo-daterangepicker-triggerbutton .ui-button-text {padding: 0px 0px 0px 5px !important; font-size:13px !important;}
+  .dinner-listings-consultant .dinners-list-left {display: inline-block;width:50%;}
+  .dinner-listings-consultant .dinners-list-right {display: inline-block;width:50%;}
+  .dinners-list-search-container .regal-widget input.doubleLength {width: initial;}
+  .regal-widget-body.dinner-details {height:130px;}
+  .regal-widget-body.dinner-details .regal-widget-div.column-3 {width: 33.3% !important;float: left;}
+  .dinner-listings-consultant .dinners-list-right {margin-left: 70px;}
+  .regal-widget-body.dinner-details .k-dropdown .k-input {font-size: 15px;width: 158px;}
+  .hot-news-text {font-size: 40px;top: 60px;}
+  #UserSearchPanel .search-filters {width: 30%;}
+  #UserSearchPanel button.search-button {float: right; right: 2rem;}
+  .OrderSearch button.newOrder-button {margin: 1.2em;}
+  #UserSearchPanel .edit-notes {width: 66%;float: right;}
+  .dinners-list-left .input-float-left.select-width-97 {width: 237px;padding-left:0;margin-bottom: 10px;}
+  .regal-widget.accountDetails input#firstName {margin-right: inherit;}
+  .dashboard-ad {float: left;width: 50%;height: 262px;}
+  .ourstory-iframe {width: 480px; height: 270px;margin: 0 0 30px 30px;}
+  .flex-div {width: 50%; float: left;}
+  .flex-div a img {width: 520px !important;height:414px;}
+  .regal-widget.dinners-list .regal-widget-info-header #PartyNumber {right: 75px;}
+  .regal-widget.dinners-list .dinner-guest-button, .regal-widget.dinners-list .dinner-lead-button, .regal-widget.dinners-list .dinner-reschedule-button {width: 180px;}
+  .regal-widget.dinners-list .dinner-listings .dinner-listings-consultant > div {min-width: 225px;}
+  .regal-widget.dinners-list .dinner-list-popover {right: -22px;}
+  .regal-widget.show-update .comment-area {width: 90%; height: 100px;max-width: 235px;}
+  #dnn_LanguagePane {position: absolute;}
+}

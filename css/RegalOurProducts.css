@@ -1,0 +1,395 @@
+.menuLinks.corporate {margin-bottom: initial;}
+.contentDiv {background: white;text-align: center;}
+h1, h3, h2 {color: #113e5b;}
+.cooking-img {margin-top:30px;}
+h1 { margin: 30px auto;font-family: "Playfair Display";}
+.cooking-quote {width: 70%;font-family: "Playfair Display";}
+.cooking-name {width: 70%;font-family: "Playfair Display"; text-align: right;color: gray; margin-bottom:30px;}
+h2 {font-size: 24px; margin: 30px auto;width: 85%; }
+h3 {font-size: 16px;}
+h3 {font-family: "Playfair Display";font-style: italic;font-weight: bold; margin: 50px 0 0 0;}
+.contentDiv #dnn_ContentPane .cooking-intro {font-size: 16px;color: #6d6d6d;margin: 0px auto 50px auto;}
+#dnn_ContentPane, #dnn_HeaderPane {position: relative;}
+#dnn_ContentPane .DnnModule  {position: relative;}
+.middleContainer {max-width: 1144px; margin: 0 auto;}
+#dnn_ContentPlacement3 {height: 285px; background: #fff;position: relative;}
+.book-a-dinner-div .book-a-dinner-title {color: #fff;font-family: "Playfair Display"; font-weight: bold; font-style;}
+.book-a-dinner-div h1 {color: white; padding: 20px 0;text-align:left;font-family: "Playfair Display";margin: 0;}
+.book-a-dinner-div p {color: #bdbdbc;font-size: 16px;width: 80%;}
+.book-a-dinner-div a:link,.book-a-dinner-div a:visited, .book-a-dinner-div a:active {color: #071e31; background: #faa860;padding: 5px 40px;font-family: "Playfair Display";margin-top: 10px;font-style: italic;}
+.cooking-checklist h4 {font-family: "Playfair Display";color: #071e31;font-weight: bold;font-size: 14px;font-style: italic;}
+.cooking-checklist h1 {font-family: "Playfair Display";color: #071e31;}
+.cooking-checklist ul {margin: 0 auto; width: 510px; height: 150px;}
+.cooking-checklist ul li {float: left;width: 170px;text-align: left;height: 60px;position:relative;color: #123e5b;font-weight: bold;}
+.cooking-checklist ul li .square {width: 20px; height: 20px; border: 1px solid black; margin-right: 10px; margin-bottom: 30px;float: left;}
+.cooking-checklist ul li .square-text {position: relative; z-index: 1;}
+.cooking-checklist ul li .number {z-index:0; position: absolute;right: 30px;color: #c6c6c5;font-family: "Playfair Display";font-size: 55px;top: 0px;opacity:0.6;}
+.cooking-checklist ul li .number-text {position: relative; z-index: 1;}
+.bottom-bar-gray a {background: #123e5b;color: white;padding: 10px 40px;font-family: "Playfair Display";}
+.menu-overlay.our-products-menu {position: absolute;width: 100%;font-family: "Playfair Display";}
+.menu-overlay.our-products-menu ul li a:link, .menu-overlay.our-products-menu ul li a:visited, .menu-overlay.our-products-menu ul li a:active {font-style: italic;font-size: 16px;}
+.cooking-checklist {padding: 40px 0;}
+#dnn_ContentPlacement1 {background:#071e31; color: white;padding:0;}
+.middleContainer {margin: 100px auto;}
+.flexslider {width: 40%; margin: 0 auto;position: relative;}
+.flexslider .flex-item {z-index:5; font-family: "Playfair Display";font-size: 24px;text-align: justify;background: white;padding: 20px;height: 230px;}
+.flexslider .count-numbers {font-family: 'Playfair Display', serif; font-weight: bold;position: absolute; right: -80px; top: 100px;color: white;}
+.flexslider .count-numbers .span-last {opacity: 0.6;}
+.flex-direction-nav {position: absolute; z-index: 40;bottom: 100px;right: -70px;}
+.flex-direction-nav .flex-next, .flex-direction-nav .flex-prev {display: block; width: 17px; height: 30px;}
+.flex-direction-nav .flex-prev {background: url('../images/flexslider-arrow2.png') no-repeat;width: 17px; height: 30px;text-indent:-9999px;padding-bottom: 10px;border-bottom: 1px solid #fff;}
+.flex-direction-nav .flex-next {background: url('../images/flexslider-arrow1.png') no-repeat;width: 17px; height: 30px;text-indent:-9999px;margin-top: 10px;}
+.leadership {position: relative; color: white;max-width:1144px;margin: 0 auto;}
+.leadership img.pan-image {position: absolute;bottom: 50px;right: 0;z-index: 0;max-height: 600px;}
+.leadership h1 { margin: 10px auto;font-family: "Playfair Display";color: white;}
+.leadership h3 {font-family: "Playfair Display";font-style: italic;font-weight: bold;font-size: 16px;color: #faa860;}
+.leadership-bios {width: 60%; margin: 40px auto 0 auto;}
+.leadership-bios li {background: grey;width: 23%; height: 250px;float: left;margin-right: 10px;margin-bottom: 10px;}
+.bullet-info2, .bullet-info3 {display: none;}
+.bullet-content {margin-top: 20px;}
+.bullet1 {background: url('../images/bulleye-off.png');width: 98px; height: 98px;position: absolute;cursor: pointer;}
+.bullet1.on, .bullet2.on, .bullet3.on {background: url('../images/bulleye-on.png') !important;}
+.bullet2 {background: url('../images/bulleye-off.png');width: 98px; height: 98px;position: absolute;cursor: pointer;}
+.bullet3 {background: url('../images/bulleye-off.png');width: 98px; height: 98px;position: absolute;cursor: pointer;}
+.bullet-info1 .bullet-title, .bullet-info2 .bullet-title, .bullet-info3 .bullet-title {font-size: 24px;font-family: "Playfair Display";line-height: 26px;}
+.bullet-content a.read-more, .bullet-content a.read-more {font-family: "Playfair Display";font-style: italic;color:white; display:block;padding:10px 20px;margin-top:30px;border: 1px solid white;width:100px;text-align: center;}
+.read-more:link, .read-more:visited {font-family: "Playfair Display";font-style: italic;color:white; display:block;padding:10px 20px;margin-top:30px;border: 1px solid white;width:100px;text-align: center;}
+.our-product-pans {position: relative;}
+.our-product-pans .left-pan {background: url('../images/classic-set-v22-5.jpg');background-size: cover;top: 0;z-index: 1;}
+.our-product-pans .right-pan {background: url('../images/4Qt-close-up.jpg');background-size: cover;top: 0;right: 0;z-index: 1;}
+.our-product-pans .left-pan .pan-content {position: relative;top: 50%;font-size: 24px;font-family: "Playfair Display";}
+.our-product-pans .right-pan .pan-content {position: relative;top: 50%;font-size: 24px;font-family: "Playfair Display";}
+.center-piece {position: relative;z-index: 10;margin: 0 auto;pointer-events:none;padding: 0px;font-size: 34px;}
+.customer {background: #20383d;padding:30px 30px 60px 30px;}
+.flexslider .flex-item div.header {color: #123e5b;font-size: 16px;text-align: left;margin-bottom:20px;}
+.flexslider .flex-item div.content {color: #6d6d6c;text-align: left;font-size:12px;margin-bottom:20px;}
+.flexslider .flex-item a:link, .flexslider .flex-item a:visited {font-size:12px; color: #123e5b;}
+.customer-text {color: white;margin-bottom: 40px;}
+.customer h1 { margin: 30px auto;font-family: "Playfair Display"; color:white;}
+.customer h3 {font-family: "Playfair Display";font-style: italic;font-weight: bold; margin: 50px 0 0 0;color: #ffde60;}
+.products-faqs {background: url('../images/faq-bg.png') repeat;padding-bottom:40px;}
+.products-faqs h3 {margin: 0;padding-top:50px;}
+.faqs {background: #f8f8f8;width: 60%;margin: 0 auto;padding: 20px;margin-bottom:20px;}
+.faqs .q {position:relative; cursor:pointer; text-align: left;color: #123e5b;font-family: "Playfair Display";font-size:24px;line-height: 30px;padding-right:40px;}
+.faqs .a {padding: 20px 80px 20px 80px;text-align: left;color: #6d6d6c;}
+.faqs .faqs-arrow {background:url('../images/faqs-arrow-down.png'); width: 31px; height: 17px;position: absolute;right: 0;top: 0;}
+.faqs .faqs-arrow.up {background:url('../images/faqs-arrow-up.png'); width: 31px; height: 17px;position: absolute;right: 0;top: 0;}
+.use-care {background: #f4f4f4;padding: 40px 0;}
+.use-care h1 {margin: 0 auto 40px auto;}
+.use-care p {width: 60%;margin: 0 auto 40px auto;font-size: 16px;}
+body.usecare .menu-overlay.usecare2, body .menu-overlay.usecare2 {position: absolute;width: 100%;bottom: 20px;height: 40px;font-family: "Playfair Display";}
+body.usecare .menu-overlay.usecare2 ul li, body .menu-overlay.usecare2 ul li {float: left;width: 160px;}
+body.usecare .menu-overlay.usecare2 ul li a:link, body.usecare .menu-overlay.usecare2 ul li a:visited, body.usecare .menu-overlay.usecare2 ul li a:active,
+body .menu-overlay.usecare2 ul li a:link, body .menu-overlay.usecare2 ul li a:visited, body .menu-overlay.usecare2 ul li a:active {color: #113e5b;font-style: italic;}
+body.usecare #dnn_ContentLeftPane {text-align: left;}
+body.usecare .middleContainer h3 {font-style: initial;font-size: 18px;}
+body.usecare .middleContainer p.points, body.usecare .middleContainer p strong {color: #113e5b;font-weight: bold;}
+body.usecare .middleContainer p span {color: #113e5b;font-style: italic;font-weight: bold;}
+.share-imgs img {margin: 0 20px;}
+.our-product-pans a:link, .our-product-pans a:visited, .our-product-pans a:active {color: #123e5b;font-weight: bold;font-size: 32px;}
+.customer-care {background: #20383d;padding:30px 25px 60px 30px;}
+.customer-care h1 {color: white;font-family: "Playfair Display";}
+.customer-care p {color: white;}
+.customer-care .cc-container {width: 65%;margin: 0 auto;color: white;}
+.customer-care .cc-container .cc-box {height: 150px;cursor: pointer;padding: 10px;}
+.customer-care .cc-container .cc-box .text { margin-top: 67px; margin-left: 55%;font-family: 'Playfair Display';font-size: 18px;text-align: left;}
+.customer-care .cc-container .cc-box.careuse {background: url('../images/care-off.png') no-repeat;background-position: 50%;}
+.customer-care .cc-container .cc-box.careuse:hover {background: url('../images/care-on.png') no-repeat;background-position: 50%;}
+.customer-care .cc-container .cc-box.warranty {background: url('../images/war-off.png') no-repeat;background-position: 50%;}
+.customer-care .cc-container .cc-box.warranty:hover {background: url('../images/war-on.png') no-repeat;background-position: 50%;}
+.customer-care .cc-container .cc-box.orders {background: url('../images/order-off.png') no-repeat;background-position: 50%;}
+.customer-care .cc-container .cc-box.orders:hover {background: url('../images/order-on.png') no-repeat;background-position: 50%;}
+.customer-care .cc-container .cc-box.request {background: url('../images/req-off.png') no-repeat;background-position: 50%;}
+.customer-care .cc-container .cc-box.request:hover {background: url('../images/req-on.png') no-repeat;background-position: 50%;}
+.customer-care .cc-container a:link, .customer-care .cc-container a:visited {color: white;}
+.tag-line-overlay {position: absolute;color: white;font-size: 40px;font-family: 'Playfair Display', serif;width: 100%;top: 60px;}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+    .book-a-dinner-div {position: relative;left: initial%;width: 100%;text-align: center;top: initial;}
+  .bottom-bar-gray p {width: 100%;position: relative;left: initial;top: initial;text-align:center;}
+  .bottom-bar-gray a {position: relative;right: 0px;top: 85px;}
+  h1 {width: 90%;}
+  .cooking-intro {width: 90%; margin: 0 auto;text-align: left;}
+  .our-product-pans .left-pan, .our-product-pans .right-pan {float: none;width:90%;position: relative;}
+  .our-product-pans .left-pan {height: auto;}
+  .our-product-pans .right-pan {height: auto;}
+  .our-product-pans {height:600px;}
+  .flexslider .flex-item {position: relative;left: initial;width: 90%;top: initial;}
+  .leadership img.pan-image {width: 70%;}
+  .bullet-info1 {left: 2%;}
+  .bullet-info2 {left: 2%;}
+  .bullet-info3 {left: 2%;}
+  .our-product-pans .left-pan, .our-product-pans .right-pan  {width: 100%;}
+   .menu-overlay ul, .productdetail .menu-overlay ul {width: auto;}
+   .menu-overlay.our-products-menu ul {width: 100%;}
+  .center-piece {width: 100%;top:0px;}
+   .menu-overlay.our-products-menu ul li a:link, .menu-overlay.our-products-menu ul li a:visited, .menu-overlay.our-products-menu ul li a:active {color: black;}
+  .menu-overlay.our-products-menu ul li {float: none;width: 100%;}
+  .menu-overlay.our-products-menu ul {margin: 0 auto;height: auto;margin-top: 10px;}
+  .menu-overlay.our-products-menu {bottom: -60px;height: auto;}
+  .bullet2 {top: 80%;left: 70%;}
+  .bullet1 {top: 75%;left: 30%;}
+  .bullet3 {top: 75%;left: 50%;}
+  .center-piece {height: auto;}
+  .our-product-pans .left-pan {position: relative;}
+  .our-product-pans .right-pan {position: relative;}
+  .customer-care p {margin: 0px auto; width: 90%;}
+  .customer-care .cc-container .cc-box {float: none; width: auto;}
+  body.usecare .menu-overlay ul {margin: 40px auto 0 auto;width: 100%;height: auto;}
+  .special-image {width: 50%;float: none;margin:0 0 10px 10px;}
+  body.usecare .middleContainer {width:100%;}
+
+  .menu-overlay, .productdetail .menu-overlay {position: relative;width: 100%;bottom: -100px;height: auto;font-family: "Playfair Display";}
+  .menu-overlay ul, .productdetail .menu-overlay ul {margin: 0 auto;height: auto;margin-top: 10px;}
+  .menu-overlay ul li, .productdetail .menu-overlay ul li {float: none;width: 100%;}
+  .menu-overlay ul li a:link, .menu-overlay ul li a:visited, .menu-overlay ul li a:active, .productdetail .menu-overlay ul li a:link, .productdetail .menu-overlay ul li a:visited, .productdetail .menu-overlay ul li a:active {color: black;font-style: italic;font-size: 16px;}
+
+
+  .shopping .menu-overlay ul li a:link, .shopping .menu-overlay ul li a:visited, .shopping .menu-overlay ul li a:active {color: black;font-style: italic;font-size: 16px;}
+  .shopping .menu-overlay ul li {width: 100%;float: none;}
+  .shopping .menu-overlay ul {height: auto;}
+  .use-care p {text-align: left;}
+  .our-product-pans .left-pan {height: 300px;}
+  .our-product-pans .right-pan {height: 300px;}
+  .center-text {top: -480px;margin-top: 150px;  width: 200px;background: url('/Portals/1/Images/circle.png') no-repeat;line-height: 20px;text-align: center;background-position: 50% 50%;margin: 0px auto 0 auto;font-size: 20px;color: #123e5b;font-family: "Playfair Display";position: relative;z-index: 10;height: 200px;padding-top: 150px;background-size: contain;}
+  .leadership {height: 600px;padding-top: 20px;}
+  .leadership h3 {margin: 0;}
+  .bullet-info1 {width: 600px;height: 300px;position: absolute;text-align: left;top: 10%;}
+  .bullet-info2 {width: 300px;height: 300px;position: absolute;text-align: left;top: 30%;}
+  .bullet-info3 {width: 300px;height: 300px;position: absolute;text-align: left;top: 30%;}
+  .cookware-products iframe {float:right;width: 100%;}
+  .cookware-products p{text-align: left; padding-right: 10px;width: 90%;}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+    .book-a-dinner-div {position: relative;left: initial%;width: 100%;text-align: center;top: initial;}
+  .bottom-bar-gray p {width: 100%;position: relative;left: initial;top:initial;text-align:center;}
+  .bottom-bar-gray a {position: relative;right: 0px;top: 85px;}
+  h1 {width: 90%;}
+  .cooking-intro {width: 90%; margin: 0 auto;text-align: left;}
+  .our-product-pans .left-pan, .our-product-pans .right-pan {float: none;width:90%;position: relative;}
+  .our-product-pans .left-pan {height: auto;}
+  .our-product-pans .right-pan {height: auto;}
+  .our-product-pans {height:600px;}
+  .flexslider .flex-item {position: relative;left: initial;width: 90%;top: initial;}
+  .leadership img.pan-image {width: 70%;}
+  .bullet-info1 {left: 2%;}
+  .bullet-info2 {left: 2%;}
+  .bullet-info3 {left: 2%;}
+  .our-product-pans .left-pan, .our-product-pans .right-pan  {width: 100%;}
+   .menu-overlay ul, .productdetail .menu-overlay ul {width: auto;}
+   .menu-overlay.our-products-menu ul {width: 100%;}
+  .center-piece {width: 100%;top:0px;}
+   .bullet3 {left: 70%;}
+   .menu-overlay.our-products-menu ul li a:link, .menu-overlay.our-products-menu ul li a:visited, .menu-overlay.our-products-menu ul li a:active {color: black;}
+  .menu-overlay.our-products-menu ul li {float: none;width: 100%;}
+  .menu-overlay.our-products-menu ul {margin: 0 auto;height: auto;margin-top: 10px;}
+  .menu-overlay.our-products-menu {bottom: -60px;height: auto;}
+  .bullet2 {top: 80%;left: 70%;}
+  .bullet1 {top: 75%;left: 30%;}
+  .bullet3 {top: 75%;left: 50%;}
+  .center-piece {height: auto;}
+  .our-product-pans .left-pan {position: relative;}
+  .our-product-pans .right-pan {position: relative;}
+  .customer-care p {margin: 0px auto; width: 90%;}
+  .customer-care .cc-container .cc-box {float: none; width: 100%;}
+  body.usecare .menu-overlay ul {margin: 40px auto 0 auto;width: 100%;height: auto;}
+  .special-image {width: 50%;float: none;margin:0 0 10px 10px;}
+  body.usecare .middleContainer {width:100%;}
+
+  .menu-overlay, .productdetail .menu-overlay {position: relative;width: 100%;bottom: -100px;height: auto;font-family: "Playfair Display";}
+  .menu-overlay ul, .productdetail .menu-overlay ul {margin: 0 auto;height: auto;margin-top: 10px;}
+  .menu-overlay ul li, .productdetail .menu-overlay ul li {float: none;width: 100%;}
+  .menu-overlay ul li a:link, .menu-overlay ul li a:visited, .menu-overlay ul li a:active, .productdetail .menu-overlay ul li a:link, .productdetail .menu-overlay ul li a:visited, .productdetail .menu-overlay ul li a:active {color: black;font-style: italic;font-size: 16px;}
+
+  .shopping .menu-overlay ul li a:link, .shopping .menu-overlay ul li a:visited, .shopping .menu-overlay ul li a:active {color: black;font-style: italic;font-size: 16px;}
+  .shopping .menu-overlay ul li {width: 100%;float: none;}
+  .shopping .menu-overlay ul {height: auto;}
+  .use-care p {text-align: left;}
+  .our-product-pans .left-pan {height: 300px;}
+  .our-product-pans .right-pan {height: 300px;}
+  .center-text {top: -450px;margin-top: 150px; width: 200px;background: url('/Portals/1/Images/circle.png') no-repeat;line-height: 20px;text-align: center;background-position: 50% 50%;margin: 0px auto 0 auto;font-size: 20px;color: #123e5b;font-family: "Playfair Display";position: relative;z-index: 10;height: 200px;padding-top: 100px; background-size: contain;}
+  .leadership {height: 600px;padding-top: 20px;}
+  .leadership h3 {margin: 0;}
+  .bullet-info1 {width: 300px;height: 300px;position: absolute;text-align: left;top: 30%;}
+  .bullet-info2 {width: 300px;height: 300px;position: absolute;text-align: left;top: 30%;}
+  .bullet-info3 {width: 300px;height: 300px;position: absolute;text-align: left;top: 30%;}
+  .cookware-products iframe {float:none;width: 100%;}
+  .cookware-products p{text-align: left; padding-right: 10px;width: 90%;}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+   .book-a-dinner-div {position: absolute;left: 10%;width: 90%;text-align: left;top: 70px;}
+  .bottom-bar-gray p {width: 40%;position: absolute;left: 20%;top: 50px;text-align:left;}
+  .bottom-bar-gray a {position: absolute;right: 200px;top: 125px;}
+  h1 {width: 90%;}
+  .cooking-intro {width: 90%; margin: 0 auto;text-align: inherit;}
+  .our-product-pans .left-pan, .our-product-pans .right-pan {float: left;width:50%;position: relative;}
+  .our-product-pans .left-pan {height: 600px;}
+  .our-product-pans .right-pan {height: 600px;}
+  .our-product-pans {height:660px;}
+  .flexslider .flex-item {position: absolute;left: -240px;width: 300px;top: 50px;}
+  .leadership img.pan-image {width: 20%;}
+  .bullet-info1 {left: 10%;}
+  .bullet-info2 {left: 10%;}
+  .bullet-info3 {left: 10%;}
+  .our-product-pans .left-pan, .our-product-pans .right-pan  {width: 50%;}
+   .menu-overlay ul, .productdetail .menu-overlay ul {width: 800px;}
+   .menu-overlay.our-products-menu ul {width: 800px;}
+  .center-piece {width: 100%;top:0;}
+   .menu-overlay.our-products-menu ul li a:link, .menu-overlay.our-products-menu ul li a:visited, .menu-overlay.our-products-menu ul li a:active {color: white;}
+  .menu-overlay.our-products-menu ul li {float: left;width: 266px;}
+  .menu-overlay.our-products-menu ul {margin: 0 auto;height: 40px;margin-top: 10px;}
+  .menu-overlay.our-products-menu {bottom: 0;height: 40px;}
+  .bullet2 {top: 50%;left: 60%;}
+  .bullet1 {top: 40%;left: 40%;}
+  .bullet3 {top: 45%;left: 80%;}
+  .center-piece {height: 400px;}
+  .our-product-pans .left-pan {position: absolute;}
+  .our-product-pans .right-pan {position: absolute;}
+  .customer-care p {margin: 20px auto; width: 50%;}
+  .customer-care .cc-container .cc-box {float: left; width: 47%;}
+  body.usecare .menu-overlay ul {margin: 10px auto;width: 800px;height: 40px;}
+  .special-image {width: 50%;float: right;margin:0 0 10px 10px;}
+  body.usecare .middleContainer {width:900px;}
+
+  .menu-overlay, .productdetail .menu-overlay {position: absolute;width: 100%;bottom: 0;height: 40px;font-family: "Playfair Display";}
+  .menu-overlay ul, .productdetail .menu-overlay ul {margin: 0 auto;height: 40px;margin-top: 10px;}
+  .menu-overlay ul li, .productdetail .menu-overlay ul li {float: left;width: 400px;}
+  .menu-overlay ul li a:link, .menu-overlay ul li a:visited, .menu-overlay ul li a:active, .productdetail .menu-overlay ul li a:link, .productdetail .menu-overlay ul li a:visited, .productdetail .menu-overlay ul li a:active {color: white;font-style: italic;font-size: 16px;}
+
+
+  .shopping .menu-overlay ul li a:link, .shopping .menu-overlay ul li a:visited, .shopping .menu-overlay ul li a:active {color: white;font-style: italic;font-size: 16px;}
+  .shopping .menu-overlay ul li {width: 400px;float: left;}
+  .shopping .menu-overlay ul {height: 40px;}
+  .use-care p {text-align: center;}
+  .our-product-pans .left-pan {height: 660px;}
+  .our-product-pans .right-pan {height: 660px;}
+  .center-text {top: 0px;margin-top: 0;width: 375px;background: url('/Portals/1/Images/circle.png') no-repeat;line-height: 40px;text-align: center;background-position: 50% 50%;margin: 0px auto 0 auto;font-size: 40px;color: #123e5b;font-family: "Playfair Display";position: relative;z-index: 10;height: 400px;padding-top: 230px; background-size: inherit;}
+  .leadership {height: 800px;padding-top: 100px;}
+  .leadership h3 {margin: 50px 0 0 0;}
+  .bullet-info1 {width: 300px;height: 300px;position: absolute;text-align: left;top: 42%;}
+  .bullet-info2 {width: 300px;height: 300px;position: absolute;text-align: left;top: 42%;}
+  .bullet-info3 {width: 300px;height: 300px;position: absolute;text-align: left;top: 42%;}
+  .cookware-products iframe {float:right;width: 560px;}
+  .cookware-products p{text-align: left; padding-right: 10px;width: 90%;}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+  .contentDiv {max-width: initial;}
+    .book-a-dinner-div {position: absolute;left: 10%;width: 50%;text-align: left;top: 70px;}
+  .bottom-bar-gray p {width: 40%;position: absolute;left: 20%;top: 110px;text-align:left;}
+  .bottom-bar-gray a {position: absolute;right: 300px;top: 125px;}
+  h1 {width: 60%;}
+  .cooking-intro {width: 70%; margin: 0 auto;text-align: inherit;}
+  .our-product-pans .left-pan, .our-product-pans .right-pan {float: left;width:50%;position: relative;}
+  .our-product-pans .left-pan {height: 600px;}
+  .our-product-pans .right-pan {height: 600px;}
+  .our-product-pans {height:660px;}
+  .flexslider .flex-item {position: absolute;left: -240px;width: 300px;top: 50px;}
+  .leadership img.pan-image {width: 20%;}
+  .bullet-info1 {left: 12%;}
+  .bullet-info2 {left: 12%;}
+  .bullet-info3 {left: 12%;}
+  .our-product-pans .left-pan, .our-product-pans .right-pan  {width: 50%;}
+   .menu-overlay ul, .productdetail .menu-overlay ul {width: 800px;}
+   .menu-overlay.our-products-menu ul {width: 800px;}
+  .center-piece {width: 100%;top:0;}
+   .menu-overlay.our-products-menu ul li a:link, .menu-overlay.our-products-menu ul li a:visited, .menu-overlay.our-products-menu ul li a:active {color: white;}
+  .menu-overlay.our-products-menu ul li {float: left;width: 266px;}
+  .menu-overlay.our-products-menu ul {margin: 0 auto;height: 40px;margin-top: 10px;}
+  .menu-overlay.our-products-menu {bottom: 0;height: 40px;}
+  .bullet2 {top: 50%;left: 60%;}
+  .bullet1 {top: 40%;left: 40%;}
+  .bullet3 {top: 45%;left: 80%;}
+  .center-piece {height: 400px;}
+  .our-product-pans .left-pan {position: absolute;}
+  .our-product-pans .right-pan {position: absolute;}
+  .customer-care p {margin: 20px auto; width: 50%;}
+  .customer-care .cc-container .cc-box {float: left; width: 47%;}
+  body.usecare .menu-overlay ul {margin: 10px auto;width: 800px;height: 40px;}
+  .special-image {width: 50%;float: right;margin:0 0 10px 10px;}
+  body.usecare .middleContainer {width:900px;}
+
+  .menu-overlay, .productdetail .menu-overlay {position: absolute;width: 100%;bottom: 0;height: 40px;font-family: "Playfair Display";}
+  .menu-overlay ul, .productdetail .menu-overlay ul {margin: 0 auto;height: 40px;margin-top: 10px;}
+  .menu-overlay ul li, .productdetail .menu-overlay ul li {float: left;width: 400px;}
+  .menu-overlay ul li a:link, .menu-overlay ul li a:visited, .menu-overlay ul li a:active, .productdetail .menu-overlay ul li a:link, .productdetail .menu-overlay ul li a:visited, .productdetail .menu-overlay ul li a:active {color: white;font-style: italic;font-size: 16px;}
+
+
+  .shopping .menu-overlay ul li a:link, .shopping .menu-overlay ul li a:visited, .shopping .menu-overlay ul li a:active {color: white;font-style: italic;font-size: 16px;}
+  .shopping .menu-overlay ul li {width: 400px;float: left;}
+  .shopping .menu-overlay ul {height: 40px;}
+  .use-care p {text-align: center;}
+  .our-product-pans .left-pan {height: 660px;}
+  .our-product-pans .right-pan {height: 660px;}
+  .center-text {top: 0px;margin-top: 0;width: 375px;background: url('/Portals/1/Images/circle.png') no-repeat;line-height: 40px;text-align: center;background-position: 50% 50%;margin: 0px auto 0 auto;font-size: 40px;color: #123e5b;font-family: "Playfair Display";position: relative;z-index: 10;height: 400px;padding-top: 230px; background-size: inherit;}
+  .leadership {height: 800px;padding-top: 100px;}
+  .leadership h3 {margin: 50px 0 0 0;}
+  .bullet-info1 {width: 300px;height: 300px;position: absolute;text-align: left;top: 42%;}
+  .bullet-info2 {width: 300px;height: 300px;position: absolute;text-align: left;top: 42%;}
+  .bullet-info3 {width: 300px;height: 300px;position: absolute;text-align: left;top: 42%;}
+  .cookware-products iframe {float:right;width: 560px;}
+  .cookware-products p{text-align: left; padding-right: 10px;width: 90%;}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+   .book-a-dinner-div {position: absolute;left: 10%;width: 50%;text-align: left;top: 70px;}
+  .bottom-bar-gray p {width: 40%;position: absolute;left: 20%;top: 100px;text-align:left;}
+  .bottom-bar-gray a {position: absolute;right: 300px;top: 125px;}
+  h1 {width: 60%;}
+  .cooking-intro {width: 70%; margin: 0 auto;text-align: inherit;}
+  .our-product-pans .left-pan, .our-product-pans .right-pan {float: left;width:50%;position: relative;}
+  .our-product-pans .left-pan {height: 600px;}
+  .our-product-pans .right-pan {height: 600px;}
+  .our-product-pans {height:660px;}
+  .flexslider .flex-item {position: absolute;left: -240px;width: 300px;top: 50px;}
+  .leadership img.pan-image {width: 50%;}
+  .bullet-info1 {left: 12%;}
+  .bullet-info2 {left: 12%;}
+  .bullet-info3 {left: 12%;}
+  .our-product-pans .left-pan, .our-product-pans .right-pan  {width: 50%;}
+  .menu-overlay ul, .productdetail .menu-overlay ul {width: 800px;}
+  .menu-overlay.our-products-menu ul {width: 800px;}
+  .center-piece {width: 100%;top:0;}
+  .menu-overlay.our-products-menu ul li a:link, .menu-overlay.our-products-menu ul li a:visited, .menu-overlay.our-products-menu ul li a:active {color: white;}
+  .menu-overlay.our-products-menu ul li {float: left;width: 266px;}
+  .menu-overlay.our-products-menu ul {margin: 0 auto;height: 40px;margin-top: 10px;}
+  .menu-overlay.our-products-menu {bottom: 0;height: 40px;}
+  .bullet2 {top: 50%;left: 60%;}
+  .bullet1 {top: 40%;left: 40%;}
+  .bullet3 {top: 45%;left: 80%;}
+  .center-piece {height: 400px;}
+  .our-product-pans .left-pan {position: absolute;}
+  .our-product-pans .right-pan {position: absolute;}
+  .customer-care p {margin: 20px auto; width: 50%;}
+  .customer-care .cc-container .cc-box {float: left; width: 47%;}
+  body.usecare .menu-overlay ul {margin: 10px auto;width: 800px;height: 40px;}
+  .special-image {width: 50%;float: right;margin:0 0 10px 10px;}
+  body.usecare .middleContainer {width:900px;}
+  
+  .menu-overlay, .productdetail .menu-overlay {position: absolute;width: 100%;bottom: 0;height: 40px;font-family: "Playfair Display";}
+  .menu-overlay ul, .productdetail .menu-overlay ul {margin: 0 auto;height: 40px;margin-top: 10px;}
+  .menu-overlay ul li, .productdetail .menu-overlay ul li {float: left;width: 400px;}
+  .menu-overlay ul li a:link, .menu-overlay ul li a:visited, .menu-overlay ul li a:active, .productdetail .menu-overlay ul li a:link, .productdetail .menu-overlay ul li a:visited, .productdetail .menu-overlay ul li a:active {color: white;font-style: italic;font-size: 16px;}
+
+  .shopping .menu-overlay ul li a:link, .shopping .menu-overlay ul li a:visited, .shopping .menu-overlay ul li a:active {color: white;font-style: italic;font-size: 16px;}
+  .shopping .menu-overlay ul li {width: 400px;float: left;}
+  .shopping .menu-overlay ul {height: 40px;}
+  .use-care p {text-align: center;}
+  .our-product-pans .left-pan {height: 660px;}
+  .our-product-pans .right-pan {height: 660px;}
+  .center-text {top: 0px;margin-top: 0;width: 375px;background: url('/Portals/1/Images/circle.png') no-repeat;line-height: 40px;text-align: center;background-position: 50% 50%;margin: 0px auto 0 auto;font-size: 40px;color: #123e5b;font-family: "Playfair Display";position: relative;z-index: 10;height: 400px;padding-top: 230px; background-size: inherit;}
+  .leadership {height: 800px;padding-top: 100px;}
+  .leadership h3 {margin: 50px 0 0 0;}
+  .bullet-info1 {width: 300px;height: 300px;position: absolute;text-align: left;top: 42%;}
+  .bullet-info2 {width: 300px;height: 300px;position: absolute;text-align: left;top: 42%;}
+  .bullet-info3 {width: 300px;height: 300px;position: absolute;text-align: left;top: 42%;}
+  .cookware-products iframe {float:right;width: 560px;}
+  .cookware-products p{text-align: left; padding-right: 10px;width: 90%;}
+}

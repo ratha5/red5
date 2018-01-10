@@ -1,0 +1,248 @@
+#dnn_ContentPane, #dnn_HeaderPane {position: relative;}
+.contentDiv {width: 100%;margin: 0;max-width: initial;}
+.menuLinks.corporate {margin: 0;}
+.flex-item .flex-line-1 {font-size: 16px;color:#faa860;font-weight: bold;height: 40px;}
+.flex-item .flex-line-2 {font-family: 'Playfair Display', serif;color: white;}
+.flex-item .flex-line-2 p {line-height: 50px;}
+.flex-item .flex-line-3 { font-family: 'Playfair Display', serif;font-weight: bold;height: 60px;color: white;}
+.flex-item .flex-line-4 {background: transparent;color: #fff;border:1px solid #fff;padding: 10px 50px; font-family: 'Playfair Display', serif; font-style: italic;}
+.DnnModule-DNN_HTML {clear:both;}
+.home-sub-menu li:hover {background:#071e31;}
+.home-sub-menu li img {width: 100%;opacity:0.2;}
+.home-sub-menu li .menu-text {position: absolute;color: #071e31;left:40px;font-weight: bold;font-style: italic;font-family: 'Playfair Display', serif;}
+.home-sub-menu li .menu-text a:link, .home-sub-menu li .menu-text a:visited {color: #071e31;}
+.home-sub-menu li:hover .menu-text a:link, .home-sub-menu li:hover .menu-text a:visited {color: white;}
+.home-sub-menu li .menu-content-desc {position: absolute;color: white; left:40px;font-weight: bold;display: none;font-size: 20px;}
+.home-sub-menu li:hover .menu-content-desc {display: block;}
+.home-sub-menu li a .menu-content {height: 130px;}
+.home-pot-content {background: #071e31;position:relative;}
+.home-pot-content img {position: absolute; bottom: 0px; right: 0;width: 60%;}
+.home-pot-main-content {color: #e2e2e2; text-align: center;width: 90%;margin: 0 auto;position: relative; z-index: 10;}
+.home-pot-main-content h3 {font-size: 40px; font-family: 'Playfair Display', serif;color: white;margin:0 auto;}
+.home-pot-main-content h4 {font-size: 20px; font-family: 'Playfair Display', serif;color: white;font-style: italic;}
+.home-pot-main-content p {margin:30px auto;font-size: 16px;}
+.home-pot-main-content a:link, .home-pot-main-content a:visited, .home-pot-main-content a:active {display: inline-block;margin:30px auto;font-size: 16px;padding: 10px 30px;border: 1px solid white;color: white;font-style:italic;font-family: 'Playfair Display', serif;}
+.home-pot-main-content ul {text-align: left;font-size: 16px;}
+.home-pot-main-content ul li {margin-bottom: 20px;list-style:disc;}
+.home-pot-main-content ul li img {position: relative;bottom:initial;right:initial;width:initial;}
+.home-hands-content {position: relative;}
+.home-hands-main-content h3 {font-style:italic; text-align: center; font-weight: bold;font-size: 20px; font-family: 'Playfair Display', serif;color: #123e5b;width: 50%;}
+.home-hands-main-content h1 {text-align: center; font-family: 'Playfair Display', serif;color: #123e5b;margin:0 auto;}
+.home-hands-main-content p {color: #6d6d6c;}
+.home-hands-main-content a:link, .home-hands-main-content a:visited, .home-hands-main-content a:active {display: inline-block; font-family: 'Playfair Display', serif;margin:0px auto;font-size: 16px;padding: 10px 40px;border: 1px solid #123e5b;color: #123e5b;font-style: italic;}
+.home-plants-content {background: #071e31;position: relative;position: relative;}
+.home-plants-content img {position: absolute; bottom: -30px; right: 120px;z-index: 10;width: 50%;}
+.home-plants-main-content {margin: 0 auto;position: relative;z-index: 10;}
+.home-plants-main-content h4 {font-style:italic; margin: 0; font-weight: bold;font-size: 20px; font-family: 'Playfair Display', serif;color: white;}
+.home-plants-main-content h1 {color: white;font-family: 'Playfair Display', serif;}
+.home-plants-main-content p {color: white;}
+.home-plants-main-content a:link, .home-plants-main-content a:visited, .home-plants-main-content a:active {display: inline-block; font-family: 'Playfair Display', serif;margin:30px auto;font-size: 16px;padding: 10px 40px;border: 1px solid white;color: white;font-style:italic;}
+.flexslider {position: relative;}
+.flexslider .count-numbers {position: absolute; bottom: 60px; left: 100px; color: white; z-index: 30;font-size: 16px;}
+.flex-direction-nav {position: absolute; z-index: 40;bottom: 30px;left: 160px;}
+.flex-direction-nav .flex-next, .flex-direction-nav .flex-prev {display: block; width: 17px; height: 30px;}
+.flex-direction-nav .flex-prev {background: url('../images/flexslider-arrow2.png') no-repeat;width: 17px; height: 30px;text-indent:-9999px;padding-bottom: 10px;border-bottom: 1px solid #fff;}
+.flex-direction-nav .flex-next {background: url('../images/flexslider-arrow1.png') no-repeat;width: 17px; height: 30px;text-indent:-9999px;margin-top: 10px;}
+.flex-control-nav li {float: left;}
+.flexslider .count-numbers {font-family: 'Playfair Display', serif; font-weight: bold;}
+.flexslider .count-numbers .span-last {opacity: 0.6;}
+.arrow-down {position: absolute;bottom: 20px;z-index: 20;left: 50%;}
+#dnn_ContentPlacement3 {background: url('../images/grey-circle.png') repeat;}
+.flexslider .count-numbers {display: none;}
+.flex-direction-nav .flex-prev {position: relative;top: 80px;padding-bottom: 0;border-bottom: none;}
+.flex-direction-nav {bottom: 60px;}
+.flex-direction-nav .flex-next {padding-bottom: 5px; border-bottom: 1px solid white;}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+    .bottom-bar-gray p {width: 100%;position: relative;left: initial;text-align: center;}
+  .bottom-bar-gray a {position: relative;right: initial;left: 30%;}
+  .home-sub-menu li {width:100%;float:none;background:white;position:relative;height: 100px;}
+  .home-pot-main-content ul {margin-top: 20px;}
+  .home-hands-main-content p {width:inherit; margin:10px;font-size: 14px;line-height: 18px;text-align: left;}
+  .home-hands-main-content {position: absolute; top: 0;text-align: center;background: transparent;}
+  .home-hands-content img {display: block;height: 100%;width: 200%}
+  .home-hands-main-content h3 {padding-top: 0px;margin:20px auto;}
+  .home-hands-main-content h1 {padding-top: 0px;font-size: 24px;width: 75%;}
+  .flex-direction-nav, .flexslider .count-numbers {display: none;}
+  .home-pot-main-content h3 {width: inherit;padding: 0;}
+  .home-pot-main-content p {width: 100%;}
+  .home-pot-main-content ul {width: 90%;margin: 0 auto;}
+  .home-pot-main-content ul li {text-align: left;}
+  .home-plants-main-content {width: 100%;padding-top: 0px;text-align: center;}
+  .home-plants-main-content h4 {text-align: center;}
+  .home-plants-main-content h1,.home-plants-main-content p {width: 100%;}
+  .home-plants-main-content p {width: 90%;margin-left:10px;text-align: left;}
+  .home-plants-main-content h1 {text-align: center;}
+  .home-plants-content img {display: none;}
+  .home-plants-content {padding-top: 40px;height: auto;}
+  .bottom-bar-gray p {top: 10px;}
+  .bottom-bar-gray a {top: 10px;}
+  .home-sub-menu li .menu-text {top: 10px;}
+  .home-sub-menu li .menu-content-desc {top: 30px;}
+  .flex-item {position: absolute; bottom: 10%; left: 60px;}
+  .flex-item .flex-line-2 {font-size: 25px;line-height:25px;}
+  .flex-item .flex-line-3 {font-size: 30px;line-height:30px;}
+  .home-pot-main-content {padding-top: 20px;}
+  .home-pot-main-content h4 {margin: 0 auto 20px auto;}
+  .home-pot-main-content p {text-align: left;}
+  .home-hands-content {height: 300px;background: url('/portals/1/Images/SM_HomePage_Hands2.jpg'); background-size: cover;}
+  .home-pot-content {height: 960px;}
+  video, iframe {display: none;}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+  .bottom-bar-gray p {width: 100%;position: relative;left: initial;text-align: center;}
+  .bottom-bar-gray a {position: relative;right: initial;left:30%}
+  .home-sub-menu li {width:100%;float:none;background:white;position:relative;height: 100px;}
+  .home-pot-main-content ul {margin-top: 20px;}
+  .home-hands-main-content p {width: inherit; margin:10px;font-size: 14px;line-height: 18px;text-align: left;}
+  .home-hands-main-content {position: absolute; top: 0;text-align: center;background: transparent;}
+  .home-hands-content img {display: block;height: 100%;width: 200%}
+  .home-hands-main-content h3 {padding-top: 0px;margin:20px auto;}
+  .home-hands-main-content h1 {padding-top: 0px;font-size: 24px;width: 75%;}
+  .flex-direction-nav, .flexslider .count-numbers {display: none;}
+  .home-pot-main-content h3 {width: inherit;padding: 0;}
+  .home-pot-main-content p {width: 100%;}
+  .home-pot-main-content ul {width: 90%;margin: 0 auto;}
+  .home-pot-main-content ul li {text-align: left;}
+  .home-plants-main-content {width: 100%;padding-top: 0;text-align: center;}
+  .home-plants-main-content h4 {text-align: center;}
+  .home-plants-main-content h1, .home-plants-main-content p {width: 100%;}
+  .home-plants-main-content p {width: 90%;margin-left:10px;text-align: left;}
+  .home-plants-main-content h1 {text-align: center;}
+  .home-plants-content img {display: none;}
+  .home-plants-content {padding-top: 40px;height: auto;}
+  .bottom-bar-gray p {top: 10px;}
+  .bottom-bar-gray a {top: 10px;}
+  .home-sub-menu li .menu-text {top: 10px;}
+  .home-sub-menu li .menu-content-desc {top: 30px;}
+  .flex-item {position: absolute; bottom: 10%; left: 60px;}
+  .flex-item .flex-line-2 {font-size: 25px;line-height:25px;}
+  .flex-item .flex-line-3 {font-size: 30px;line-height:30px;}
+  .home-pot-main-content {padding-top: 20px;}
+  .home-pot-main-content h4 {margin: 0 auto 20px auto;}
+  .home-pot-main-content p {text-align: left;}
+  .home-hands-content {height: 300px;background: url('/portals/1/Images/SM_HomePage_Hands2.jpg'); background-size: cover;}
+  .home-pot-content {height: 960px;}
+  video, iframe {display: none;}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+  .bottom-bar-gray p {width: 90%;position: absolute;left: initial;text-align: left;}
+  .bottom-bar-gray a {position: absolute;right: initial;left: inherit;}
+  .home-sub-menu li {width:25%;float:left;background:white;position:relative;height: 130px;}
+  .home-pot-main-content ul {margin-top: 100px;}
+  .home-hands-main-content p {width: 90%;margin:0px auto 20px auto;font-size: 16px;line-height: initial;text-align: inherit;}
+  .home-hands-main-content {position: absolute; top: 0px;text-align: center;background: transparent;}
+  .home-hands-content img {display: inherit;height: inherit;width: inherit;}
+  .home-hands-main-content h3 {padding-top: 10px;margin:0px auto;}
+  .home-hands-main-content h1 {padding-top: 0px;font-size: 44px;width: inherit;}
+  .flex-direction-nav, .flexslider .count-numbers {display: block;}
+  .home-pot-main-content h3 {width: 50%;padding-top: 10px;}
+  .home-pot-main-content p {width: 90%;}
+  .home-pot-main-content ul {width: 90%;margin: inherit;}
+  .home-pot-main-content ul li {text-align: left;}
+  .home-plants-main-content {width: 90%;padding-top: 60px;text-align: left;}
+  .home-plants-main-content h4 {text-align: left;}
+  .home-plants-main-content h1, .home-plants-main-content p {width: 90%;}
+  .home-plants-main-content h1 {text-align: inherit;}
+  .home-plants-main-content p {width: 90%;margin-left:0;text-align: inherit;}
+  .home-plants-content img {display: block;}
+  .home-plants-content {padding-top: initial;height: 600px;}
+  .bottom-bar-gray p {top: 10px;}
+  .bottom-bar-gray a {top: 130px;padding: 15px 45px;}
+  .home-sub-menu li .menu-text {top: 10px;}
+  .home-sub-menu li .menu-content-desc {top: 30px;}
+  .flex-item {position: absolute; bottom: 40%; left: 100px;}
+  .flex-item .flex-line-2 {font-size: 40px;line-height:40px;}
+  .flex-item .flex-line-3 {font-size: 50px;line-height:50px;}
+  .home-pot-main-content {padding-top: 0;}
+  .home-pot-main-content h4 {margin: 0 auto;}
+  .home-pot-main-content p {text-align: inherit;}
+  .home-hands-content {height: inherit;background: white; background-size: inherit;}
+  .home-pot-content {height: 930px;}
+  video, iframe {display: block;}
+  .home-hands-content iframe {opacity: 0.2;width: 100vw;height: 56.25vw;}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+  .bottom-bar-gray p {width: 40%;position: absolute;left: 20%;text-align: left;}
+  .bottom-bar-gray a {position: absolute;right: 30%;left: inherit;}
+  .home-sub-menu li {width:25%;float:left;background:white;position:relative;height: 130px;}
+  .home-pot-main-content ul {margin-top: 100px;}
+  .home-hands-main-content p {width: 50%;margin:30px auto;font-size: 16px;line-height: initial;text-align: inherit;}
+  .home-hands-main-content {position: absolute; top: 170px;text-align: center;background: transparent;}
+  .home-hands-content img {display: inherit;height: inherit;width: inherit;}
+  .home-hands-main-content h3 {padding-top: 40px;margin:0px auto;}
+  .home-hands-main-content h1 {padding-top: 20px;font-size: 44px;width: inherit;}
+  .flex-direction-nav, .flexslider .count-numbers {display: block;}
+  .home-pot-main-content h3 {width: 50%;padding-top: 100px;}
+  .home-pot-main-content p {width: 50%;}
+  .home-pot-main-content ul {width: 40%;margin: 0 0 0 50px;}
+  .home-pot-main-content ul li {text-align: left;}
+  .home-plants-main-content {width: 60%;padding-top: 60px;text-align: left;}
+  .home-plants-main-content h4 {text-align: left;}
+  .home-plants-main-content h1,.home-plants-main-content p {width: 50%;}
+  .home-plants-main-content p {width: 50%;margin-left:0;text-align: inherit;}
+  .home-plants-main-content h1 {text-align: inherit;}
+  .home-plants-content img {display: block;}
+  .home-plants-content {padding-top: initial;height: 600px;}
+  .bottom-bar-gray p {top: 100px;}
+  .bottom-bar-gray a {top: 130px;padding: 15px 45px;}
+  .home-sub-menu li .menu-text {top: 50px;}
+  .home-sub-menu li .menu-content-desc {top: 70px;}
+  .flex-item {position: absolute; bottom: 40%; left: 100px;}
+  .flex-item .flex-line-2 {font-size: 50px;line-height:50px;}
+  .flex-item .flex-line-3 {font-size: 60px;line-height:60px;}
+  .home-pot-main-content {padding-top: 0;}
+  .home-pot-main-content h4 {margin: 0 auto;}
+  .home-pot-main-content p {text-align: inherit;}
+  .home-hands-content {height: inherit;background: white; background-size: inherit;}
+  .home-pot-content {height: 930px;}
+  video, iframe {display: block;}
+  .home-hands-content iframe {opacity: 0.2;width: 100vw;height: 56.25vw;}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+  .bottom-bar-gray p {width: 40%;position: absolute;left: 20%;text-align: left;}
+  .bottom-bar-gray a {position: absolute;right: 25%;left: inherit;}
+  .home-sub-menu li {width:25%;float:left;background:white;position:relative;height: 130px;}
+  .home-pot-main-content ul {margin-top: 100px;}
+  .home-hands-main-content p {width: 50%;margin:30px auto;font-size: 16px;line-height: initial;text-align: inherit;}
+  .home-hands-main-content {position: absolute; top: 170px;text-align: center;background: transparent;z-index: 100;}
+  .home-hands-content img {display: inherit;height: inherit;width: inherit;}
+  .home-hands-main-content h3 {padding-top: 40px;margin:0px auto;}
+  .home-hands-main-content h1 {padding-top: 20px;font-size: 44px;width: inherit;}
+  .flex-direction-nav, .flexslider .count-numbers {display: block;}
+  .home-pot-main-content h3 {width: 50%;padding-top: 30px;}
+  .home-pot-main-content h4 {width: 50%;padding-top: 50px;}
+  .home-pot-main-content p {width: 50%;}
+  .home-pot-main-content ul {width: 40%;margin: 0 0 0 50px;}
+  .home-pot-main-content ul li {text-align: left;}
+  .home-plants-main-content {width: 60%;padding-top: 60px;text-align: left;}
+  .home-plants-main-content h4 {text-align: left;}
+  .home-plants-main-content h1, .home-plants-main-content p {width: 50%;}
+  .home-plants-main-content p {width: 50%;margin-left:0;text-align: inherit;}
+  .home-plants-main-content h1 {text-align: inherit;}
+  .home-plants-content img {display: block;}
+  .home-plants-content {padding-top: initial;height: 600px;}
+  .bottom-bar-gray p {top: 100px;}
+  .bottom-bar-gray a {top: 130px;padding: 15px 45px;}
+  .home-sub-menu li .menu-text {top: 50px;}
+  .home-sub-menu li .menu-content-desc {top: 70px;}
+  .flex-item {position: absolute; bottom: 40%; left: 100px;}
+  .flex-item .flex-line-2 {font-size: 50px;line-height:50px;}
+  .flex-item .flex-line-3 {font-size: 60px;line-height:60px;}
+  .home-pot-main-content {padding-top: 0;}
+  .home-pot-main-content h4 {margin: 0 auto;}
+  .home-pot-main-content p {text-align: inherit;}
+  .home-hands-content {height: inherit;background: white; background-size: inherit;}
+  .home-pot-content {height: 930px;}
+  video, iframe {display: block;}
+  .home-hands-content iframe {opacity: 0.2;width: 100vw;height: 56.25vw;}
+}

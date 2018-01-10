@@ -1,0 +1,123 @@
+.login-view
+{
+    color: white;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+.login-view div, .login-view img
+{
+    float: left;
+}
+
+.login-view img
+{
+    margin-right: 10px;
+    margin-top: 3px;
+}
+
+.login-view .welcome
+{
+    color: white;
+    font-size: 10pt;
+    font-weight: bold;
+    padding: 3px 0;
+}
+
+.login-view .country
+{
+    padding: 3px 0;
+}
+
+.login-view .name
+{
+    color: #bea177;
+    padding: 3px 0;
+}
+
+.login-view .sign-in-out,
+.login-view .my-account
+{
+    border: 1px solid #4d3a2e;
+    padding: 4px 5px;
+}
+
+.login-view .choose-country
+{
+    border: 1px solid #4d3a2e;
+    padding: 0;
+    height: 30px;
+}
+
+.login-view a:link,
+.login-view a:visited,
+.login-view a:hover,
+.login-view a:active
+{
+    color: white;
+    font-size: 10pt;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.login-view a:hover
+{
+    text-decoration: underline;
+}
+
+.login-view .RadComboBox_Default .rcbInputCell
+{
+    background: none !important;
+}
+
+.login-view .RadComboBox_Default .rcbFocused .rcbReadOnly .rcbInput
+{
+    color: white !important;
+    text-transform: uppercase;
+    height: 20px;
+}
+
+.login-view .RadComboBox_Default .rcbReadOnly .rcbInput
+{
+    /*color: black !important;*/
+    text-transform: uppercase;
+}
+
+.login-view .RadComboBoxDropDown .rcbList
+{
+    background-color: #2e2520;
+}
+
+.login-view .RadComboBox_Default .rcbArrowCell
+{
+    background-image: url(/Portals/_default/Skins/Regal/Images/WebResource.png) !important;
+}
+
+.login-view .RadComboBoxDropDown_Default .rcbHovered
+{
+    color: #a97c50 !important;
+    background-color: #fff !important;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.login-view .RadComboBoxDropDown .rcbItem
+{
+    color: white !important;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.login-view div.RadComboBox .rcbInputCell .rcbInput
+{
+    padding-left: 30px;
+    height: 21px;
+    color: white;
+}
+
+.sign-in-out {
+    position: absolute;
+    top: 60px;
+    left: -80px;
+    border: none !important;
+}
